@@ -1,21 +1,8 @@
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-
-
 import torch
-from torch import optim
-from torch import nn
-from torch.utils.data import DataLoader
-from tqdm import tqdm
 
-import torchvision
+from torch import nn
 
 import torch.nn.functional as F
-import torchvision.transforms as transforms
-
-import torchmetrics
-
 
 class CNN(nn.Module):
     def __init__(self, in_channels, num_classes, window_size):
@@ -75,7 +62,6 @@ class CNN(nn.Module):
         return x
  
 class Softmax(nn.Module):
-    "custom softmax module"
     def __init__(self, n_inputs, n_outputs):
         super().__init__()
         self.linear = torch.nn.Linear(n_inputs, n_outputs)

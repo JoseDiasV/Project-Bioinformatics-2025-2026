@@ -12,6 +12,129 @@ from sklearn.model_selection import train_test_split
 from CNN_pssm import CNN, Softmax
 from SS_db import ss_db
 
+def load_dataset(path, w_size):
+
+    dataset = ss_db()
+    dataset.read_db(path)
+
+    dataset.read_pssm_to_db()
+    data, labels = dataset.to_torch_tensor_db(window_size=w_size)
+    return data, labels
+
+def train_CNN(train_loader, n_classes, w_size, n_epochs = 10):
+    # define the CNN
+    device = "cuda" if torch.cuda.is_available() else "cpu"
+
+    model = CNN(in_channels=1, num_classes=n_classes, window_size=w_size).to(device)
+    print(model)
+
+    ###############################################
+    ################# CNN training ################
+    ###############################################
+
+    ## applies SoftMax internally, no need 
+    criterion = nn.CrossEntropyLoss()
+    # Define the optimizer
+    optimizer = optim.Adam(model.parameters(), lr=0.001)
+
+    num_epochs=n_epochs # paper says 10 -> default 10
+    for epoch in range(num_epochs):
+    # Iterate over training batches
+        print(f"Epoch [{epoch + 1}/{num_epochs}] of CNN training")
+
+        for batch_index, (data, targets) in enumerate(tqdm(train_loader)):
+            #print(targets)
+            data = data.to(device)
+            targets = targets.to(device)
+            scores = model(data)
+            #print(scores)
+            loss = criterion(scores, targets)
+            optimizer.zero_grad()
+            loss.backward()
+            optimizer.step()
+
+    return model
+
+def evaluate_model(model_CNN, test_loader, softmax = None):
+
+    acc = torchmetrics.Accuracy(task="multiclass",num_classes=n_classes)
+    prec = torchmetrics.Precision(task="multiclass", average='macro', num_classes=n_classes)
+    rec = torchmetrics.Recall(task="multiclass", average='macro', num_classes=n_classes)
+
+    # Iterate over the dataset batches
+    model_CNN.eval()
+    if softmax:
+        softmax.eval()
+    with torch.no_grad():
+        for data, labels in test_loader:
+            # Get predicted probabilities for test data batch
+            #outputs = nn.Softmax(model(data), dim=1)
+            if softmax:
+                ReLU_output = model_CNN(data, ReLU_out = True) # works
+                outputs = softmax(ReLU_output)
+            else:
+                outputs = model_CNN(data) # works
+            
+            _, preds = torch.max(outputs, 1)  # preds are indeces of max values == classes
+            #print(_, preds)
+            acc.update(preds, labels)
+            prec.update(preds, labels)
+            rec.update(preds, labels)
+
+    #Compute total test accuracy
+    test_accuracy = acc.compute()
+    test_precisionn = prec.compute()
+    test_recall = rec.compute()
+
+    return test_accuracy, test_precisionn, test_recall
+
+def ReLU_extractor(model, data_loader):
+    features = []
+    labels = []
+    with torch.no_grad():
+        for data, label in data_loader:
+
+            data = data.to(device)
+            ReLU = model(data, ReLU_out=True)
+            features.append(ReLU)
+            labels.append(label)
+
+    features_torch = torch.cat(features, dim = 0)
+   # print(features_torch.shape[1])
+    labels_torch = torch.cat(labels, dim = 0)
+
+    ReLU_train_dataset = TensorDataset(features_torch, labels_torch)
+
+    return ReLU_train_dataset
+
+def train_Softmax(data_loader, feature_count, n_classes):
+    model_softmax = Softmax(feature_count, n_classes)
+    model_softmax.to(device)
+    model_softmax.state_dict()
+
+
+     # define loss, optimizier
+    optimizer = torch.optim.SGD(model_softmax.parameters(), lr=0.01)
+    criterion = torch.nn.CrossEntropyLoss()
+    # Train the model
+    Loss = []
+    n_epochs = 100
+    for epoch in range(n_epochs):
+        print(f"Epoch [{epoch + 1}/{n_epochs}] of Softmax classifier training")
+        for features, targets in tqdm(data_loader):
+
+            features = features.to(device)
+            targets = targets.to(device)
+
+            optimizer.zero_grad()
+            scores = model_softmax(features)
+            loss = criterion(scores, targets)
+            Loss.append(loss.item())
+            loss.backward()
+            optimizer.step()
+
+    return model_softmax
+
 if __name__ == "__main__":
 
     window_size = 13
@@ -20,12 +143,9 @@ if __name__ == "__main__":
     device = "cuda" if torch.cuda.is_available() else "cpu"
 
 
-    dataset = ss_db()
-    dataset.read_db('test_db.fa')
-    #dataset.read_db('top100lines.fa')
-    dataset.read_pssm_to_db()
-    data, labels = dataset.to_torch_tensor_db(window_size=13)
+    ################ Data loading ###############
 
+    data, labels = load_dataset('test_db.fa', window_size)
 
     # split
     X_train, X_test, y_train, y_test = train_test_split(
@@ -42,83 +162,21 @@ if __name__ == "__main__":
     train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
     test_loader  = DataLoader(test_dataset,  batch_size=batch_size, shuffle=False)
 
-    model = CNN(in_channels=1, num_classes=n_classes, window_size=window_size).to(device)
-    print(model)
+    ## model is CNN trained on input dataloader  
+    model = train_CNN(train_loader=train_loader, n_classes=n_classes, w_size=window_size)
 
-    ###############################################
-    ################# CNN training ################
-    ###############################################
+     ############################################
+    ############### CNN evaluation #############
+    ############################################
 
-    ## applies SoftMax internally, no need 
-    criterion = nn.CrossEntropyLoss()
-    # Define the optimizer
-    optimizer = optim.Adam(model.parameters(), lr=0.001)
-
-    num_epochs=10 # paper says 10
-    for epoch in range(num_epochs):
-    # Iterate over training batches
-        print(f"Epoch [{epoch + 1}/{num_epochs}] of CNN training")
-
-        for batch_index, (data, targets) in enumerate(tqdm(train_loader)):
-            #print(targets)
-            data = data.to(device)
-            targets = targets.to(device)
-            scores = model(data)
-            #print(scores)
-            loss = criterion(scores, targets)
-            optimizer.zero_grad()
-            loss.backward()
-            optimizer.step()
-
-    
-
-    # testing
-    acc = torchmetrics.Accuracy(task="multiclass",num_classes=n_classes)
-    prec = torchmetrics.Precision(task="multiclass", average='macro', num_classes=n_classes)
-    rec = torchmetrics.Recall(task="multiclass", average='macro', num_classes=n_classes)
-
-    # Iterate over the dataset batches
-    model.eval()
-    with torch.no_grad():
-        for data, labels in test_loader:
-            # Get predicted probabilities for test data batch
-            #outputs = nn.Softmax(model(data), dim=1)
-
-            outputs = model(data) # works
-            #print(outputs)
-            _, preds = torch.max(outputs, 1)  # preds are indeces of max values == classes
-            #print(_, preds)
-            acc.update(preds, labels)
-            prec.update(preds, labels)
-            rec.update(preds, labels)
-
-    #Compute total test accuracy
-    test_accuracy = acc.compute()
-    test_precisionn = prec.compute()
-    test_recall = rec.compute()
-
-    print(f"Test accuracy CNN: {test_accuracy}")
-    print(f"Test precision CNN: {test_precisionn}")
-    print(f"Test recall CNN: {test_recall}")
+    ## evaluation of CNN
+    test_accuracy, test_precisionn, test_recall = evaluate_model(model_CNN=model, test_loader=test_loader)
 
     #################### ReLU extraction ######################
-    #### training data for Softmax classifier##################
+    ######## training data for Softmax classifier #############
+    ###########################################################
 
-    features = []
-    labels = []
-    with torch.no_grad():
-        for data, label in train_loader:
-
-            data = data.to(device)
-            ReLU = model(data, ReLU_out=True)
-            features.append(ReLU)
-            labels.append(label)
-
-    features_torch = torch.cat(features, dim = 0)
-   # print(features_torch.shape[1])
-    labels_torch = torch.cat(labels, dim = 0)
-
-    ReLU_train_dataset = TensorDataset(features_torch, labels_torch)
+    ReLU_train_dataset = ReLU_extractor(model=model, data_loader=train_loader)
 
     ###############################################
     ######## Softmax classifier training ##########
@@ -127,58 +185,14 @@ if __name__ == "__main__":
     ReLU_train_loader = DataLoader(dataset=ReLU_train_dataset, batch_size=batch_size)
 
     feature_count = ReLU_train_dataset.tensors[0].shape[1] # the length of one ReLU linearized vector
-    model_softmax = Softmax(feature_count, n_classes)
-    model_softmax.to(device)
-    model_softmax.state_dict()
 
-
-     # define loss, optimizier
-    optimizer = torch.optim.SGD(model_softmax.parameters(), lr=0.01)
-    criterion = torch.nn.CrossEntropyLoss()
-    # Train the model
-    Loss = []
-    n_epochs = 100
-    for epoch in range(n_epochs):
-        print(f"Epoch [{epoch + 1}/{n_epochs}] of Softmax classifier training")
-        for features, targets in tqdm(ReLU_train_loader):
-
-            features = features.to(device)
-            targets = targets.to(device)
-
-            optimizer.zero_grad()
-            scores = model_softmax(features)
-            loss = criterion(scores, targets)
-            Loss.append(loss.item())
-            loss.backward()
-            optimizer.step()
-
+    model_softmax = train_Softmax(ReLU_train_loader, feature_count, n_classes)
 
     ############################################
     ############## CNN-S evaluation ############
     ############################################
 
-    acc_CNNs = torchmetrics.Accuracy(task="multiclass",num_classes=n_classes)
-    prec_CNNS = torchmetrics.Precision(task="multiclass", average='macro', num_classes=n_classes)
-    rec_CNNs = torchmetrics.Recall(task="multiclass", average='macro', num_classes=n_classes)
-
-
-    model.eval()
-    with torch.no_grad():
-        for data, labels in test_loader:
-            # Get predicted probabilities for test data batch
-            ReLU_output = model(data, ReLU_out = True) # works
-            #print(outputs)
-            outputs = model_softmax(ReLU_output)
-            _, preds = torch.max(outputs, 1)  # preds are indeces of max values == classes
-            #print(_, preds)
-            acc_CNNs.update(preds, labels)
-            prec_CNNS.update(preds, labels)
-            rec_CNNs.update(preds, labels)
-
-    #Compute total test accuracy
-    test_accuracy_CNNs = acc_CNNs.compute()
-    test_precision_CNNs = prec_CNNS.compute()
-    test_recall_CNNs = rec_CNNs.compute()
+    test_accuracy_CNNs, test_precision_CNNs, test_recall_CNNs = evaluate_model(model_CNN=model, test_loader=test_loader, softmax=model_softmax)
 
     print(f"Test accuracy CNNs: {test_accuracy_CNNs}")
     print(f"Test precision CNNs: {test_precision_CNNs}")
