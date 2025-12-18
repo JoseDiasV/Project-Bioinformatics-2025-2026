@@ -1,4 +1,13 @@
 import torch
+# print(torch.version.cuda) 
+# to check if you have installed GPU-capable PyTorch,
+# if it returns "None", then you only have CPU-only PyTorch
+# uninstall it with: 
+# pip uninstall torch torchvision torchaudio torchmetrics -y
+# and then install GPU-capable PyTorch (for NVIDIA GPUs with CUDA 12.1 support) with:
+# pip install torch torchvision torchaudio torchmetrics --index-url https://download.pytorch.org/whl/cu121
+# alternatively, if you're on conda you can install with:
+# conda install pytorch torchvision torchaudio torchmetrics pytorch-cuda=12.1 -c pytorch -c nvidia
 from torch import optim
 from torch import nn
 from torch.utils.data import TensorDataset, DataLoader

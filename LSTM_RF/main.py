@@ -6,6 +6,8 @@ import torch
 # pip uninstall torch torchvision torchaudio torchmetrics -y
 # and then install GPU-capable PyTorch (for NVIDIA GPUs with CUDA 12.1 support) with:
 # pip install torch torchvision torchaudio torchmetrics --index-url https://download.pytorch.org/whl/cu121
+# alternatively, if you're on conda you can install with:
+# conda install pytorch torchvision torchaudio torchmetrics pytorch-cuda=12.1 -c pytorch -c nvidia
 from torch import optim
 from torch.utils.data import TensorDataset, DataLoader
 import torchmetrics
