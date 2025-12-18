@@ -7,6 +7,8 @@ from torch.utils.data import TensorDataset, DataLoader
 from sklearn.model_selection import train_test_split, StratifiedKFold
 from sklearn.ensemble import RandomForestClassifier
 
+import numpy as np
+
 import time
 
 
@@ -17,10 +19,10 @@ if __name__ == "__main__":
     window_size = 13
     n_classes = 3
     batch_size = 20
-    n_fold_CV = 3
-    n_epochs_CNN = 2
+    n_fold_CV = 10
+    n_epochs_CNN = 10
     n_epochs_softmax = 100
-    n_epochs_lstm = 2
+    n_epochs_lstm = 9
     rf_trees = 500
 
     device = "cuda" if torch.cuda.is_available() else "cpu"
@@ -43,6 +45,11 @@ if __name__ == "__main__":
     
 
     accs_CNNs = []
+    accs_CNN = []
+    accs_LSTM = []
+    accs_LSTM_rf = []
+    
+    
     # repeat for cross validation
     for fold, (train_idx, test_idx) in enumerate(skf.split(data, labels)):
 
@@ -109,8 +116,8 @@ if __name__ == "__main__":
         print(f"Test precision CNN: {test_precisionn}")
         print(f"Test recall CNN: {test_recall}")
 
-        accs_CNNs.append(test_accuracy_CNNs)
-
+        accs_CNNs.append(test_accuracy_CNNs.item())
+        accs_CNN.append(test_accuracy.item())
 
 
         lstm_model = train_LSTM(train_loader_LSTM, n_epochs=n_epochs_lstm, n_classes=n_classes)
@@ -131,11 +138,33 @@ if __name__ == "__main__":
         print(f"LSTM-RF Test accuracy: {acc}")
         print(f"LSTM-RF Test precision: {prec}")
         print(f"LSTM-RF Test recall: {rec}")
+        accs_LSTM_rf.append(acc)
 
+    print("\n===== Cross-Validation Results =====\n")
 
-    print(accs_CNNs)
+    for i, (cnn_s, lstm_rf, cnn) in enumerate(zip(accs_CNNs, accs_LSTM_rf, accs_CNN), start=1):
+        print(
+            f"Fold {i:2d} | "
+            f"CNN+Softmax: {cnn_s:.4f} | "
+            f"LSTM-RF: {lstm_rf:.4f} | "
+            f"CNN: {cnn:.4f}"
+        )
+
+    print("\n===== Average Accuracy over Folds =====\n")
+
+    print(f"Avg CNN+Softmax : {np.mean(accs_CNNs):.4f}")
+    print(f"Avg LSTM-RF     : {np.mean(accs_LSTM_rf):.4f}")
+    print(f"Avg CNN         : {np.mean(accs_CNN):.4f}")
+
 
     end_time = time.perf_counter()
 
-    print(f"Time needed for:\n\t{n_fold_CV}-fold crossvalidation\n\t{n_epochs_CNN} epochs of CNN training\n\t{n_epochs_softmax} epochs of SoftMax training\n\n\t is {end_time - start_time} seconds")
+    print(f"""
+            Time needed for:\n
+            \t{n_fold_CV}-fold crossvalidation\n
+            \t{n_epochs_CNN} epochs of CNN training\n
+            \t{n_epochs_lstm} epochs of LSTM training\n
+            \t{n_epochs_softmax} epochs of SoftMax training\n\n
+            \tis {end_time - start_time} seconds
+            """)
 

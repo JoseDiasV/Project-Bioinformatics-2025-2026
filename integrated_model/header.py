@@ -60,10 +60,11 @@ def train_CNN(train_loader, n_classes, w_size, n_epochs = 10):
     return model
 
 def evaluate_model(model_CNN, test_loader, n_classes=3, softmax = None):
-
-    acc = torchmetrics.Accuracy(task="multiclass",num_classes=n_classes)
-    prec = torchmetrics.Precision(task="multiclass", average='macro', num_classes=n_classes)
-    rec = torchmetrics.Recall(task="multiclass", average='macro', num_classes=n_classes)
+    device = "cuda" if torch.cuda.is_available() else "cpu"
+    
+    acc = torchmetrics.Accuracy(task="multiclass",num_classes=n_classes).to(device)
+    prec = torchmetrics.Precision(task="multiclass", average='macro', num_classes=n_classes).to(device)
+    rec = torchmetrics.Recall(task="multiclass", average='macro', num_classes=n_classes).to(device)
 
     # Iterate over the dataset batches
     model_CNN.eval()
@@ -71,6 +72,8 @@ def evaluate_model(model_CNN, test_loader, n_classes=3, softmax = None):
         softmax.eval()
     with torch.no_grad():
         for data, labels in test_loader:
+            data = data.to(device)
+            labels = labels.to(device)
             # Get predicted probabilities for test data batch
             #outputs = nn.Softmax(model(data), dim=1)
             if softmax:
@@ -80,6 +83,7 @@ def evaluate_model(model_CNN, test_loader, n_classes=3, softmax = None):
                 outputs = model_CNN(data) # works
             
             _, preds = torch.max(outputs, 1)  # preds are indeces of max values == classes
+            preds = preds.to(device)
             #print(_, preds)
             acc.update(preds, labels)
             prec.update(preds, labels)
@@ -98,8 +102,9 @@ def ReLU_extractor(model, data_loader):
     device = "cuda" if torch.cuda.is_available() else "cpu"
     with torch.no_grad():
         for data, label in data_loader:
-
             data = data.to(device)
+            label = label.to(device)
+
             ReLU = model(data, ReLU_out=True)
             features.append(ReLU)
             labels.append(label)
@@ -226,7 +231,7 @@ if __name__ == "__main__":
     #     labels,
     #     test_size=0.2,
     #     random_state=42,
-    #     stratify=labels  # ⭐ keeps class balance
+    #     stratify=labels  # keeps class balance
     # )
 
     # train_dataset = TensorDataset(X_train, y_train)
