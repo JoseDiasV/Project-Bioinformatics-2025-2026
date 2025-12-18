@@ -6,18 +6,20 @@ import torchmetrics
 
 from tqdm import tqdm
 
-from sklearn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split, StratifiedKFold
 
 # local classes
 from CNN_pssm import CNN, Softmax
 from SS_db import ss_db
+
+import time
 
 def load_dataset(path, w_size):
 
     dataset = ss_db()
     dataset.read_db(path)
 
-    dataset.read_pssm_to_db()
+    dataset.read_pssm_to_db_exc()
     data, labels = dataset.to_torch_tensor_db(window_size=w_size)
     return data, labels
 
@@ -107,7 +109,7 @@ def ReLU_extractor(model, data_loader):
 
     return ReLU_train_dataset
 
-def train_Softmax(data_loader, feature_count, n_classes):
+def train_Softmax(data_loader, feature_count, n_classes, n_epochs=100):
     model_softmax = Softmax(feature_count, n_classes)
     model_softmax.to(device)
     model_softmax.state_dict()
@@ -118,7 +120,7 @@ def train_Softmax(data_loader, feature_count, n_classes):
     criterion = torch.nn.CrossEntropyLoss()
     # Train the model
     Loss = []
-    n_epochs = 100
+
     for epoch in range(n_epochs):
         print(f"Epoch [{epoch + 1}/{n_epochs}] of Softmax classifier training")
         for features, targets in tqdm(data_loader):
@@ -137,15 +139,21 @@ def train_Softmax(data_loader, feature_count, n_classes):
 
 if __name__ == "__main__":
 
+    start_time = time.perf_counter()
+
+
     window_size = 13
     n_classes = 3
-    batch_size = 10
+    batch_size = 20
+    n_fold_CV = 10
+    n_epochs_CNN = 10
+    n_epochs_softmax = 100
     device = "cuda" if torch.cuda.is_available() else "cpu"
 
 
     ################ Data loading ###############
 
-    data, labels = load_dataset('test_db.fa', window_size)
+    data, labels = load_dataset('cullatraldata.txt', window_size)
 
     # split
     X_train, X_test, y_train, y_test = train_test_split(
@@ -163,41 +171,77 @@ if __name__ == "__main__":
     test_loader  = DataLoader(test_dataset,  batch_size=batch_size, shuffle=False)
 
     ## model is CNN trained on input dataloader  
-    model = train_CNN(train_loader=train_loader, n_classes=n_classes, w_size=window_size)
-
-     ############################################
-    ############### CNN evaluation #############
-    ############################################
-
-    ## evaluation of CNN
-    test_accuracy, test_precisionn, test_recall = evaluate_model(model_CNN=model, test_loader=test_loader)
-
-    #################### ReLU extraction ######################
-    ######## training data for Softmax classifier #############
-    ###########################################################
-
-    ReLU_train_dataset = ReLU_extractor(model=model, data_loader=train_loader)
-
-    ###############################################
-    ######## Softmax classifier training ##########
-    ###############################################
+    model = train_CNN(train_loader=train_loader, n_classes=n_classes, w_size=window_size, n_epochs=n_epochs_CNN)
     
-    ReLU_train_loader = DataLoader(dataset=ReLU_train_dataset, batch_size=batch_size)
+    # skf = StratifiedKFold( # keeps class balance
+    #         n_splits=n_fold_CV,
+    #         shuffle=True,
+    #         random_state=42
+    #     )
+    
 
-    feature_count = ReLU_train_dataset.tensors[0].shape[1] # the length of one ReLU linearized vector
+    # accs_CNNs = []
+    # # repeat for cross validation
+    # for fold, (train_idx, test_idx) in enumerate(skf.split(data, labels)):
 
-    model_softmax = train_Softmax(ReLU_train_loader, feature_count, n_classes)
+    #     print(f"\n===== Fold {fold + 1}/{n_fold_CV} =====")
+    
+    #     X_train = data[train_idx]
+    #     y_train = labels[train_idx]
 
-    ############################################
-    ############## CNN-S evaluation ############
-    ############################################
+    #     X_test  = data[test_idx]
+    #     y_test  = labels[test_idx]
 
-    test_accuracy_CNNs, test_precision_CNNs, test_recall_CNNs = evaluate_model(model_CNN=model, test_loader=test_loader, softmax=model_softmax)
+    #     train_dataset = TensorDataset(X_train, y_train)
+    #     test_dataset  = TensorDataset(X_test, y_test)
 
-    print(f"Test accuracy CNNs: {test_accuracy_CNNs}")
-    print(f"Test precision CNNs: {test_precision_CNNs}")
-    print(f"Test recall CNNS: {test_recall_CNNs}")
+    #     train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
+    #     test_loader  = DataLoader(test_dataset,  batch_size=batch_size, shuffle=False)
 
-    print(f"\nTest accuracy CNN: {test_accuracy}")
-    print(f"Test precision CNN: {test_precisionn}")
-    print(f"Test recall CNN: {test_recall}")
+    #     ## model is CNN trained on input dataloader  
+    #     model = train_CNN(train_loader=train_loader, n_classes=n_classes, w_size=window_size, n_epochs=n_epochs_CNN)
+
+    #     ############################################
+    #     ############### CNN evaluation #############
+    #     ############################################
+
+    #     ## evaluation of CNN
+    #     test_accuracy, test_precisionn, test_recall = evaluate_model(model_CNN=model, test_loader=test_loader)
+
+    #     #################### ReLU extraction ######################
+    #     ######## training data for Softmax classifier #############
+    #     ###########################################################
+
+    #     ReLU_train_dataset = ReLU_extractor(model=model, data_loader=train_loader)
+
+    #     ###############################################
+    #     ######## Softmax classifier training ##########
+    #     ###############################################
+        
+    #     ReLU_train_loader = DataLoader(dataset=ReLU_train_dataset, batch_size=batch_size)
+
+    #     feature_count = ReLU_train_dataset.tensors[0].shape[1] # the length of one ReLU linearized vector
+
+    #     model_softmax = train_Softmax(ReLU_train_loader, feature_count, n_classes, n_epochs=n_epochs_softmax)
+
+    #     ############################################
+    #     ############## CNN-S evaluation ############
+    #     ############################################
+
+    #     test_accuracy_CNNs, test_precision_CNNs, test_recall_CNNs = evaluate_model(model_CNN=model, test_loader=test_loader, softmax=model_softmax)
+
+    #     print(f"Test accuracy CNNs: {test_accuracy_CNNs}")
+    #     print(f"Test precision CNNs: {test_precision_CNNs}")
+    #     print(f"Test recall CNNS: {test_recall_CNNs}")
+
+    #     print(f"\nTest accuracy CNN: {test_accuracy}")
+    #     print(f"Test precision CNN: {test_precisionn}")
+    #     print(f"Test recall CNN: {test_recall}")
+
+    #     accs_CNNs.append(test_accuracy_CNNs)
+
+    # print(accs_CNNs)
+
+    # end_time = time.perf_counter()
+
+    # print(f"Time needed for:\n\t{n_fold_CV}-fold crossvalidation\n\t{n_epochs_CNN} epochs of CNN training\n\t{n_epochs_softmax} epochs of SoftMax training\n\n\t is {end_time - start_time} seconds")

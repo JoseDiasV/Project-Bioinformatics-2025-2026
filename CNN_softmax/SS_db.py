@@ -44,7 +44,7 @@ class protein_sec_struct:
                 else:  # includes 'C' or ' ' or any non-DSSP char
                     self.secondary_structure[i] = 7
 
-    def read_pssm(self, path):
+    def read_pssm(self, path): # old reading as csv, its fixed width columns
         
         df = pd.read_csv(path, sep='\s+')
         print(self.id)
@@ -62,8 +62,10 @@ class protein_sec_struct:
 
         widths = [3] * n_cols
 
+        print(f'Loading pssm of: {self.id}')
+
         df = pd.read_fwf(path, widths=widths)
-        print(self.id)
+        
         for name, data in df.items():
             #append the data (column in original pssm) into np.array
             
@@ -121,15 +123,35 @@ class ss_db:
                 complete_read = True
             
             if complete_read:
-                self.db.append(protein_sec_struct(id, sequence, secondary_structure))
+                if len(sequence) >= 30:
+                    self.db.append(protein_sec_struct(id, sequence, secondary_structure))
+                else:
+                    print(f'Protein {id} has length of {len(sequence)}, which is less than requiered (30)')
                 complete_read = False
     
-    def read_pssm_to_db(self):
+    def read_pssm_to_db(self): # old one with no exception treatment
 
         for record in self.db:
             file_name = record.id + ".pssm"
 
-            record.read_pssm_fixed(file_name)
+            try:
+                record.read_pssm_fixed(file_name)
+            except:
+                print(f'There was an error loading PSSM of {record.id} REMOVING from dataset')
+
+    def read_pssm_to_db_exc(self):
+        valid_records = []
+
+        for record in self.db:
+            file_name = record.id + ".pssm"
+            try:
+                record.read_pssm_fixed(file_name)
+                valid_records.append(record)  # keep only valid ones
+            except Exception as e:
+                print(f'There was an error loading PSSM of {record.id}: {e}')
+                print('REMOVING from dataset')
+
+        self.db = valid_records         
 
     def to_torch_tensor_db(self, window_size, n_classes = 3):
 
