@@ -4,23 +4,25 @@ from torch import nn
 from torch.utils.data import TensorDataset, DataLoader
 import torchmetrics
 
+
 from tqdm import tqdm
 
 from sklearn.model_selection import train_test_split, StratifiedKFold
+from sklearn.metrics import accuracy_score, precision_score, recall_score
 
 # local classes
-from CNN_pssm import CNN, Softmax
+from models_pssm import CNN, Softmax, LSTM
 from SS_db import ss_db
 
 import time
 
-def load_dataset(path, w_size):
+def load_dataset_CNN(path, w_size, n_classes=3):
 
     dataset = ss_db()
     dataset.read_db(path)
 
     dataset.read_pssm_to_db_exc()
-    data, labels = dataset.to_torch_tensor_db(window_size=w_size)
+    data, labels = dataset.to_torch_tensor_db(window_size=w_size, n_classes=n_classes)
     return data, labels
 
 def train_CNN(train_loader, n_classes, w_size, n_epochs = 10):
@@ -57,7 +59,7 @@ def train_CNN(train_loader, n_classes, w_size, n_epochs = 10):
 
     return model
 
-def evaluate_model(model_CNN, test_loader, softmax = None):
+def evaluate_model(model_CNN, test_loader, n_classes=3, softmax = None):
 
     acc = torchmetrics.Accuracy(task="multiclass",num_classes=n_classes)
     prec = torchmetrics.Precision(task="multiclass", average='macro', num_classes=n_classes)
@@ -93,6 +95,7 @@ def evaluate_model(model_CNN, test_loader, softmax = None):
 def ReLU_extractor(model, data_loader):
     features = []
     labels = []
+    device = "cuda" if torch.cuda.is_available() else "cpu"
     with torch.no_grad():
         for data, label in data_loader:
 
@@ -110,6 +113,7 @@ def ReLU_extractor(model, data_loader):
     return ReLU_train_dataset
 
 def train_Softmax(data_loader, feature_count, n_classes, n_epochs=100):
+    device = "cuda" if torch.cuda.is_available() else "cpu"
     model_softmax = Softmax(feature_count, n_classes)
     model_softmax.to(device)
     model_softmax.state_dict()
@@ -137,6 +141,66 @@ def train_Softmax(data_loader, feature_count, n_classes, n_epochs=100):
 
     return model_softmax
 
+def train_LSTM(train_loader, n_epochs, n_classes=3):
+
+    if torch.cuda.is_available():
+    # this improves LSTM speed for fixed input sizes (window_size is fixed)
+        torch.backends.cudnn.benchmark = True
+
+    device = "cuda" if torch.cuda.is_available() else "cpu"
+    model = LSTM(input_dim=20, num_classes=n_classes).to(device)
+    print(model)
+
+    optimizer = optim.Adam(model.parameters(), lr=0.001)
+    criterion = torch.nn.CrossEntropyLoss()
+
+    for epoch in range(n_epochs):
+        print(f"Epoch [{epoch+1}/{n_epochs}] of LSTM training")
+        model.train()
+        total_loss = 0
+        for X_batch, Y_batch in tqdm(train_loader, desc=f"Epoch {epoch+1}/{n_epochs}", leave=False):
+            X_batch = X_batch.to(device)
+            Y_batch = Y_batch.to(device)
+
+            optimizer.zero_grad()
+            outputs = model(X_batch)  # (B, window_size, num_classes)
+
+            # Take central timestep to match labels
+            center_idx = X_batch.shape[1] // 2
+            outputs_center = outputs[:, center_idx, :]
+
+            loss = criterion(outputs_center, Y_batch)
+            loss.backward()
+            optimizer.step()
+            total_loss += loss.item()
+        print(f"Epoch {epoch+1} average loss: {total_loss/len(train_loader):.4f}")
+    return model
+
+def extract_features(model, data_loader):
+    device = "cuda" if torch.cuda.is_available() else "cpu"
+    model.eval()
+    features_list = []
+    labels_list = []
+
+    with torch.no_grad():
+        for X_batch, Y_batch in tqdm(data_loader, desc="Extracting features", leave=False):
+            X_batch = X_batch.to(device)
+            # take central timestep features
+            feats = model(X_batch)[:, X_batch.shape[1] // 2, :]
+            features_list.append(feats.cpu())
+            labels_list.append(Y_batch)
+
+    X_feats = torch.cat(features_list, dim=0).numpy()
+    Y_labels = torch.cat(labels_list, dim=0).numpy()
+
+    return X_feats, Y_labels
+
+def evaluate_rf(y_true, y_pred):
+    acc = accuracy_score(y_true, y_pred)
+    prec = precision_score(y_true, y_pred, average='macro')
+    rec = recall_score(y_true, y_pred, average='macro')
+    return acc, prec, rec
+
 if __name__ == "__main__":
 
     start_time = time.perf_counter()
@@ -153,7 +217,7 @@ if __name__ == "__main__":
 
     ################ Data loading ###############
 
-    data, labels = load_dataset('cullatraldata.txt', window_size)
+    data, labels = load_dataset_CNN('cullatraldata.txt', window_size)
     # data, labels = load_dataset('top100lines.fa', window_size)
 
     # split

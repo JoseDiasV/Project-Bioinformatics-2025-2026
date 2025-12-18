@@ -263,7 +263,7 @@ class ss_db:
 
         X = np.array(X,dtype=float)
         
-        X_tensor = torch.tensor(X, dtype=torch.float32).unsqueeze(1) # data, in our case iterable of 13*20 pssm matrix windows
+        X_tensor = torch.tensor(X, dtype=torch.float32) # data, in our case iterable of 13*20 pssm matrix windows
         Y_tensor = torch.tensor(Y, dtype=torch.long) # target, sample labels
         # print(Y, Y_tensor, X_tensor)
 
