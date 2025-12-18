@@ -97,7 +97,7 @@ if __name__ == "__main__":
     rf_trees = 500
 
     # Load data
-    data, labels = load_dataset(r"./astral_cull_DATA/cullatraldata.fa", window_size=window_size, n_classes=n_classes)
+    data, labels = load_dataset(r"./astral_cull_DATA/top100lines.fa", window_size=window_size, n_classes=n_classes)
 
     # Split data
     X_train, X_test, y_train, y_test = train_test_split(
