@@ -12,6 +12,19 @@ import numpy as np
 import time
 
 
+def ensemble_prediction(pred_CNNs, pred_LSTMrf, weight_CNNs = 0.5, weight_LSTM_rf = 0.5):
+
+    pred_CNNs = pred_CNNs.cpu().numpy()
+    pred_LSTMrf = np.asarray(pred_LSTMrf)
+
+    assert pred_CNNs.shape == pred_LSTMrf.shape, "Shape mismatch"
+
+    # vectorized ensemble (applies to all i)
+    combined_scores = ( weight_CNNs * pred_CNNs + weight_LSTM_rf * pred_LSTMrf )
+
+    return combined_scores
+
+
 if __name__ == "__main__":
 
     start_time = time.perf_counter()
@@ -19,10 +32,10 @@ if __name__ == "__main__":
     window_size = 13
     n_classes = 3
     batch_size = 20
-    n_fold_CV = 10
-    n_epochs_CNN = 10
-    n_epochs_softmax = 100
-    n_epochs_lstm = 9
+    n_fold_CV = 10 # should be 10
+    n_epochs_CNN = 10 # should be 10
+    n_epochs_softmax = 100 # should be 10
+    n_epochs_lstm = 9 # should  be 9
     rf_trees = 500
 
     device = "cuda" if torch.cuda.is_available() else "cpu"
@@ -30,8 +43,8 @@ if __name__ == "__main__":
 
     ################ Data loading ###############
 
-    #data, labels = load_dataset('test_db.fa', window_size)
-    data, labels = load_dataset_CNN('cullatraldata_one_third.txt', window_size)
+    data, labels = load_dataset_CNN('test_db.fa', window_size)
+    #data, labels = load_dataset_CNN('cullatraldata_one_third.txt', window_size)
     #data, labels = load_dataset_CNN('test_db.fa', window_size, n_classes=n_classes)
 
     # input format for CNN is (batchsize, 1, W, 20) for LSTM (batchsize, W, 20)
@@ -44,10 +57,12 @@ if __name__ == "__main__":
         )
     
 
+    ## for results storage
     accs_CNNs = []
     accs_CNN = []
-    accs_LSTM = []
+
     accs_LSTM_rf = []
+    accs_ens = []
     
     
     # repeat for cross validation
@@ -84,7 +99,7 @@ if __name__ == "__main__":
         ############################################
 
         ## evaluation of CNN
-        test_accuracy, test_precisionn, test_recall = evaluate_model(model_CNN=model, test_loader=test_loader_CNN, n_classes=n_classes)
+        CNN_prob_preds, test_accuracy, test_precisionn, test_recall = evaluate_model(model_CNN=model, test_loader=test_loader_CNN, n_classes=n_classes)
 
         #################### ReLU extraction ######################
         ######## training data for Softmax classifier #############
@@ -106,15 +121,15 @@ if __name__ == "__main__":
         ############## CNN-S evaluation ############
         ############################################
 
-        test_accuracy_CNNs, test_precision_CNNs, test_recall_CNNs = evaluate_model(model_CNN=model, test_loader=test_loader_CNN, n_classes=n_classes, softmax=model_softmax)
+        CNNs_prob_preds, test_accuracy_CNNs, test_precision_CNNs, test_recall_CNNs = evaluate_model(model_CNN=model, test_loader=test_loader_CNN, n_classes=n_classes, softmax=model_softmax)
 
-        print(f"Test accuracy CNNs: {test_accuracy_CNNs}")
-        print(f"Test precision CNNs: {test_precision_CNNs}")
-        print(f"Test recall CNNS: {test_recall_CNNs}")
+        # print(f"Test accuracy CNNs: {test_accuracy_CNNs}")
+        # print(f"Test precision CNNs: {test_precision_CNNs}")
+        # print(f"Test recall CNNS: {test_recall_CNNs}")
 
-        print(f"\nTest accuracy CNN: {test_accuracy}")
-        print(f"Test precision CNN: {test_precisionn}")
-        print(f"Test recall CNN: {test_recall}")
+        # print(f"\nTest accuracy CNN: {test_accuracy}")
+        # print(f"Test precision CNN: {test_precisionn}")
+        # print(f"Test recall CNN: {test_recall}")
 
         accs_CNNs.append(test_accuracy_CNNs.item())
         accs_CNN.append(test_accuracy.item())
@@ -133,21 +148,33 @@ if __name__ == "__main__":
 
         y_pred = rf_model.predict(X_test_feats)
 
+
         acc, prec, rec = evaluate_rf(y_test_feats, y_pred)
 
-        print(f"LSTM-RF Test accuracy: {acc}")
-        print(f"LSTM-RF Test precision: {prec}")
-        print(f"LSTM-RF Test recall: {rec}")
+        # print(f"LSTM-RF Test accuracy: {acc}")
+        # print(f"LSTM-RF Test precision: {prec}")
+        # print(f"LSTM-RF Test recall: {rec}")
         accs_LSTM_rf.append(acc)
+
+        ### ensemble ###
+        LSTMrf_prob_preds = rf_model.predict_proba(X_test_feats)
+
+        ensemble_prob_preds = ensemble_prediction(pred_CNNs=CNNs_prob_preds, pred_LSTMrf=LSTMrf_prob_preds)
+
+        ensemble_hard_preds = np.argmax(ensemble_prob_preds, axis=1)
+        acc_ens, prec_ens, rec_ens = evaluate_rf(y_test_feats, ensemble_hard_preds)
+
+        accs_ens.append(acc_ens)
 
     print("\n===== Cross-Validation Results =====\n")
 
-    for i, (cnn_s, lstm_rf, cnn) in enumerate(zip(accs_CNNs, accs_LSTM_rf, accs_CNN), start=1):
+    for i, (cnn_s, lstm_rf, cnn, ens) in enumerate(zip(accs_CNNs, accs_LSTM_rf, accs_CNN, accs_ens), start=1):
         print(
             f"Fold {i:2d} | "
             f"CNN+Softmax: {cnn_s:.4f} | "
             f"LSTM-RF: {lstm_rf:.4f} | "
-            f"CNN: {cnn:.4f}"
+            f"CNN: {cnn:.4f} | "
+            f"EN-CSLR: {ens:.4f}"
         )
 
     print("\n===== Average Accuracy over Folds =====\n")
@@ -155,7 +182,7 @@ if __name__ == "__main__":
     print(f"Avg CNN+Softmax : {np.mean(accs_CNNs):.4f}")
     print(f"Avg LSTM-RF     : {np.mean(accs_LSTM_rf):.4f}")
     print(f"Avg CNN         : {np.mean(accs_CNN):.4f}")
-
+    print(f"Avg EN-CSLR     : {np.mean(accs_ens):.4f}")
 
     end_time = time.perf_counter()
 

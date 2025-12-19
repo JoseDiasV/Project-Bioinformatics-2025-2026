@@ -65,6 +65,7 @@ def evaluate_model(model_CNN, test_loader, n_classes=3, softmax = None):
     acc = torchmetrics.Accuracy(task="multiclass",num_classes=n_classes).to(device)
     prec = torchmetrics.Precision(task="multiclass", average='macro', num_classes=n_classes).to(device)
     rec = torchmetrics.Recall(task="multiclass", average='macro', num_classes=n_classes).to(device)
+    class_pred_probs = []
 
     # Iterate over the dataset batches
     model_CNN.eval()
@@ -79,9 +80,14 @@ def evaluate_model(model_CNN, test_loader, n_classes=3, softmax = None):
             if softmax:
                 ReLU_output = model_CNN(data, ReLU_out = True) # works
                 outputs = softmax(ReLU_output)
+                # print(outputs)
             else:
                 outputs = model_CNN(data) # works
-            
+
+            outputs_probs = torch.softmax(outputs, dim=1)
+            #print(outputs_probs)
+
+            class_pred_probs.append(outputs_probs)
             _, preds = torch.max(outputs, 1)  # preds are indeces of max values == classes
             preds = preds.to(device)
             #print(_, preds)
@@ -94,7 +100,10 @@ def evaluate_model(model_CNN, test_loader, n_classes=3, softmax = None):
     test_precisionn = prec.compute()
     test_recall = rec.compute()
 
-    return test_accuracy, test_precisionn, test_recall
+    # creates a matrix-like of (n_samples,n_classes)
+    class_pred_probs = torch.cat(class_pred_probs, dim=0)
+
+    return class_pred_probs, test_accuracy, test_precisionn, test_recall
 
 def ReLU_extractor(model, data_loader):
     features = []
