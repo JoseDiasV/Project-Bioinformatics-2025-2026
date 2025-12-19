@@ -171,7 +171,7 @@ if __name__ == "__main__":
     #     labels,
     #     test_size=0.2,
     #     random_state=42,
-    #     stratify=labels  # ⭐ keeps class balance
+    #     stratify=labels  # keeps class balance
     # )
 
     # train_dataset = TensorDataset(X_train, y_train)
