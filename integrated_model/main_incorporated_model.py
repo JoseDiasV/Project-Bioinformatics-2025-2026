@@ -17,6 +17,8 @@ def ensemble_prediction(pred_CNNs, pred_LSTMrf, weight_CNNs = 0.5, weight_LSTM_r
     pred_CNNs = pred_CNNs.cpu().numpy()
     pred_LSTMrf = np.asarray(pred_LSTMrf)
 
+    print(pred_CNNs.shape, pred_LSTMrf.shape)
+
     assert pred_CNNs.shape == pred_LSTMrf.shape, "Shape mismatch"
 
     # vectorized ensemble (applies to all i)
@@ -29,13 +31,13 @@ if __name__ == "__main__":
 
     start_time = time.perf_counter()
 
-    window_size = 13
-    n_classes = 3
+    window_size = 15
+    n_classes = 8
     batch_size = 20
-    n_fold_CV = 10 # should be 10
-    n_epochs_CNN = 10 # should be 10
-    n_epochs_softmax = 100 # should be 10
-    n_epochs_lstm = 9 # should  be 9
+    n_fold_CV = 2 # should be 10
+    n_epochs_CNN = 2 # should be 10
+    n_epochs_softmax = 10 # should be 10
+    n_epochs_lstm = 2 # should  be 9
     rf_trees = 500
 
     device = "cuda" if torch.cuda.is_available() else "cpu"
@@ -43,7 +45,8 @@ if __name__ == "__main__":
 
     ################ Data loading ###############
 
-    data, labels = load_dataset_CNN('test_db.fa', window_size)
+    data, labels = load_dataset_CNN('test_db_modified.fa', window_size, n_classes=n_classes)
+    #print(labels)
     #data, labels = load_dataset_CNN('cullatraldata_one_third.txt', window_size)
     #data, labels = load_dataset_CNN('test_db.fa', window_size, n_classes=n_classes)
 
@@ -60,9 +63,13 @@ if __name__ == "__main__":
     ## for results storage
     accs_CNNs = []
     accs_CNN = []
-
     accs_LSTM_rf = []
     accs_ens = []
+
+    precs_CNNs = []
+    precs_CNN = []
+    precs_LSTM_rf = []
+    precs_ens = []
     
     
     # repeat for cross validation
@@ -134,6 +141,9 @@ if __name__ == "__main__":
         accs_CNNs.append(test_accuracy_CNNs.item())
         accs_CNN.append(test_accuracy.item())
 
+        precs_CNNs.append(test_precision_CNNs)
+        precs_CNN.append(test_precisionn)
+
 
         lstm_model = train_LSTM(train_loader_LSTM, n_epochs=n_epochs_lstm, n_classes=n_classes)
 
@@ -149,12 +159,13 @@ if __name__ == "__main__":
         y_pred = rf_model.predict(X_test_feats)
 
 
-        acc, prec, rec = evaluate_rf(y_test_feats, y_pred)
+        acc, prec, rec = evaluate_rf(y_test_feats, y_pred, n_classes=n_classes)
 
         # print(f"LSTM-RF Test accuracy: {acc}")
         # print(f"LSTM-RF Test precision: {prec}")
         # print(f"LSTM-RF Test recall: {rec}")
         accs_LSTM_rf.append(acc)
+        precs_LSTM_rf.append(prec)
 
         ### ensemble ###
         LSTMrf_prob_preds = rf_model.predict_proba(X_test_feats)
@@ -162,10 +173,12 @@ if __name__ == "__main__":
         ensemble_prob_preds = ensemble_prediction(pred_CNNs=CNNs_prob_preds, pred_LSTMrf=LSTMrf_prob_preds)
 
         ensemble_hard_preds = np.argmax(ensemble_prob_preds, axis=1)
-        acc_ens, prec_ens, rec_ens = evaluate_rf(y_test_feats, ensemble_hard_preds)
+        acc_ens, prec_ens, rec_ens = evaluate_rf(y_test_feats, ensemble_hard_preds, n_classes=n_classes)
 
         accs_ens.append(acc_ens)
+        precs_ens.append(prec_ens)
 
+    
     print("\n===== Cross-Validation Results =====\n")
 
     for i, (cnn_s, lstm_rf, cnn, ens) in enumerate(zip(accs_CNNs, accs_LSTM_rf, accs_CNN, accs_ens), start=1):
@@ -177,12 +190,14 @@ if __name__ == "__main__":
             f"EN-CSLR: {ens:.4f}"
         )
 
-    print("\n===== Average Accuracy over Folds =====\n")
+    print(f"\n===== Average Q{n_classes} over Folds =====\n")
 
     print(f"Avg CNN+Softmax : {np.mean(accs_CNNs):.4f}")
     print(f"Avg LSTM-RF     : {np.mean(accs_LSTM_rf):.4f}")
     print(f"Avg CNN         : {np.mean(accs_CNN):.4f}")
-    print(f"Avg EN-CSLR     : {np.mean(accs_ens):.4f}")
+    print(f"Avg EN-CSLR     : {np.mean(accs_ens):.4f}\n")
+
+    print(precs_CNN, precs_CNNs, precs_LSTM_rf, prec_ens)
 
     end_time = time.perf_counter()
 

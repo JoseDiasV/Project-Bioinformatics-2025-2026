@@ -153,16 +153,3 @@ class LSTM(nn.Module):
         features = out[:, -1, :]  # (batch, 1600) bidirectional
         return features
 
-# ===== Softmax layer (only for base LSTM) =====
-# class Softmax(nn.Module):
-#     def __init__(self, n_inputs, n_outputs):
-#         """
-#         Softmax layer for base LSTM model
-#         - Not used for LSTM-RF
-#         """
-#         super().__init__()
-#         self.linear = nn.Linear(n_inputs, n_outputs)
-
-#     def forward(self, x):
-#         pred = self.linear(x)
-#         return pred
