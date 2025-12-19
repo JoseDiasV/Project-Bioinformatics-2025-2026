@@ -1,7 +1,6 @@
 import pandas as pd
 import numpy as np
 import torch
-from torch.utils.data import TensorDataset, DataLoader
 
 class protein_sec_struct:
 
@@ -44,16 +43,7 @@ class protein_sec_struct:
                 else:  # includes 'C' or ' ' or any non-DSSP char
                     self.secondary_structure[i] = 7
 
-    def read_pssm(self, path): # old reading as csv, its fixed width columns
-        
-        df = pd.read_csv(path, sep='\s+')
-        print(self.id)
-        for name, data in df.items():
-            #append the data (column in original pssm) into np.array
-            
-            self.pssm = np.vstack([self.pssm, np.array(data,dtype=int)])
-
-    def read_pssm_fixed(self, path):
+    def read_pssm(self, path):
         
         with open(path) as f:
             line = f.readline().rstrip("\n")
@@ -75,71 +65,6 @@ class protein_sec_struct:
             raise ValueError(f"PSSM size is 0, pdbid {self.id}")
 
     def sliding_window(self, size, index):
-
-        if size%2 == 0:
-            print("Only odd size windows make sense and return symetric surroundings of resiude\n")
-            return None
-        
-        start = int(index - (size-1)/2) # its index
-        end = int(index + (size-1)/2) # its index
-
-        if start < 0:
-            window = np.vstack([np.zeros((np.abs(start),20)), self.pssm[0:end+1]])
-            
-            return window
-            
-        if end >= len(self.sequence)-1:
-            overhang = end - (len(self.sequence)-2)
-            #print("index",index,"\noverhang",overhang, "\n endind", end, "\n konec proteinu", len(self.sequence)-1)
-            window = np.vstack([self.pssm[start:len(self.sequence)+1], np.zeros((overhang,20))])
-            return window
-
-        window = self.pssm[start:end+1]
-
-        return window
-
-    def sliding_window_width(self, size, index):
-        if size % 2 == 0:
-            print("Only odd size windows make sense and return symetric surroundings of resiude\n")
-            return None
-
-        half = size // 2
-        start = index - half
-        end = index + half + 1  # Python slicing is exclusive
-
-        window = np.zeros((size, 20), dtype=float)
-
-        pssm_start = max(start, 0)
-        pssm_end = min(end, len(self.pssm))
-
-        win_start = pssm_start - start
-        win_end = win_start + (pssm_end - pssm_start)
-
-        window[win_start:win_end] = self.pssm[pssm_start:pssm_end]
-
-        return window
-
-    def sliding_window_lstm(self, size, index): # the one from iago
-        if size % 2 == 0:
-            raise ValueError("Window size must be odd")
-        
-        if len(self.pssm) < size:
-            raise ValueError("This PSSM is too small")
-        
-        start = index - (size - 1) // 2
-        end = index + (size - 1) // 2
-        # padding at start
-        if start < 0:
-            pad = np.zeros((abs(start), 20))
-            return np.vstack([pad, self.pssm[0:end+1]])
-        # padding at end
-        if end >= len(self.sequence):
-            pad = np.zeros((end - len(self.sequence) + 1, 20))
-            return np.vstack([self.pssm[start:len(self.sequence)], pad])
-        return self.pssm[start:end+1]
-
-
-    def sliding_window_lstm2(self, size, index):
         if size % 2 == 0:
             raise ValueError("Window size must be odd")
 
@@ -197,23 +122,13 @@ class ss_db:
                     print(f'Protein {id} has length of {len(sequence)}, which is less than requiered (30)')
                 complete_read = False
     
-    def read_pssm_to_db(self): # old one with no exception treatment
-
-        for record in self.db:
-            file_name = record.id + ".pssm"
-
-            try:
-                record.read_pssm_fixed(file_name)
-            except:
-                print(f'There was an error loading PSSM of {record.id} REMOVING from dataset')
-
-    def read_pssm_to_db_exc(self):
+    def read_pssm_to_db(self):
         valid_records = []
 
         for record in self.db:
             file_name = record.id + ".pssm"
             try:
-                record.read_pssm_fixed(file_name)
+                record.read_pssm(file_name)
                 valid_records.append(record)  # keep only valid ones
             except Exception as e:
                 print(f'There was an error loading PSSM of {record.id}: {e}')
@@ -229,9 +144,6 @@ class ss_db:
         n_aas = 0 # number of samples
         for prot in self.db:
             n_aas += len(prot.sequence)
-        
-        # X = np.empty((n_aas,window_size,20)) # N samples * N aa in the window * 20
-        # Y = np.empty((n_aas), dtype=int)
 
         # listy fungujou pekne
         X = []
@@ -244,7 +156,7 @@ class ss_db:
             for i in range(min(len(prot.secondary_structure), len(prot.sequence))):
 
                 try:
-                    pssm_window = prot.sliding_window_lstm2(window_size, i)
+                    pssm_window = prot.sliding_window(window_size, i)
                     label = prot.secondary_structure[i]
 
                     X.append(pssm_window)
@@ -253,37 +165,9 @@ class ss_db:
                     print(f'There was an error loading PSSM of {prot.id} at prosition {i}: {e}')
                     print('REMOVING from dataset')
 
-
-
-
-        # print(X)
-        # print(Y, 'tojevono')     
-        # X = list(X)
-        # Y = np.array(Y)
-
         X = np.array(X,dtype=float)
         
         X_tensor = torch.tensor(X, dtype=torch.float32) # data, in our case iterable of 13*20 pssm matrix windows
         Y_tensor = torch.tensor(Y, dtype=torch.long) # target, sample labels
-        # print(Y, Y_tensor, X_tensor)
 
         return X_tensor, Y_tensor
-        
-if __name__ == "__main__":
-    dataset = ss_db()
-
-    dataset.read_db('one_prot.fa')
-
-    dataset.read_pssm_to_db()
-
-    # for protein in dataset.db:
-    #     print(protein.sliding_window(size=13, index=5))
-
-    
-    data, labels = dataset.to_torch_tensor_db(window_size=13)
-
-    dataset = TensorDataset(data, labels)
-
-    train_loader = DataLoader(dataset, batch_size=32, shuffle=True)
-
-            
