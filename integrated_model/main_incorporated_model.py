@@ -221,7 +221,7 @@ if __name__ == "__main__":
 
     print(f"\n===== Average per-class precision over Folds =====\n")
 
-    for (label, cnn_s, cnn, lstm_rf, ens) in zip(label_levels, mean_precs_CNN,mean_precs_CNNs,mean_precs_LSTMrf, mean_precs_ens):
+    for (label, cnn_s, cnn, lstm_rf, ens) in zip(label_levels, mean_precs_CNNs, mean_precs_CNN, mean_precs_LSTMrf, mean_precs_ens):
         print(
             f"Q_{label} | "
             f"CNN+Softmax: {cnn_s:.4f} | "
