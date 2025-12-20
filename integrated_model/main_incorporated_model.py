@@ -124,11 +124,11 @@ if __name__ == "__main__":
         CNNs_prob_preds, test_accuracy_CNNs, test_precision_CNNs, test_recall_CNNs = evaluate_model(model_CNN=model, test_loader=test_loader_CNN, n_classes=n_classes, softmax=model_softmax)
 
         ## update ##
-        accs_CNNs.append(test_accuracy_CNNs.item())
-        accs_CNN.append(test_accuracy.item())
+        accs_CNNs.append(test_accuracy_CNNs)
+        accs_CNN.append(test_accuracy)
 
-        precs_CNNs = np.vstack([precs_CNNs, np.asarray(test_precision_CNNs)])
-        precs_CNN = np.vstack([precs_CNN, np.asarray(test_precisionn)])
+        precs_CNNs = np.vstack([precs_CNNs, test_precision_CNNs])
+        precs_CNN = np.vstack([precs_CNN, test_precisionn])
 
 
         ############################################
