@@ -57,7 +57,7 @@ class protein_sec_struct:
         df = pd.read_fwf(path, widths=widths)
         
         for name, data in df.items():
-            #append the data (column in original pssm) into np.array
+            # append the data (column in original pssm) into np.array
             
             self.pssm = np.vstack([self.pssm, np.array(data,dtype=int)])
 
@@ -119,7 +119,7 @@ class ss_db:
                 if len(sequence) >= 30:
                     self.db.append(protein_sec_struct(id, sequence, secondary_structure))
                 else:
-                    print(f'Protein {id} has length of {len(sequence)}, which is less than requiered (30)')
+                    print(f'Protein {id} has length of {len(sequence)}, which is less than required (30)')
                 complete_read = False
     
     def read_pssm_to_db(self):
@@ -162,7 +162,7 @@ class ss_db:
                     X.append(pssm_window)
                     Y.append(label)
                 except Exception as e:
-                    print(f'There was an error loading PSSM of {prot.id} at prosition {i}: {e}')
+                    print(f'There was an error loading PSSM of {prot.id} at position {i}: {e}')
                     print('REMOVING from dataset')
 
         X = np.array(X,dtype=float)
