@@ -87,7 +87,7 @@ class LSTM(nn.Module):
         # ===== First Layer: sequence LSTM =====
         self.lstm1 = nn.LSTM(
             input_size=input_dim,
-            hidden_size=400,
+            hidden_size=200, # 200 * 2 (bidirectional) = 400 hidden units
             num_layers=1,
             batch_first=True,
             bidirectional=True
@@ -95,15 +95,15 @@ class LSTM(nn.Module):
 
         # ===== Second Layer: last LSTM =====
         self.lstm2 = nn.LSTM(
-            input_size=400 * 2,  # bidirectional output from lstm1
-            hidden_size=800,
+            input_size=400, # 200 * 2 = 400, bidirectional output from lstm1
+            hidden_size=400, # 400 * 2 (bidirectional) = 800 hidden units
             num_layers=1,
             batch_first=True,
             bidirectional=True
         )
 
         # Output dimension after second layer
-        lstm2_out_dim = 800 * 2  # bidirectional
+        lstm2_out_dim = 800 # 400 * 2 = 800, bidirectional output from lstm2
 
         # ===== Third Layer: classification =====
         self.classifier = nn.Linear(lstm2_out_dim, num_classes)
