@@ -23,7 +23,7 @@ def load_dataset(path, w_size, n_classes=3):
     data, labels = dataset.to_torch_tensor_db(window_size=w_size, n_classes=n_classes)
     return data, labels
 
-def train_CNN(train_loader, n_classes, w_size, n_epochs = 10):
+def train_CNN(train_loader, n_classes, w_size, n_epochs = 10, use_amp=False):
     # define the CNN
     device = "cuda" if torch.cuda.is_available() else "cpu"
 
@@ -39,6 +39,9 @@ def train_CNN(train_loader, n_classes, w_size, n_epochs = 10):
     # Define the optimizer
     optimizer = optim.Adam(model.parameters(), lr=0.001)
 
+    scaler = torch.amp.GradScaler(device="cuda", enabled=use_amp)
+
+
     num_epochs=n_epochs # paper says 10 -> default 10
     for epoch in range(num_epochs):
     # Iterate over training batches
@@ -48,19 +51,24 @@ def train_CNN(train_loader, n_classes, w_size, n_epochs = 10):
             #print(targets)
             data = data.to(device)
             targets = targets.to(device)
-            scores = model(data)
-            #print(scores)
-            loss = criterion(scores, targets)
             optimizer.zero_grad()
-            loss.backward()
-            optimizer.step()
+
+            with torch.amp.autocast(device_type="cuda", enabled=use_amp):
+                scores = model(data)
+                #print(scores)
+                loss = criterion(scores, targets)
+
+            scaler.scale(loss).backward()
+            scaler.step(optimizer)
+            scaler.update()
+
 
     return model
 
 def evaluate_model(model_CNN, test_loader, n_classes=3, softmax = None):
     device = "cuda" if torch.cuda.is_available() else "cpu"
     
-    acc = torchmetrics.Accuracy(task="multiclass",num_classes=n_classes).to(device)
+    acc = torchmetrics.Accuracy(task="multiclass", num_classes=n_classes).to(device)
     prec = torchmetrics.Precision(task="multiclass", average=None, num_classes=n_classes).to(device)
     rec = torchmetrics.Recall(task="multiclass", average='macro', num_classes=n_classes).to(device)
     class_pred_probs = []
@@ -69,7 +77,8 @@ def evaluate_model(model_CNN, test_loader, n_classes=3, softmax = None):
     model_CNN.eval()
     if softmax:
         softmax.eval()
-    with torch.no_grad():
+    # Evaluation must always be on FP32, to prevent Softmax instability
+    with torch.no_grad(), torch.amp.autocast(device_type="cuda", enabled=False):
         for data, labels in test_loader:
             data = data.to(device)
             labels = labels.to(device)
@@ -153,7 +162,7 @@ def train_Softmax(data_loader, feature_count, n_classes, n_epochs=100):
 
     return model_softmax
 
-def train_LSTM(train_loader, n_epochs, n_classes=3):
+def train_LSTM(train_loader, n_epochs, n_classes=3, use_amp=False):
 
     if torch.cuda.is_available():
     # this improves LSTM speed for fixed input sizes (window_size is fixed)
@@ -166,6 +175,8 @@ def train_LSTM(train_loader, n_epochs, n_classes=3):
     optimizer = optim.Adam(model.parameters(), lr=0.001)
     criterion = torch.nn.CrossEntropyLoss()
 
+    scaler = torch.amp.GradScaler(enabled=use_amp)
+
     for epoch in range(n_epochs):
         print(f"Epoch [{epoch+1}/{n_epochs}] of LSTM training")
         model.train()
@@ -175,15 +186,16 @@ def train_LSTM(train_loader, n_epochs, n_classes=3):
             Y_batch = Y_batch.to(device)
 
             optimizer.zero_grad()
-            outputs = model(X_batch)  # (B, window_size, num_classes)
-
-            # Take central timestep to match labels
-            center_idx = X_batch.shape[1] // 2
-            outputs_center = outputs[:, center_idx, :]
-
-            loss = criterion(outputs_center, Y_batch)
-            loss.backward()
-            optimizer.step()
+            with torch.amp.autocast(device_type="cuda", enabled=use_amp):
+                outputs = model(X_batch) # (B, window_size, num_classes) 
+                # Take central timestep to match labels
+                center_idx = X_batch.shape[1] // 2
+                outputs_center = outputs[:, center_idx, :]
+                loss = criterion(outputs_center, Y_batch)
+            
+            scaler.scale(loss).backward()
+            scaler.step(optimizer)
+            scaler.update()
             total_loss += loss.item()
         print(f"Epoch {epoch+1} average loss: {total_loss/len(train_loader):.4f}")
     return model

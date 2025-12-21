@@ -14,6 +14,14 @@ if __name__ == "__main__":
 
     start_time = time.perf_counter()
 
+    # AMP (Automatic Mixed Precision) On/Off flag, use =torch.cuda.is_available() for both ON and 
+    # automatically OFF when in use on a non-GPU-supported machine, use =False for OFF
+    use_amp = torch.cuda.is_available()
+    if use_amp:
+        # usually already enabled for TF32 suported GPUs, specified for locking behaviour purposes
+        torch.backends.cuda.matmul.allow_tf32 = True
+        torch.backends.cudnn.allow_tf32 = True
+
     window_size = 13
     n_classes = 8
     batch_size = 20
@@ -92,7 +100,7 @@ if __name__ == "__main__":
         ############################################
         ## model is CNN trained on input dataloader 
         # 
-        model = train_CNN(train_loader=train_loader_CNN, n_classes=n_classes, w_size=window_size, n_epochs=n_epochs_CNN)
+        model = train_CNN(train_loader=train_loader_CNN, n_classes=n_classes, w_size=window_size, n_epochs=n_epochs_CNN, use_amp=use_amp)
 
         ############################################
         ############### CNN evaluation #############
@@ -134,7 +142,7 @@ if __name__ == "__main__":
         ############################################
         ############### LSTM training  #############
         ############################################
-        lstm_model = train_LSTM(train_loader_LSTM, n_epochs=n_epochs_lstm, n_classes=n_classes)
+        lstm_model = train_LSTM(train_loader_LSTM, n_epochs=n_epochs_lstm, n_classes=n_classes, use_amp=use_amp)
 
         
         ############## extract features ############
