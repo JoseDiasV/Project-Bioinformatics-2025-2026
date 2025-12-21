@@ -16,6 +16,7 @@ if __name__ == "__main__":
 
     # AMP (Automatic Mixed Precision) On/Off flag, use =torch.cuda.is_available() for both ON and 
     # automatically OFF when in use on a non-GPU-supported machine, use =False for OFF
+    # drastically improves running times when used
     use_amp = torch.cuda.is_available()
     if use_amp:
         # usually already enabled for TF32 suported GPUs, specified for locking behaviour purposes
@@ -190,6 +191,8 @@ if __name__ == "__main__":
         accs_ens.append(acc_ens)
         precs_ens = np.vstack([precs_ens, prec_ens])
 
+        # free VRAM after each fold
+        torch.cuda.empty_cache()
     
     end_time = time.perf_counter()
 

@@ -111,12 +111,13 @@ class LSTM(nn.Module):
         # ===== Fourth Layer: full connectivity (Softmax in base LSTM) =====
         self.fc = nn.Linear(num_classes, num_classes)
 
-    def forward(self, x, lengths=None):
+    def forward(self, x, lengths=None, center_only=False):
         """
         Forward pass for base LSTM:
         - x: (B, L, input_dim)
         - lengths: optional sequence lengths
         - returns: (B, L, num_classes)
+        - center_only: if True, return only center timestep output
         """
         # Pack sequences if lengths provided
         if lengths is not None:
@@ -139,6 +140,11 @@ class LSTM(nn.Module):
 
         # ===== Fourth Layer: fully-connected (Softmax in base LSTM) =====
         out = self.fc(out)
+
+        if center_only:
+            # Take central timestep to match labels
+            center_idx = out.shape[1] // 2
+            out = out[:, center_idx, :]
 
         return out
 

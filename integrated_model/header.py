@@ -187,12 +187,9 @@ def train_LSTM(train_loader, n_epochs, n_classes=3, use_amp=False):
 
             optimizer.zero_grad()
             with torch.amp.autocast(device_type="cuda", enabled=use_amp):
-                outputs = model(X_batch) # (B, window_size, num_classes) 
-                # Take central timestep to match labels
-                center_idx = X_batch.shape[1] // 2
-                outputs_center = outputs[:, center_idx, :]
+                outputs_center = model(X_batch, center_only=True) # (B, window_size, num_classes), already central timestep to match labels
                 loss = criterion(outputs_center, Y_batch)
-            
+
             scaler.scale(loss).backward()
             scaler.step(optimizer)
             scaler.update()
@@ -210,7 +207,7 @@ def extract_features(model, data_loader):
         for X_batch, Y_batch in tqdm(data_loader, desc="Extracting features", leave=False):
             X_batch = X_batch.to(device)
             # take central timestep features
-            feats = model(X_batch)[:, X_batch.shape[1] // 2, :]
+            feats = model(X_batch, center_only=True)
             features_list.append(feats.cpu())
             labels_list.append(Y_batch)
 
