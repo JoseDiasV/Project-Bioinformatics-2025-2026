@@ -191,7 +191,8 @@ if __name__ == "__main__":
         accs_ens.append(acc_ens)
         precs_ens = np.vstack([precs_ens, prec_ens])
 
-        # free VRAM after each fold
+        # free VRAM after each fold, including deleting models and intermediate variables, which are no longer needed
+        del model, lstm_model, ReLU_train_dataset, X_train_feats, X_test_feats, y_train_feats, y_test_feats
         torch.cuda.empty_cache()
     
     end_time = time.perf_counter()
