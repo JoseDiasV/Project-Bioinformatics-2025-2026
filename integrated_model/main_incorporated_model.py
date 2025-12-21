@@ -22,8 +22,8 @@ if __name__ == "__main__":
     n_epochs_softmax = 10 # should be 10
     n_epochs_lstm = 2 # should  be 9
     rf_trees = 500
-    #path_db = 'cullatraldata_one_third.txt'
-    path_db = 'test_db_modified.fa'
+    path_db = 'cullatraldata_one_fourth.txt'
+    #path_db = 'test_db_modified.fa'
 
     device = "cuda" if torch.cuda.is_available() else "cpu"
 
@@ -76,15 +76,15 @@ if __name__ == "__main__":
         train_dataset_CNN = TensorDataset(X_CNN_train, y_train)
         test_dataset_CNN  = TensorDataset(X_CNN_test, y_test)
 
-        train_loader_CNN = DataLoader(train_dataset_CNN, batch_size=batch_size, shuffle=True, num_workers=4, pin_memory=True, persistent_workers=True)
-        test_loader_CNN  = DataLoader(test_dataset_CNN,  batch_size=batch_size, shuffle=False, num_workers=4, pin_memory=True, persistent_workers=True)
+        train_loader_CNN = DataLoader(train_dataset_CNN, batch_size=batch_size, shuffle=True, num_workers=4, pin_memory=False, persistent_workers=True)
+        test_loader_CNN  = DataLoader(test_dataset_CNN,  batch_size=batch_size, shuffle=False, num_workers=4, pin_memory=False, persistent_workers=True)
 
         ## prepare test and train dataset and loader for LSTM ##
         train_dataset_LSTM = TensorDataset(X_LSTM_train, y_train)
         test_dataset_LSTM  = TensorDataset(X_LSTM_test, y_test)
 
-        train_loader_LSTM = DataLoader(train_dataset_LSTM, batch_size=batch_size, shuffle=True, num_workers=4, pin_memory=True, persistent_workers=True)
-        test_loader_LSTM  = DataLoader(test_dataset_LSTM,  batch_size=batch_size, shuffle=False, num_workers=4, pin_memory=True, persistent_workers=True)
+        train_loader_LSTM = DataLoader(train_dataset_LSTM, batch_size=batch_size, shuffle=True, num_workers=4, pin_memory=False, persistent_workers=True)
+        test_loader_LSTM  = DataLoader(test_dataset_LSTM,  batch_size=batch_size, shuffle=False, num_workers=4, pin_memory=False, persistent_workers=True)
 
 
         ############################################
