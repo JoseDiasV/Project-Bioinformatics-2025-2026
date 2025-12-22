@@ -31,7 +31,7 @@ if __name__ == "__main__":
     n_epochs_softmax = 10 # should be 10
     n_epochs_lstm = 2 # should  be 9
     rf_trees = 500
-    path_db = 'test_db_modified.fa'
+    path_db = 'cullatraldata_one_seventh'
     #path_db = 'test_db_modified.fa'
 
     device = "cuda" if torch.cuda.is_available() else "cpu"

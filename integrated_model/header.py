@@ -207,7 +207,7 @@ def extract_features(model, data_loader):
         for X_batch, Y_batch in tqdm(data_loader, desc="Extracting features", leave=False):
             X_batch = X_batch.to(device)
             Y_batch = Y_batch.to(device)
-            
+
             # take central timestep features
             feats = model(X_batch, center_only=True).cpu() # move features immediately to cpu, to save VRAM
             features_list.append(feats)
@@ -221,7 +221,7 @@ def extract_features(model, data_loader):
 
 def evaluate_rf(y_true, y_pred, n_classes=3):
     acc = accuracy_score(y_true, y_pred)
-    prec = precision_score(y_true, y_pred, average=None, labels=range(n_classes))
+    prec = precision_score(y_true, y_pred, average=None, labels=range(n_classes), zero_division=0)
     rec = recall_score(y_true, y_pred, average='macro')
     return acc, prec, rec
 
