@@ -31,7 +31,7 @@ if __name__ == "__main__":
     n_epochs_softmax = 10 # should be 10
     n_epochs_lstm = 2 # should  be 9
     rf_trees = 500
-    path_db = 'cullatraldata_one_seventh.txt'
+    path_db = 'test_db_modified.fa'
     #path_db = 'test_db_modified.fa'
 
     device = "cuda" if torch.cuda.is_available() else "cpu"
@@ -132,6 +132,12 @@ if __name__ == "__main__":
 
         CNNs_prob_preds, test_accuracy_CNNs, test_precision_CNNs, test_recall_CNNs = evaluate_model(model_CNN=model, test_loader=test_loader_CNN, n_classes=n_classes, softmax=model_softmax)
 
+
+        # free CNN-related memory - models and intermediate variables - to save VRAM, including after each fold
+        del model, model_softmax, ReLU_train_dataset, ReLU_train_loader
+        torch.cuda.empty_cache()
+
+
         ## update ##
         accs_CNNs.append(test_accuracy_CNNs)
         accs_CNN.append(test_accuracy)
@@ -191,8 +197,9 @@ if __name__ == "__main__":
         accs_ens.append(acc_ens)
         precs_ens = np.vstack([precs_ens, prec_ens])
 
-        # free VRAM after each fold, including deleting models and intermediate variables, which are no longer needed
-        del model, lstm_model, ReLU_train_dataset, X_train_feats, X_test_feats, y_train_feats, y_test_feats
+
+        # free LSTM-related memory - models and intermediate variables - to save VRAM (and RAM with rf_model), including after each fold
+        del lstm_model, X_train_feats, y_train_feats, X_test_feats, y_test_feats, rf_model
         torch.cuda.empty_cache()
     
     end_time = time.perf_counter()

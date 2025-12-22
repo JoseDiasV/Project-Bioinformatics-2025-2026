@@ -102,7 +102,7 @@ def evaluate_model(model_CNN, test_loader, n_classes=3, softmax = None):
             prec.update(preds, labels)
             rec.update(preds, labels)
 
-    #Compute total test accuracy
+    # Compute total test accuracy
     test_accuracy = acc.compute().item()
     test_precisionn = prec.compute().detach().cpu().numpy()
     test_recall = rec.compute().item()
@@ -113,17 +113,17 @@ def evaluate_model(model_CNN, test_loader, n_classes=3, softmax = None):
     return class_pred_probs, test_accuracy, test_precisionn, test_recall
 
 def ReLU_extractor(model, data_loader):
+    device = "cuda" if torch.cuda.is_available() else "cpu"
     features = []
     labels = []
-    device = "cuda" if torch.cuda.is_available() else "cpu"
     with torch.no_grad():
         for data, label in data_loader:
             data = data.to(device)
             label = label.to(device)
 
             ReLU = model(data, ReLU_out=True)
-            features.append(ReLU)
-            labels.append(label)
+            features.append(ReLU.cpu()) # move features immediately to cpu, to save VRAM
+            labels.append(label.cpu())  # move labels immediately to cpu, to accompany the features
 
     features_torch = torch.cat(features, dim = 0)
    # print(features_torch.shape[1])
@@ -206,10 +206,13 @@ def extract_features(model, data_loader):
     with torch.no_grad():
         for X_batch, Y_batch in tqdm(data_loader, desc="Extracting features", leave=False):
             X_batch = X_batch.to(device)
+            Y_batch = Y_batch.to(device)
+            
             # take central timestep features
-            feats = model(X_batch, center_only=True)
-            features_list.append(feats.cpu())
-            labels_list.append(Y_batch)
+            feats = model(X_batch, center_only=True).cpu() # move features immediately to cpu, to save VRAM
+            features_list.append(feats)
+            # move labels immediately to cpu, to accompany the features
+            labels_list.append(Y_batch.cpu())
 
     X_feats = torch.cat(features_list, dim=0).numpy()
     Y_labels = torch.cat(labels_list, dim=0).numpy()
