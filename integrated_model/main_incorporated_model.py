@@ -27,12 +27,15 @@ if __name__ == "__main__":
 
     window_size = 13 # (original paper had 13)
     n_classes = 8 # should be 8 or 3 (original paper did 3)
-    batch_size = 20
-    n_fold_CV = 10 # should be 10 or 3 (original paper did 3)
+    batch_size = 64
+    n_fold_CV = 3 # should be 10 or 3 (original paper did 3)
     n_epochs_CNN = 10 # should be 10 (original paper had 10)
     n_epochs_softmax = 10 # should be 10
-    n_epochs_lstm = 9 # should be 9 (original paper had 9)
+    n_epochs_lstm = 10 # should be 10 or 9 (original paper had 9)
     rf_trees = 500 # should be 500 (original paper had 500)
+    # weight_CNNs + weight_LSTM_rf = 1.0
+    weight_CNNs = 0.5 # probability weight value for CNN-S (can be either 0.5, 0.3 or 0.7)
+    weight_LSTM_rf = 0.5 # probability weight value for LSTM-RF (can be either 0.5, 0.7 or 0.3)
     # dataset fraction taken with the bash command:
     # $ awk -v max=$(($(grep -c '^>' cullatraldata.txt)/5)) '/^>/{c++} c<=max' cullatraldata.txt > cullatraldata_one_fifth.txt
     path_db = "cullatraldata_one_fifth.txt" # one fifth of the original dataset, drastically helps with memory usage and running times
@@ -192,7 +195,7 @@ if __name__ == "__main__":
         ## predicted probabilities from LSTM-RF
         LSTMrf_prob_preds = rf_model.predict_proba(X_test_feats)
 
-        ensemble_prob_preds = ensemble_prediction(pred_CNNs=CNNs_prob_preds, pred_LSTMrf=LSTMrf_prob_preds)
+        ensemble_prob_preds = ensemble_prediction(pred_CNNs=CNNs_prob_preds, pred_LSTMrf=LSTMrf_prob_preds, weight_CNNs=weight_CNNs, weight_LSTM_rf=weight_LSTM_rf)
         ensemble_hard_preds = np.argmax(ensemble_prob_preds, axis=1)
 
         acc_ens, prec_ens, rec_ens = evaluate_rf(y_test_feats, ensemble_hard_preds, n_classes=n_classes)

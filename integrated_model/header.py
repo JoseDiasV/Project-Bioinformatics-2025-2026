@@ -225,6 +225,7 @@ def evaluate_rf(y_true, y_pred, n_classes=3):
     rec = recall_score(y_true, y_pred, average='macro')
     return acc, prec, rec
 
+    # weight_CNNs + weight_LSTM_rf = 1.0
 def ensemble_prediction(pred_CNNs, pred_LSTMrf, weight_CNNs = 0.5, weight_LSTM_rf = 0.5):
 
     ## same formatting ##
