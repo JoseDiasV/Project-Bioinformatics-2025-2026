@@ -16,23 +16,25 @@ if __name__ == "__main__":
 
     # AMP (Automatic Mixed Precision) On/Off flag, use =torch.cuda.is_available() for both ON and 
     # automatically OFF when in use on a non-GPU-supported machine, use =False for OFF
-    # drastically improves running times when used
+    # drastically improves running times when used on an RTX NVIDIA GPU
+    # if used on a non-RTX NIVIDA GPU, might not improve times and in some cases even increase times, might still be
+    # useful in those cases for VRAM usage reduction if needed
     use_amp = torch.cuda.is_available()
     if use_amp:
         # usually already enabled for TF32 suported GPUs, specified for locking behaviour purposes
         torch.backends.cuda.matmul.allow_tf32 = True
         torch.backends.cudnn.allow_tf32 = True
 
-    window_size = 13
-    n_classes = 8
+    window_size = 13 # (original paper had 13)
+    n_classes = 8 # should be 8 or 3 (original paper did 3)
     batch_size = 20
-    n_fold_CV = 3 # should be 10
-    n_epochs_CNN = 2 # should be 10
+    n_fold_CV = 10 # should be 10 or 3 (original paper did 3)
+    n_epochs_CNN = 10 # should be 10 (original paper had 10)
     n_epochs_softmax = 10 # should be 10
-    n_epochs_lstm = 2 # should  be 9
-    rf_trees = 500
-    path_db = 'cullatraldata_one_seventh.txt'
-    #path_db = 'test_db_modified.fa'
+    n_epochs_lstm = 9 # should be 9 (original paper had 9)
+    rf_trees = 500 # should be 500 (original paper had 500)
+    path_db = "cullatraldata_one_fifth.txt"
+    #path_db = "test_db_modified.fa"
 
     device = "cuda" if torch.cuda.is_available() else "cpu"
 
