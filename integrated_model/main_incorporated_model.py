@@ -27,6 +27,8 @@ if __name__ == "__main__":
 
     window_size = 13 # (original paper had 13)
     n_classes = 8 # should be 8 or 3 (original paper did 3)
+    # higher batch sizes increase VRAM and RAM usage, but can drastically improve both 
+    # running times and model conversion along epochs
     batch_size = 64
     n_fold_CV = 3 # should be 10 or 3 (original paper did 3)
     n_epochs_CNN = 10 # should be 10 (original paper had 10)
