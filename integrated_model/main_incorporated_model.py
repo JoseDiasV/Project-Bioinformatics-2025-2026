@@ -33,7 +33,9 @@ if __name__ == "__main__":
     n_epochs_softmax = 10 # should be 10
     n_epochs_lstm = 9 # should be 9 (original paper had 9)
     rf_trees = 500 # should be 500 (original paper had 500)
-    path_db = "cullatraldata_one_fifth.txt"
+    # dataset fraction taken with the bash command:
+    # $ awk -v max=$(($(grep -c '^>' cullatraldata.txt)/5)) '/^>/{c++} c<=max' cullatraldata.txt > cullatraldata_one_fifth.txt
+    path_db = "cullatraldata_one_fifth.txt" # one fifth of the original dataset, drastically helps with memory usage and running times
     #path_db = "test_db_modified.fa"
 
     device = "cuda" if torch.cuda.is_available() else "cpu"
