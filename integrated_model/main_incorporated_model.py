@@ -19,9 +19,13 @@ if __name__ == "__main__":
     # drastically improves running times when used on an RTX NVIDIA GPU
     # if used on a non-RTX NIVIDA GPU, might not improve times and in some cases even slightly increase times, might still be
     # useful in those cases for VRAM usage reduction if needed
+    # https://pytorch.org/docs/stable/amp.html
+    # https://pytorch.org/docs/stable/notes/amp_examples.html
     use_amp = torch.cuda.is_available()
     if use_amp:
         # usually already enabled for TF32 suported GPUs, specified for locking behaviour purposes
+        # https://pytorch.org/docs/stable/notes/cuda.html#tensorfloat-32-tf32-on-ampere-devices
+        # https://developer.nvidia.com/blog/accelerating-ai-training-with-tf32-tensor-cores/
         torch.backends.cuda.matmul.allow_tf32 = True
         torch.backends.cudnn.allow_tf32 = True
 
