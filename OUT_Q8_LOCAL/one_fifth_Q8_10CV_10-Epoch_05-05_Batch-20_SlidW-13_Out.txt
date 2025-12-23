@@ -1,0 +1,1013 @@
+There was an error loading PSSM of 2NUT_A at position 601: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 602: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 603: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 604: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 605: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 606: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 607: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 608: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 609: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 610: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 611: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 612: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 613: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 614: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 615: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 616: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 617: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 618: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 619: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 620: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 621: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 622: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 623: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 624: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 625: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 626: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 627: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 628: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 629: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 630: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 631: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 632: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 633: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 634: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 635: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 636: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 637: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 638: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 639: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 640: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 641: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 642: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 643: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 644: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 645: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 646: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 647: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 648: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 649: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 650: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 651: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 652: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 653: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 654: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 655: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 656: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 657: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 658: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 659: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 660: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 661: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 662: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 663: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 664: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 665: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 666: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 667: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 668: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 669: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 670: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 671: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 672: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 673: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 674: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 675: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 676: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 677: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 678: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 679: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 680: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 681: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 682: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 683: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 684: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 685: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 686: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 687: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 688: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 689: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 690: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 691: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 692: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 693: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 694: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 695: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 696: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 697: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 698: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 699: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 700: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 701: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 702: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 703: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 704: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 705: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 706: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 707: PSSM and sequence length mismatch
+REMOVING from dataset
+
+===== Fold 1/10 =====
+CNN(
+  (conv1): Conv2d(1, 500, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (pool): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (conv2): Conv2d(500, 100, kernel_size=(2, 2), stride=(1, 1), padding=(1, 1))
+  (fc1): Linear(in_features=7700, out_features=8, bias=True)
+)
+Epoch [1/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:31<00:00, 357.37it/s] 
+Epoch [2/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:32<00:00, 354.91it/s] 
+Epoch [3/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:30<00:00, 361.80it/s] 
+Epoch [4/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:31<00:00, 358.41it/s] 
+Epoch [5/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:30<00:00, 361.32it/s] 
+Epoch [6/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:29<00:00, 364.00it/s] 
+Epoch [7/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:28<00:00, 370.63it/s] 
+Epoch [8/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:27<00:00, 372.66it/s] 
+Epoch [9/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:28<00:00, 369.88it/s] 
+Epoch [10/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:27<00:00, 372.88it/s] 
+Epoch [1/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:12<00:00, 449.20it/s]
+Epoch [2/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:52<00:00, 626.20it/s] 
+Epoch [3/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:52<00:00, 625.01it/s] 
+Epoch [4/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:53<00:00, 608.30it/s] 
+Epoch [5/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:52<00:00, 626.66it/s] 
+Epoch [6/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:51<00:00, 631.75it/s] 
+Epoch [7/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:52<00:00, 628.35it/s] 
+Epoch [8/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:51<00:00, 631.78it/s] 
+Epoch [9/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:51<00:00, 631.37it/s] 
+Epoch [10/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:51<00:00, 632.23it/s] 
+LSTM(
+  (lstm1): LSTM(20, 200, batch_first=True, bidirectional=True)
+  (lstm2): LSTM(400, 400, batch_first=True, bidirectional=True)
+  (classifier): Linear(in_features=800, out_features=8, bias=True)
+  (fc): Linear(in_features=8, out_features=8, bias=True)
+)
+Epoch [1/10] of LSTM training
+Epoch 1 average loss: 0.9313
+Epoch [2/10] of LSTM training
+Epoch 2 average loss: 0.8353
+Epoch [3/10] of LSTM training
+Epoch 3 average loss: 0.7886
+Epoch [4/10] of LSTM training
+Epoch 4 average loss: 0.7667
+Epoch [5/10] of LSTM training
+Epoch 5 average loss: 0.7604
+Epoch [6/10] of LSTM training
+Epoch 6 average loss: 0.7670
+Epoch [7/10] of LSTM training
+Epoch 7 average loss: 0.7785
+Epoch [8/10] of LSTM training
+Epoch 8 average loss: 0.7924
+Epoch [9/10] of LSTM training
+Epoch 9 average loss: 0.8106
+Epoch [10/10] of LSTM training
+Epoch 10 average loss: 0.8254
+
+===== Fold 2/10 =====
+CNN(
+  (conv1): Conv2d(1, 500, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (pool): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (conv2): Conv2d(500, 100, kernel_size=(2, 2), stride=(1, 1), padding=(1, 1))
+  (fc1): Linear(in_features=7700, out_features=8, bias=True)
+)
+Epoch [1/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:30<00:00, 361.86it/s] 
+Epoch [2/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:30<00:00, 361.77it/s] 
+Epoch [3/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:29<00:00, 367.39it/s] 
+Epoch [4/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:28<00:00, 368.74it/s] 
+Epoch [5/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:28<00:00, 369.34it/s] 
+Epoch [6/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:28<00:00, 368.14it/s] 
+Epoch [7/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:28<00:00, 369.35it/s] 
+Epoch [8/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:28<00:00, 370.05it/s] 
+Epoch [9/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:29<00:00, 367.60it/s] 
+Epoch [10/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:27<00:00, 372.38it/s] 
+Epoch [1/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:16<00:00, 425.63it/s]
+Epoch [2/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:50<00:00, 645.71it/s] 
+Epoch [3/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:48<00:00, 673.36it/s] 
+Epoch [4/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:56<00:00, 584.01it/s] 
+Epoch [5/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:57<00:00, 572.59it/s] 
+Epoch [6/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:51<00:00, 640.83it/s] 
+Epoch [7/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:53<00:00, 606.67it/s] 
+Epoch [8/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:54<00:00, 603.85it/s] 
+Epoch [9/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:52<00:00, 621.87it/s] 
+Epoch [10/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:52<00:00, 622.87it/s] 
+LSTM(
+  (lstm1): LSTM(20, 200, batch_first=True, bidirectional=True)
+  (lstm2): LSTM(400, 400, batch_first=True, bidirectional=True)
+  (classifier): Linear(in_features=800, out_features=8, bias=True)
+  (fc): Linear(in_features=8, out_features=8, bias=True)
+)
+Epoch [1/10] of LSTM training
+Epoch 1 average loss: 0.9301
+Epoch [2/10] of LSTM training
+Epoch 2 average loss: 0.8344
+Epoch [3/10] of LSTM training
+Epoch 3 average loss: 0.7870
+Epoch [4/10] of LSTM training
+Epoch 4 average loss: 0.7654
+Epoch [5/10] of LSTM training
+Epoch 5 average loss: 0.7578
+Epoch [6/10] of LSTM training
+Epoch 6 average loss: 0.7640
+Epoch [7/10] of LSTM training
+Epoch 7 average loss: 0.7717
+Epoch [8/10] of LSTM training
+Epoch 8 average loss: 0.7869
+Epoch [9/10] of LSTM training
+Epoch 9 average loss: 0.8027
+Epoch [10/10] of LSTM training
+Epoch 10 average loss: 0.8213
+
+===== Fold 3/10 =====
+CNN(
+  (conv1): Conv2d(1, 500, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (pool): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (conv2): Conv2d(500, 100, kernel_size=(2, 2), stride=(1, 1), padding=(1, 1))
+  (fc1): Linear(in_features=7700, out_features=8, bias=True)
+)
+Epoch [1/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:30<00:00, 361.61it/s] 
+Epoch [2/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:28<00:00, 371.58it/s] 
+Epoch [3/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:30<00:00, 361.90it/s] 
+Epoch [4/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:28<00:00, 369.12it/s] 
+Epoch [5/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:29<00:00, 366.55it/s] 
+Epoch [6/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:29<00:00, 364.38it/s] 
+Epoch [7/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:27<00:00, 373.46it/s] 
+Epoch [8/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:29<00:00, 366.14it/s] 
+Epoch [9/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:28<00:00, 368.97it/s] 
+Epoch [10/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:28<00:00, 371.88it/s] 
+Epoch [1/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:15<00:00, 433.44it/s]
+Epoch [2/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:50<00:00, 647.05it/s] 
+Epoch [3/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:49<00:00, 657.06it/s] 
+Epoch [4/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:49<00:00, 656.58it/s] 
+Epoch [5/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:49<00:00, 658.01it/s] 
+Epoch [6/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:49<00:00, 657.04it/s] 
+Epoch [7/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:49<00:00, 660.14it/s] 
+Epoch [8/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:49<00:00, 658.78it/s] 
+Epoch [9/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:49<00:00, 656.09it/s] 
+Epoch [10/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:49<00:00, 660.15it/s] 
+LSTM(
+  (lstm1): LSTM(20, 200, batch_first=True, bidirectional=True)
+  (lstm2): LSTM(400, 400, batch_first=True, bidirectional=True)
+  (classifier): Linear(in_features=800, out_features=8, bias=True)
+  (fc): Linear(in_features=8, out_features=8, bias=True)
+)
+Epoch [1/10] of LSTM training
+Epoch 1 average loss: 0.9312
+Epoch [2/10] of LSTM training
+Epoch 2 average loss: 0.8364
+Epoch [3/10] of LSTM training
+Epoch 3 average loss: 0.7917
+Epoch [4/10] of LSTM training
+Epoch 4 average loss: 0.7729
+Epoch [5/10] of LSTM training
+Epoch 5 average loss: 0.7668
+Epoch [6/10] of LSTM training
+Epoch 6 average loss: 0.7735
+Epoch [7/10] of LSTM training
+Epoch 7 average loss: 0.7850
+Epoch [8/10] of LSTM training
+Epoch 8 average loss: 0.8001
+Epoch [9/10] of LSTM training
+Epoch 9 average loss: 0.8178
+Epoch [10/10] of LSTM training
+Epoch 10 average loss: 0.8384
+
+===== Fold 4/10 =====
+CNN(
+  (conv1): Conv2d(1, 500, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (pool): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (conv2): Conv2d(500, 100, kernel_size=(2, 2), stride=(1, 1), padding=(1, 1))
+  (fc1): Linear(in_features=7700, out_features=8, bias=True)
+)
+Epoch [1/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:29<00:00, 365.75it/s] 
+Epoch [2/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:29<00:00, 367.74it/s] 
+Epoch [3/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:29<00:00, 363.93it/s] 
+Epoch [4/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:29<00:00, 366.88it/s] 
+Epoch [5/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:29<00:00, 366.37it/s] 
+Epoch [6/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:28<00:00, 368.37it/s] 
+Epoch [7/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:29<00:00, 366.41it/s] 
+Epoch [8/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:28<00:00, 369.53it/s] 
+Epoch [9/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:29<00:00, 365.40it/s] 
+Epoch [10/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:29<00:00, 366.35it/s] 
+Epoch [1/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:17<00:00, 423.60it/s]
+Epoch [2/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:50<00:00, 651.64it/s] 
+Epoch [3/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:49<00:00, 656.29it/s] 
+Epoch [4/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:49<00:00, 658.74it/s] 
+Epoch [5/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:49<00:00, 658.04it/s] 
+Epoch [6/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:49<00:00, 659.12it/s]
+Epoch [7/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:49<00:00, 656.90it/s] 
+Epoch [8/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:49<00:00, 658.96it/s] 
+Epoch [9/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:49<00:00, 660.47it/s] 
+Epoch [10/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:49<00:00, 658.30it/s] 
+LSTM(
+  (lstm1): LSTM(20, 200, batch_first=True, bidirectional=True)
+  (lstm2): LSTM(400, 400, batch_first=True, bidirectional=True)
+  (classifier): Linear(in_features=800, out_features=8, bias=True)
+  (fc): Linear(in_features=8, out_features=8, bias=True)
+)
+Epoch [1/10] of LSTM training
+Epoch 1 average loss: 0.9325
+Epoch [2/10] of LSTM training
+Epoch 2 average loss: 0.8368
+Epoch [3/10] of LSTM training
+Epoch 3 average loss: 0.7915
+Epoch [4/10] of LSTM training
+Epoch 4 average loss: 0.7654
+Epoch [5/10] of LSTM training
+Epoch 5 average loss: 0.7558
+Epoch [6/10] of LSTM training
+Epoch 6 average loss: 0.7609
+Epoch [7/10] of LSTM training
+Epoch 7 average loss: 0.7720
+Epoch [8/10] of LSTM training
+Epoch 8 average loss: 0.7858
+Epoch [9/10] of LSTM training
+Epoch 9 average loss: 0.7983
+Epoch [10/10] of LSTM training
+Epoch 10 average loss: 0.8151
+
+===== Fold 5/10 =====
+CNN(
+  (conv1): Conv2d(1, 500, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (pool): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (conv2): Conv2d(500, 100, kernel_size=(2, 2), stride=(1, 1), padding=(1, 1))
+  (fc1): Linear(in_features=7700, out_features=8, bias=True)
+)
+Epoch [1/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:29<00:00, 365.61it/s] 
+Epoch [2/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:30<00:00, 362.71it/s] 
+Epoch [3/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:29<00:00, 365.89it/s] 
+Epoch [4/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:30<00:00, 362.96it/s] 
+Epoch [5/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:30<00:00, 360.52it/s] 
+Epoch [6/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:29<00:00, 365.04it/s] 
+Epoch [7/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:30<00:00, 360.40it/s] 
+Epoch [8/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:28<00:00, 370.90it/s] 
+Epoch [9/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:30<00:00, 361.05it/s] 
+Epoch [10/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:30<00:00, 361.79it/s] 
+Epoch [1/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:20<00:00, 404.34it/s]
+Epoch [2/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:49<00:00, 655.59it/s]
+Epoch [3/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:49<00:00, 657.72it/s] 
+Epoch [4/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:49<00:00, 660.54it/s] 
+Epoch [5/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:49<00:00, 661.95it/s] 
+Epoch [6/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:49<00:00, 658.90it/s] 
+Epoch [7/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:49<00:00, 658.35it/s] 
+Epoch [8/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:49<00:00, 659.82it/s] 
+Epoch [9/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:49<00:00, 658.07it/s] 
+Epoch [10/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:50<00:00, 654.06it/s] 
+LSTM(
+  (lstm1): LSTM(20, 200, batch_first=True, bidirectional=True)
+  (lstm2): LSTM(400, 400, batch_first=True, bidirectional=True)
+  (classifier): Linear(in_features=800, out_features=8, bias=True)
+  (fc): Linear(in_features=8, out_features=8, bias=True)
+)
+Epoch [1/10] of LSTM training
+Epoch 1 average loss: 0.9318
+Epoch [2/10] of LSTM training
+Epoch 2 average loss: 0.8362
+Epoch [3/10] of LSTM training
+Epoch 3 average loss: 0.7896
+Epoch [4/10] of LSTM training
+Epoch 4 average loss: 0.7652
+Epoch [5/10] of LSTM training
+Epoch 5 average loss: 0.7568
+Epoch [6/10] of LSTM training
+Epoch 6 average loss: 0.7592
+Epoch [7/10] of LSTM training
+Epoch 7 average loss: 0.7703
+Epoch [8/10] of LSTM training
+Epoch 8 average loss: 0.7819
+Epoch [9/10] of LSTM training
+Epoch 9 average loss: 0.7983
+Epoch [10/10] of LSTM training
+Epoch 10 average loss: 0.8161
+
+===== Fold 6/10 =====
+CNN(
+  (conv1): Conv2d(1, 500, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (pool): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (conv2): Conv2d(500, 100, kernel_size=(2, 2), stride=(1, 1), padding=(1, 1))
+  (fc1): Linear(in_features=7700, out_features=8, bias=True)
+)
+Epoch [1/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:28<00:00, 368.82it/s] 
+Epoch [2/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:29<00:00, 367.88it/s] 
+Epoch [3/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:29<00:00, 363.83it/s] 
+Epoch [4/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:29<00:00, 367.29it/s] 
+Epoch [5/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:30<00:00, 363.04it/s] 
+Epoch [6/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:28<00:00, 367.92it/s] 
+Epoch [7/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:29<00:00, 367.69it/s] 
+Epoch [8/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:30<00:00, 363.19it/s] 
+Epoch [9/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:28<00:00, 368.22it/s] 
+Epoch [10/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:30<00:00, 363.52it/s] 
+Epoch [1/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:05<00:00, 502.70it/s]
+Epoch [2/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:52<00:00, 626.22it/s] 
+Epoch [3/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:52<00:00, 626.99it/s] 
+Epoch [4/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:52<00:00, 629.63it/s] 
+Epoch [5/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:51<00:00, 629.79it/s] 
+Epoch [6/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:52<00:00, 629.23it/s] 
+Epoch [7/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:51<00:00, 631.83it/s] 
+Epoch [8/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:52<00:00, 628.99it/s] 
+Epoch [9/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:51<00:00, 630.35it/s] 
+Epoch [10/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:52<00:00, 628.74it/s] 
+LSTM(
+  (lstm1): LSTM(20, 200, batch_first=True, bidirectional=True)
+  (lstm2): LSTM(400, 400, batch_first=True, bidirectional=True)
+  (classifier): Linear(in_features=800, out_features=8, bias=True)
+  (fc): Linear(in_features=8, out_features=8, bias=True)
+)
+Epoch [1/10] of LSTM training
+Epoch 1 average loss: 0.9313
+Epoch [2/10] of LSTM training
+Epoch 2 average loss: 0.8334
+Epoch [3/10] of LSTM training
+Epoch 3 average loss: 0.7848
+Epoch [4/10] of LSTM training
+Epoch 4 average loss: 0.7594
+Epoch [5/10] of LSTM training
+Epoch 5 average loss: 0.7523
+Epoch [6/10] of LSTM training
+Epoch 6 average loss: 0.7582
+Epoch [7/10] of LSTM training
+Epoch 7 average loss: 0.7688
+Epoch [8/10] of LSTM training
+Epoch 8 average loss: 0.7868
+Epoch [9/10] of LSTM training
+Epoch 9 average loss: 0.8044
+Epoch [10/10] of LSTM training
+Epoch 10 average loss: 0.8220
+
+===== Fold 7/10 =====
+CNN(
+  (conv1): Conv2d(1, 500, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (pool): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (conv2): Conv2d(500, 100, kernel_size=(2, 2), stride=(1, 1), padding=(1, 1))
+  (fc1): Linear(in_features=7700, out_features=8, bias=True)
+)
+Epoch [1/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:30<00:00, 361.64it/s] 
+Epoch [2/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:30<00:00, 363.15it/s] 
+Epoch [3/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:29<00:00, 366.85it/s] 
+Epoch [4/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:30<00:00, 363.33it/s] 
+Epoch [5/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:29<00:00, 366.81it/s] 
+Epoch [6/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:30<00:00, 362.76it/s] 
+Epoch [7/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:29<00:00, 367.03it/s] 
+Epoch [8/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:30<00:00, 362.69it/s] 
+Epoch [9/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:29<00:00, 365.42it/s] 
+Epoch [10/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:30<00:00, 363.21it/s] 
+Epoch [1/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:26<00:00, 378.15it/s]
+Epoch [2/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:52<00:00, 628.35it/s] 
+Epoch [3/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:51<00:00, 631.15it/s] 
+Epoch [4/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:51<00:00, 631.69it/s] 
+Epoch [5/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:51<00:00, 632.72it/s] 
+Epoch [6/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:51<00:00, 632.13it/s] 
+Epoch [7/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:51<00:00, 630.66it/s] 
+Epoch [8/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:51<00:00, 635.95it/s] 
+Epoch [9/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:51<00:00, 632.66it/s] 
+Epoch [10/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:51<00:00, 632.13it/s] 
+LSTM(
+  (lstm1): LSTM(20, 200, batch_first=True, bidirectional=True)
+  (lstm2): LSTM(400, 400, batch_first=True, bidirectional=True)
+  (classifier): Linear(in_features=800, out_features=8, bias=True)
+  (fc): Linear(in_features=8, out_features=8, bias=True)
+)
+Epoch [1/10] of LSTM training
+Epoch 1 average loss: 0.9330
+Epoch [2/10] of LSTM training
+Epoch 2 average loss: 0.8367
+Epoch [3/10] of LSTM training
+Epoch 3 average loss: 0.7908
+Epoch [4/10] of LSTM training
+Epoch 4 average loss: 0.7675
+Epoch [5/10] of LSTM training
+Epoch 5 average loss: 0.7602
+Epoch [6/10] of LSTM training
+Epoch 6 average loss: 0.7639
+Epoch [7/10] of LSTM training
+Epoch 7 average loss: 0.7752
+Epoch [8/10] of LSTM training
+Epoch 8 average loss: 0.7890
+Epoch [9/10] of LSTM training
+Epoch 9 average loss: 0.8034
+Epoch [10/10] of LSTM training
+Epoch 10 average loss: 0.8206
+
+===== Fold 8/10 =====
+CNN(
+  (conv1): Conv2d(1, 500, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (pool): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (conv2): Conv2d(500, 100, kernel_size=(2, 2), stride=(1, 1), padding=(1, 1))
+  (fc1): Linear(in_features=7700, out_features=8, bias=True)
+)
+Epoch [1/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:29<00:00, 364.35it/s] 
+Epoch [2/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:29<00:00, 365.57it/s] 
+Epoch [3/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:29<00:00, 364.14it/s] 
+Epoch [4/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:29<00:00, 365.84it/s] 
+Epoch [5/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:29<00:00, 363.99it/s] 
+Epoch [6/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:29<00:00, 365.41it/s] 
+Epoch [7/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:29<00:00, 364.23it/s] 
+Epoch [8/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:29<00:00, 365.08it/s] 
+Epoch [9/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:29<00:00, 365.54it/s] 
+Epoch [10/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:29<00:00, 366.03it/s] 
+Epoch [1/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:17<00:00, 420.12it/s]
+Epoch [2/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:52<00:00, 626.29it/s] 
+Epoch [3/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:51<00:00, 632.52it/s] 
+Epoch [4/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:51<00:00, 631.03it/s] 
+Epoch [5/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:51<00:00, 633.53it/s] 
+Epoch [6/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:51<00:00, 634.05it/s] 
+Epoch [7/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:51<00:00, 637.22it/s] 
+Epoch [8/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:51<00:00, 631.79it/s] 
+Epoch [9/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:51<00:00, 631.00it/s] 
+Epoch [10/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:51<00:00, 634.16it/s] 
+LSTM(
+  (lstm1): LSTM(20, 200, batch_first=True, bidirectional=True)
+  (lstm2): LSTM(400, 400, batch_first=True, bidirectional=True)
+  (classifier): Linear(in_features=800, out_features=8, bias=True)
+  (fc): Linear(in_features=8, out_features=8, bias=True)
+)
+Epoch [1/10] of LSTM training
+Epoch 1 average loss: 0.9319
+Epoch [2/10] of LSTM training
+Epoch 2 average loss: 0.8360
+Epoch [3/10] of LSTM training
+Epoch 3 average loss: 0.7887
+Epoch [4/10] of LSTM training
+Epoch 4 average loss: 0.7665
+Epoch [5/10] of LSTM training
+Epoch 5 average loss: 0.7590
+Epoch [6/10] of LSTM training
+Epoch 6 average loss: 0.7646
+Epoch [7/10] of LSTM training
+Epoch 7 average loss: 0.7725
+Epoch [8/10] of LSTM training
+Epoch 8 average loss: 0.7866
+Epoch [9/10] of LSTM training
+Epoch 9 average loss: 0.8030
+Epoch [10/10] of LSTM training
+Epoch 10 average loss: 0.8188
+
+===== Fold 9/10 =====
+CNN(
+  (conv1): Conv2d(1, 500, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (pool): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (conv2): Conv2d(500, 100, kernel_size=(2, 2), stride=(1, 1), padding=(1, 1))
+  (fc1): Linear(in_features=7700, out_features=8, bias=True)
+)
+Epoch [1/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:30<00:00, 363.46it/s] 
+Epoch [2/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:29<00:00, 367.77it/s] 
+Epoch [3/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:29<00:00, 364.57it/s] 
+Epoch [4/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:28<00:00, 368.47it/s] 
+Epoch [5/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:29<00:00, 364.54it/s] 
+Epoch [6/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:29<00:00, 366.95it/s] 
+Epoch [7/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:29<00:00, 364.17it/s] 
+Epoch [8/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:29<00:00, 366.54it/s] 
+Epoch [9/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:30<00:00, 363.75it/s] 
+Epoch [10/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:28<00:00, 369.39it/s] 
+Epoch [1/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:48<00:00, 301.30it/s]
+Epoch [2/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:53<00:00, 609.57it/s] 
+Epoch [3/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:52<00:00, 619.00it/s] 
+Epoch [4/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:53<00:00, 617.65it/s] 
+Epoch [5/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:52<00:00, 619.97it/s] 
+Epoch [6/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:53<00:00, 617.74it/s] 
+Epoch [7/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:53<00:00, 615.97it/s] 
+Epoch [8/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:53<00:00, 617.22it/s] 
+Epoch [9/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:52<00:00, 619.57it/s] 
+Epoch [10/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:52<00:00, 618.52it/s] 
+LSTM(
+  (lstm1): LSTM(20, 200, batch_first=True, bidirectional=True)
+  (lstm2): LSTM(400, 400, batch_first=True, bidirectional=True)
+  (classifier): Linear(in_features=800, out_features=8, bias=True)
+  (fc): Linear(in_features=8, out_features=8, bias=True)
+)
+  (classifier): Linear(in_features=800, out_features=8, bias=True)
+  (fc): Linear(in_features=8, out_features=8, bias=True)
+  (classifier): Linear(in_features=800, out_features=8, bias=True)
+  (classifier): Linear(in_features=800, out_features=8, bias=True)
+  (classifier): Linear(in_features=800, out_features=8, bias=True)
+  (classifier): Linear(in_features=800, out_features=8, bias=True)
+  (classifier): Linear(in_features=800, out_features=8, bias=True)
+  (classifier): Linear(in_features=800, out_features=8, bias=True)
+  (classifier): Linear(in_features=800, out_features=8, bias=True)
+  (classifier): Linear(in_features=800, out_features=8, bias=True)
+  (classifier): Linear(in_features=800, out_features=8, bias=True)
+  (fc): Linear(in_features=8, out_features=8, bias=True)
+)
+Epoch [1/10] of LSTM training
+Epoch 1 average loss: 0.9314
+Epoch [2/10] of LSTM training
+Epoch 2 average loss: 0.8335
+Epoch [3/10] of LSTM training
+Epoch 3 average loss: 0.7856
+Epoch [4/10] of LSTM training
+Epoch 4 average loss: 0.7600
+Epoch [5/10] of LSTM training
+Epoch 5 average loss: 0.7508
+Epoch [6/10] of LSTM training
+Epoch 6 average loss: 0.7542
+Epoch [7/10] of LSTM training
+Epoch 7 average loss: 0.7667
+Epoch [8/10] of LSTM training
+Epoch 8 average loss: 0.7819
+Epoch [9/10] of LSTM training
+Epoch 9 average loss: 0.7991
+Epoch [10/10] of LSTM training
+Epoch 10 average loss: 0.8166
+
+===== Fold 10/10 =====
+CNN(
+  (conv1): Conv2d(1, 500, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (pool): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (conv2): Conv2d(500, 100, kernel_size=(2, 2), stride=(1, 1), padding=(1, 1))
+  (fc1): Linear(in_features=7700, out_features=8, bias=True)
+)
+Epoch [1/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:31<00:00, 358.73it/s] 
+Epoch [2/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:30<00:00, 360.26it/s] 
+Epoch [3/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:30<00:00, 361.54it/s] 
+Epoch [4/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:30<00:00, 361.42it/s] 
+Epoch [5/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:30<00:00, 361.14it/s] 
+Epoch [6/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:30<00:00, 360.34it/s] 
+Epoch [7/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:30<00:00, 361.15it/s] 
+Epoch [8/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:30<00:00, 360.05it/s] 
+Epoch [9/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:30<00:00, 360.86it/s] 
+Epoch [10/10] of CNN training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:30<00:00, 360.98it/s] 
+Epoch [1/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [01:05<00:00, 497.79it/s]
+Epoch [2/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:51<00:00, 632.31it/s]
+Epoch [3/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:51<00:00, 633.77it/s] 
+Epoch [4/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:51<00:00, 632.14it/s] 
+Epoch [5/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:51<00:00, 633.53it/s] 
+Epoch [6/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:51<00:00, 633.92it/s] 
+Epoch [7/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:51<00:00, 635.89it/s] 
+Epoch [8/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:51<00:00, 635.16it/s] 
+Epoch [9/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:51<00:00, 634.99it/s] 
+Epoch [10/10] of Softmax classifier training
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32742/32742 [00:51<00:00, 633.30it/s] 
+LSTM(
+  (lstm1): LSTM(20, 200, batch_first=True, bidirectional=True)
+  (lstm2): LSTM(400, 400, batch_first=True, bidirectional=True)
+  (classifier): Linear(in_features=800, out_features=8, bias=True)
+  (fc): Linear(in_features=8, out_features=8, bias=True)
+)
+Epoch [1/10] of LSTM training
+Epoch 1 average loss: 0.9311
+Epoch [2/10] of LSTM training
+Epoch 2 average loss: 0.8356
+Epoch [3/10] of LSTM training
+Epoch 3 average loss: 0.7885
+Epoch [4/10] of LSTM training
+Epoch 4 average loss: 0.7651
+Epoch [5/10] of LSTM training
+Epoch 5 average loss: 0.7585
+Epoch [6/10] of LSTM training
+Epoch 6 average loss: 0.7623
+Epoch [7/10] of LSTM training
+Epoch 7 average loss: 0.7722
+Epoch [8/10] of LSTM training
+Epoch 8 average loss: 0.7856
+Epoch [9/10] of LSTM training
+Epoch 9 average loss: 0.8019
+Epoch [10/10] of LSTM training
+Epoch 10 average loss: 0.8144
+
+===== Cross-Validation Q8 Results =====
+
+Fold  1 | CNN+Softmax: 0.5974 | LSTM-RF: 0.6790 | CNN: 0.6059 | EN-CSLR: 0.6717
+Fold  2 | CNN+Softmax: 0.6026 | LSTM-RF: 0.6774 | CNN: 0.6013 | EN-CSLR: 0.6707
+Fold  3 | CNN+Softmax: 0.6034 | LSTM-RF: 0.6755 | CNN: 0.6112 | EN-CSLR: 0.6711
+Fold  4 | CNN+Softmax: 0.6022 | LSTM-RF: 0.6775 | CNN: 0.5997 | EN-CSLR: 0.6719
+Fold  5 | CNN+Softmax: 0.5986 | LSTM-RF: 0.6795 | CNN: 0.6058 | EN-CSLR: 0.6699
+Fold  6 | CNN+Softmax: 0.6060 | LSTM-RF: 0.6795 | CNN: 0.6041 | EN-CSLR: 0.6728
+Fold  7 | CNN+Softmax: 0.6064 | LSTM-RF: 0.6810 | CNN: 0.6034 | EN-CSLR: 0.6747
+Fold  8 | CNN+Softmax: 0.6012 | LSTM-RF: 0.6799 | CNN: 0.5906 | EN-CSLR: 0.6743
+Fold  9 | CNN+Softmax: 0.6042 | LSTM-RF: 0.6810 | CNN: 0.6069 | EN-CSLR: 0.6723
+Fold 10 | CNN+Softmax: 0.5996 | LSTM-RF: 0.6785 | CNN: 0.5989 | EN-CSLR: 0.6712
+
+===== Average Q8 over Folds =====
+
+Avg CNN+Softmax : 0.6021
+Avg LSTM-RF     : 0.6789
+Avg CNN         : 0.6028
+Avg EN-CSLR     : 0.6720
+
+
+===== Average per-class precision over Folds =====
+
+Q_H | CNN+Softmax: 0.7416 | LSTM-RF: 0.8255 | CNN: 0.7397 | EN-CSLR: 0.7971
+Q_G | CNN+Softmax: 0.2889 | LSTM-RF: 0.4418 | CNN: 0.2931 | EN-CSLR: 0.5243
+Q_I | CNN+Softmax: 0.0000 | LSTM-RF: 0.0000 | CNN: 0.0000 | EN-CSLR: 0.0000
+Q_E | CNN+Softmax: 0.6203 | LSTM-RF: 0.7219 | CNN: 0.6467 | EN-CSLR: 0.6965
+Q_B | CNN+Softmax: 0.1267 | LSTM-RF: 0.4681 | CNN: 0.1250 | EN-CSLR: 0.7322
+Q_T | CNN+Softmax: 0.4336 | LSTM-RF: 0.5174 | CNN: 0.4054 | EN-CSLR: 0.5300
+Q_S | CNN+Softmax: 0.2621 | LSTM-RF: 0.4047 | CNN: 0.2783 | EN-CSLR: 0.4403
+Q_C | CNN+Softmax: 0.4583 | LSTM-RF: 0.5318 | CNN: 0.4568 | EN-CSLR: 0.5221
+
+    Time needed for:
+
+        10-fold crossvalidation
+
+        10 epochs of CNN training
+
+        10 epochs of LSTM training
+
+        10 epochs of SoftMax training
+
+
+    is 43583.292074 seconds
+

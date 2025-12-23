@@ -14,17 +14,34 @@ if __name__ == "__main__":
 
     start_time = time.perf_counter()
 
-    window_size = 13
-    n_classes = 8
-    batch_size = 20
-    n_fold_CV = 3 # should be 10
-    n_epochs_CNN = 2 # should be 10
-    n_epochs_softmax = 10 # should be 10
-    n_epochs_lstm = 2 # should  be 9
-    rf_trees = 500
+    # AMP (Automatic Mixed Precision) On/Off flag, use =torch.cuda.is_available() for both ON and 
+    # automatically OFF when in use on a non-GPU-supported machine, use =False for OFF
+    # drastically improves running times when used on an RTX NVIDIA GPU
+    # if used on a non-RTX NIVIDA GPU, might not improve times and in some cases even slightly increase times, might still be
+    # useful in those cases for VRAM usage reduction if needed
+    use_amp = torch.cuda.is_available()
+    if use_amp:
+        # usually already enabled for TF32 suported GPUs, specified for locking behaviour purposes
+        torch.backends.cuda.matmul.allow_tf32 = True
+        torch.backends.cudnn.allow_tf32 = True
 
-    path_db = 'cullatraldata_one_seventh.txt'
-    #path_db = 'test_db_modified.fa'
+    window_size = 15 # can be 13, 15 or 17 (original paper had 13)
+    n_classes = 8 # should be ONLY 8 or 3 (original paper did 3)
+    # higher batch sizes increase VRAM and RAM usage, but can drastically improve both 
+    # running times and model conversion along epochs
+    batch_size = 128 # can be 20, 32, 64, 128 or how high you can do, higher batch sizes significantly increase memory usage, but also significantly improve running times and epoch converging times
+    n_fold_CV = 3 # should be 10 or 3 (original paper did 3)
+    n_epochs_CNN = 20 # should be 10 or 20 (original paper had 10)
+    n_epochs_softmax = 10 # should be 10
+    n_epochs_lstm = 20 # should be 9, 10 or 20 (original paper had 9)
+    rf_trees = 500 # should be 500 (original paper had 500, optimal value)
+    # weight_CNNs + weight_LSTM_rf = 1.0
+    weight_CNNs = 0.5 # probability weight value for CNN-S (can be either 0.5, 0.3, 0.4 or 0.7)
+    weight_LSTM_rf = 0.5 # probability weight value for LSTM-RF (can be either 0.5, 0.7, 0.6 or 0.3)
+    # dataset fraction taken with the bash command:
+    # $ awk -v max=$(($(grep -c '^>' cullatraldata.txt)/5)) '/^>/{c++} c<=max' cullatraldata.txt > cullatraldata_one_fifth.txt
+    path_db = "cullatraldata_one_fifth.txt" # one fifth of the original dataset, drastically helps with memory usage and running times
+    #path_db = "test_db_modified.fa"
 
     device = "cuda" if torch.cuda.is_available() else "cpu"
 
@@ -93,7 +110,7 @@ if __name__ == "__main__":
         ############################################
         ## model is CNN trained on input dataloader 
         # 
-        model = train_CNN(train_loader=train_loader_CNN, n_classes=n_classes, w_size=window_size, n_epochs=n_epochs_CNN)
+        model = train_CNN(train_loader=train_loader_CNN, n_classes=n_classes, w_size=window_size, n_epochs=n_epochs_CNN, use_amp=use_amp)
 
         ############################################
         ############### CNN evaluation #############
@@ -124,6 +141,12 @@ if __name__ == "__main__":
 
         CNNs_prob_preds, test_accuracy_CNNs, test_precision_CNNs, test_recall_CNNs = evaluate_model(model_CNN=model, test_loader=test_loader_CNN, n_classes=n_classes, softmax=model_softmax)
 
+
+        # free CNN-related memory - models and intermediate variables - to save VRAM, including after each fold
+        del model, model_softmax, ReLU_train_dataset, ReLU_train_loader
+        torch.cuda.empty_cache()
+
+
         ## update ##
         accs_CNNs.append(test_accuracy_CNNs)
         accs_CNN.append(test_accuracy)
@@ -135,7 +158,7 @@ if __name__ == "__main__":
         ############################################
         ############### LSTM training  #############
         ############################################
-        lstm_model = train_LSTM(train_loader_LSTM, n_epochs=n_epochs_lstm, n_classes=n_classes)
+        lstm_model = train_LSTM(train_loader_LSTM, n_epochs=n_epochs_lstm, n_classes=n_classes, use_amp=use_amp)
 
         
         ############## extract features ############
@@ -174,7 +197,7 @@ if __name__ == "__main__":
         ## predicted probabilities from LSTM-RF
         LSTMrf_prob_preds = rf_model.predict_proba(X_test_feats)
 
-        ensemble_prob_preds = ensemble_prediction(pred_CNNs=CNNs_prob_preds, pred_LSTMrf=LSTMrf_prob_preds)
+        ensemble_prob_preds = ensemble_prediction(pred_CNNs=CNNs_prob_preds, pred_LSTMrf=LSTMrf_prob_preds, weight_CNNs=weight_CNNs, weight_LSTM_rf=weight_LSTM_rf)
         ensemble_hard_preds = np.argmax(ensemble_prob_preds, axis=1)
 
         acc_ens, prec_ens, rec_ens = evaluate_rf(y_test_feats, ensemble_hard_preds, n_classes=n_classes)
@@ -183,6 +206,10 @@ if __name__ == "__main__":
         accs_ens.append(acc_ens)
         precs_ens = np.vstack([precs_ens, prec_ens])
 
+
+        # free LSTM-related memory - models and intermediate variables - to save VRAM (and RAM with rf_model), including after each fold
+        del lstm_model, X_train_feats, y_train_feats, X_test_feats, y_test_feats, rf_model
+        torch.cuda.empty_cache()
     
     end_time = time.perf_counter()
 
