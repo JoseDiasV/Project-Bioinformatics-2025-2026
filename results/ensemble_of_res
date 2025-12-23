@@ -35,6 +35,50 @@ Q_C | CNN+Softmax: 0.6195 | LSTM-RF: 0.7505 | CNN: 0.6933 | EN-CSLR: 0.7250
 
     is 8173.669491781853 second
 
+#####################################################################
+EN-CLSR.o15220556
+
+===== Cross-Validation Q8 Results =====
+
+Fold  1 | CNN+Softmax: 0.5587 | LSTM-RF: 0.6797 | CNN: 0.6062 | EN-CSLR: 0.6692
+Fold  2 | CNN+Softmax: 0.5984 | LSTM-RF: 0.6792 | CNN: 0.6013 | EN-CSLR: 0.6779
+Fold  3 | CNN+Softmax: 0.5803 | LSTM-RF: 0.6805 | CNN: 0.5967 | EN-CSLR: 0.6783
+
+===== Average Q8 over Folds =====
+
+Avg CNN+Softmax : 0.5791
+Avg LSTM-RF     : 0.6798
+Avg CNN         : 0.6014
+Avg EN-CSLR     : 0.6751
+
+
+===== Average per-class precision over Folds =====
+
+Q_H | CNN+Softmax: 0.7825 | LSTM-RF: 0.8379 | CNN: 0.7231 | EN-CSLR: 0.8301
+Q_G | CNN+Softmax: 0.2988 | LSTM-RF: 0.4343 | CNN: 0.3352 | EN-CSLR: 0.5280
+Q_I | CNN+Softmax: 0.0000 | LSTM-RF: 0.0000 | CNN: 0.0000 | EN-CSLR: 0.0000
+Q_E | CNN+Softmax: 0.6172 | LSTM-RF: 0.7346 | CNN: 0.6371 | EN-CSLR: 0.7100
+Q_B | CNN+Softmax: 0.3284 | LSTM-RF: 0.2671 | CNN: 0.2267 | EN-CSLR: 0.4952
+Q_T | CNN+Softmax: 0.3225 | LSTM-RF: 0.5170 | CNN: 0.4047 | EN-CSLR: 0.4566
+Q_S | CNN+Softmax: 0.2664 | LSTM-RF: 0.3799 | CNN: 0.2974 | EN-CSLR: 0.4228
+Q_C | CNN+Softmax: 0.5176 | LSTM-RF: 0.5386 | CNN: 0.4698 | EN-CSLR: 0.5625
+
+    Time needed for:
+
+    	3-fold crossvalidation
+
+    	10 epochs of CNN training
+
+    	9 epochs of LSTM training
+
+    	100 epochs of SoftMax training
+
+
+    	 11 window size 
+
+    is 28347.29373022029 seconds
+    
+
     #################################################################
 
 EN-CLSR.o15214260
