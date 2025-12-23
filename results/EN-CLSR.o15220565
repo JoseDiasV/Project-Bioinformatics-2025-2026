@@ -1,0 +1,4928 @@
+Running EN-CLSR training from  /storage/brno2/home/mbryja/Project-Bioinformatics-2025-2026/astral_cull_DATA_mixed_prec_2  on GPU.GPU-1ba78c3b-f311-b76e-bba2-d7b94cf9d980 at cluster :: fobos7.meta.zcu.cz
+Protein 1AMT_A has length of 20, which is less than required (30)
+Protein 1EDN_A has length of 21, which is less than required (30)
+Protein 1GJ7_A has length of 10, which is less than required (30)
+Protein 1HTM_A has length of 5, which is less than required (30)
+Protein 1LU0_A has length of 29, which is less than required (30)
+Protein 1NU7_A has length of 28, which is less than required (30)
+Protein 1O06_A has length of 20, which is less than required (30)
+Protein 1P9I_A has length of 29, which is less than required (30)
+Protein 1PJM_A has length of 20, which is less than required (30)
+Protein 1PJN_A has length of 21, which is less than required (30)
+Protein 1Q1S_A has length of 5, which is less than required (30)
+Protein 1QD6_A has length of 13, which is less than required (30)
+Protein 1QOW_A has length of 19, which is less than required (30)
+Protein 1SN9_A has length of 21, which is less than required (30)
+Protein 1VQ8_A has length of 1, which is less than required (30)
+Protein 1VQO_A has length of 1, which is less than required (30)
+Protein 1VRZ_A has length of 13, which is less than required (30)
+Protein 1VZJ_A has length of 26, which is less than required (30)
+Protein 1XF5_A has length of 16, which is less than required (30)
+Protein 1XOK_A has length of 15, which is less than required (30)
+Protein 1YCP_A has length of 29, which is less than required (30)
+Protein 2C5K_A has length of 22, which is less than required (30)
+Protein 2DPR_A has length of 21, which is less than required (30)
+Protein 2MLT_A has length of 26, which is less than required (30)
+Loading pssm of: 12AS_A
+Loading pssm of: 16VP_A
+Loading pssm of: 1A0E_A
+Loading pssm of: 1A0I_A
+Loading pssm of: 1A1X_A
+Loading pssm of: 1A2X_A
+Loading pssm of: 1A41_A
+Loading pssm of: 1A5T_A
+Loading pssm of: 1A62_A
+Loading pssm of: 1A73_A
+Loading pssm of: 1A7J_A
+Loading pssm of: 1A8L_A
+Loading pssm of: 1A92_A
+Loading pssm of: 1A9N_A
+Loading pssm of: 1A9X_A
+Loading pssm of: 1AE9_A
+Loading pssm of: 1AEP_A
+Loading pssm of: 1AH7_A
+Loading pssm of: 1AHO_A
+Loading pssm of: 1AHS_A
+Loading pssm of: 1AIS_A
+Loading pssm of: 1ALU_A
+Loading pssm of: 1ALY_A
+Loading pssm of: 1AM7_A
+Loading pssm of: 1AOC_A
+Loading pssm of: 1AOL_A
+Loading pssm of: 1AQZ_A
+Loading pssm of: 1ARO_A
+Loading pssm of: 1ATG_A
+Loading pssm of: 1ATZ_A
+Loading pssm of: 1AVG_A
+Loading pssm of: 1AVO_A
+Loading pssm of: 1AX8_A
+Loading pssm of: 1AYO_A
+Loading pssm of: 1AZO_A
+Loading pssm of: 1B0B_A
+Loading pssm of: 1B25_A
+Loading pssm of: 1B33_A
+Loading pssm of: 1B35_A
+Loading pssm of: 1B3T_A
+Loading pssm of: 1B3U_A
+Loading pssm of: 1B4F_A
+Loading pssm of: 1B5E_A
+Loading pssm of: 1B5Q_A
+Loading pssm of: 1B63_A
+Loading pssm of: 1B77_A
+Loading pssm of: 1B8K_A
+Loading pssm of: 1B9L_A
+Loading pssm of: 1B9W_A
+Loading pssm of: 1BB1_A
+Loading pssm of: 1BCO_A
+Loading pssm of: 1BCP_A
+Loading pssm of: 1BCS_A
+Loading pssm of: 1BDF_A
+Loading pssm of: 1BEA_A
+Loading pssm of: 1BF2_A
+Loading pssm of: 1BG6_A
+Loading pssm of: 1BGC_A
+Loading pssm of: 1BGF_A
+Loading pssm of: 1BGV_A
+Loading pssm of: 1BH9_A
+Loading pssm of: 1BHE_A
+Loading pssm of: 1BJA_A
+Loading pssm of: 1BKR_A
+Loading pssm of: 1BL0_A
+Loading pssm of: 1BM8_A
+Loading pssm of: 1BM9_A
+Loading pssm of: 1BOO_A
+Loading pssm of: 1BQU_A
+Loading pssm of: 1BRT_A
+Loading pssm of: 1BTE_A
+Loading pssm of: 1BTK_A
+Loading pssm of: 1BU8_A
+Loading pssm of: 1BVO_A
+Loading pssm of: 1BVY_A
+Loading pssm of: 1BX7_A
+Loading pssm of: 1BXE_A
+Loading pssm of: 1BXY_A
+Loading pssm of: 1BYF_A
+Loading pssm of: 1BYI_A
+Loading pssm of: 1BYR_A
+Loading pssm of: 1C0A_A
+Loading pssm of: 1C0P_A
+Loading pssm of: 1C1D_A
+Loading pssm of: 1C1K_A
+Loading pssm of: 1C1Y_A
+Loading pssm of: 1C3C_A
+Loading pssm of: 1C4O_A
+Loading pssm of: 1C4Q_A
+Loading pssm of: 1C5E_A
+Loading pssm of: 1C6V_A
+Loading pssm of: 1C7K_A
+Loading pssm of: 1C8B_A
+Loading pssm of: 1C8N_A
+Loading pssm of: 1C8U_A
+Loading pssm of: 1C94_A
+Loading pssm of: 1C9K_A
+Loading pssm of: 1CB8_A
+Loading pssm of: 1CC8_A
+Loading pssm of: 1CCW_A
+Loading pssm of: 1CCZ_A
+Loading pssm of: 1CF7_A
+Loading pssm of: 1CFB_A
+Loading pssm of: 1CFR_A
+Loading pssm of: 1CFZ_A
+Loading pssm of: 1CG2_A
+Loading pssm of: 1CHD_A
+Loading pssm of: 1CHM_A
+Loading pssm of: 1CI0_A
+Loading pssm of: 1CI4_A
+Loading pssm of: 1CID_A
+Loading pssm of: 1CJA_A
+Loading pssm of: 1CJW_A
+Loading pssm of: 1CKM_A
+Loading pssm of: 1CL8_A
+Loading pssm of: 1CLV_A
+Loading pssm of: 1CN3_A
+Loading pssm of: 1CNT_A
+Loading pssm of: 1COL_A
+Loading pssm of: 1CQ3_A
+Loading pssm of: 1CR1_A
+Loading pssm of: 1CR5_A
+Loading pssm of: 1CS0_A
+Loading pssm of: 1CSH_A
+Loading pssm of: 1CTF_A
+Loading pssm of: 1CUK_A
+Loading pssm of: 1CV8_A
+Loading pssm of: 1CWV_A
+Loading pssm of: 1CXQ_A
+Loading pssm of: 1CXZ_A
+Loading pssm of: 1CY5_A
+Loading pssm of: 1CYW_A
+Loading pssm of: 1D02_A
+Loading pssm of: 1D0D_A
+Loading pssm of: 1D0Q_A
+Loading pssm of: 1D2N_A
+Loading pssm of: 1D2O_A
+Loading pssm of: 1D2S_A
+Loading pssm of: 1D2T_A
+Loading pssm of: 1D2Z_A
+Loading pssm of: 1D3B_A
+Loading pssm of: 1D3Y_A
+Loading pssm of: 1D4A_A
+Loading pssm of: 1D4O_A
+Loading pssm of: 1D4T_A
+Loading pssm of: 1D5T_A
+Loading pssm of: 1D8H_A
+Loading pssm of: 1D8W_A
+Loading pssm of: 1D9C_A
+Loading pssm of: 1DAB_A
+Loading pssm of: 1DBH_A
+Loading pssm of: 1DBW_A
+Loading pssm of: 1DC1_A
+Loading pssm of: 1DCF_A
+Loading pssm of: 1DCS_A
+Loading pssm of: 1DD9_A
+Loading pssm of: 1DDL_A
+Loading pssm of: 1DDW_A
+Loading pssm of: 1DEK_A
+Loading pssm of: 1DEV_A
+Loading pssm of: 1DFM_A
+Loading pssm of: 1DFU_A
+Loading pssm of: 1DG6_A
+Loading pssm of: 1DI0_A
+Loading pssm of: 1DJ0_A
+Loading pssm of: 1DJ7_A
+Loading pssm of: 1DJ8_A
+Loading pssm of: 1DK8_A
+Loading pssm of: 1DKG_A
+Loading pssm of: 1DLE_A
+Loading pssm of: 1DLF_A
+Loading pssm of: 1DM9_A
+Loading pssm of: 1DMG_A
+Loading pssm of: 1DML_A
+Loading pssm of: 1DMU_A
+Loading pssm of: 1DOW_A
+Loading pssm of: 1DP4_A
+Loading pssm of: 1DP7_A
+Loading pssm of: 1DPG_A
+Loading pssm of: 1DPJ_A
+Loading pssm of: 1DQG_A
+Loading pssm of: 1DQP_A
+Loading pssm of: 1DS1_A
+Loading pssm of: 1DTD_A
+Loading pssm of: 1DUN_A
+Loading pssm of: 1DVA_A
+Loading pssm of: 1DVK_A
+Loading pssm of: 1DVO_A
+Loading pssm of: 1DWK_A
+Loading pssm of: 1DXG_A
+Loading pssm of: 1DY5_A
+Loading pssm of: 1DYN_A
+Loading pssm of: 1DYP_A
+Loading pssm of: 1DZF_A
+Loading pssm of: 1DZK_A
+Loading pssm of: 1E0B_A
+Loading pssm of: 1E0C_A
+Loading pssm of: 1E2K_A
+Loading pssm of: 1E2W_A
+Loading pssm of: 1E30_A
+Loading pssm of: 1E44_A
+Loading pssm of: 1E58_A
+Loading pssm of: 1E5K_A
+Loading pssm of: 1E6U_A
+Loading pssm of: 1E7L_A
+Loading pssm of: 1E94_A
+Loading pssm of: 1E9R_A
+Loading pssm of: 1EAJ_A
+Loading pssm of: 1EAQ_A
+Loading pssm of: 1EAY_A
+Loading pssm of: 1EAZ_A
+Loading pssm of: 1EB6_A
+Loading pssm of: 1EBA_A
+Loading pssm of: 1EDZ_A
+Loading pssm of: 1EEJ_A
+Loading pssm of: 1EER_A
+Loading pssm of: 1EEX_A
+Loading pssm of: 1EF1_A
+Loading pssm of: 1EFD_A
+Loading pssm of: 1EFY_A
+Loading pssm of: 1EGW_A
+Loading pssm of: 1EHY_A
+Loading pssm of: 1EI5_A
+Loading pssm of: 1EI7_A
+Loading pssm of: 1EI9_A
+Loading pssm of: 1EJ8_A
+Loading pssm of: 1EJD_A
+Loading pssm of: 1EJF_A
+Loading pssm of: 1EJG_A
+Loading pssm of: 1EK9_A
+Loading pssm of: 1EKQ_A
+Loading pssm of: 1ELK_A
+Loading pssm of: 1ELU_A
+Loading pssm of: 1ELW_A
+Loading pssm of: 1EM9_A
+Loading pssm of: 1EOK_A
+Loading pssm of: 1EP3_A
+Loading pssm of: 1EPF_A
+Loading pssm of: 1EPU_A
+Loading pssm of: 1EQ2_A
+Loading pssm of: 1ES5_A
+Loading pssm of: 1ES9_A
+Loading pssm of: 1ESC_A
+Loading pssm of: 1ET1_A
+Loading pssm of: 1ETE_A
+Loading pssm of: 1EU1_A
+Loading pssm of: 1EUV_A
+Loading pssm of: 1EUW_A
+Loading pssm of: 1EV7_A
+Loading pssm of: 1EVL_A
+Loading pssm of: 1EVS_A
+Loading pssm of: 1EW4_A
+Loading pssm of: 1EWF_A
+Loading pssm of: 1EZ3_A
+Loading pssm of: 1EZG_A
+Loading pssm of: 1EZI_A
+Loading pssm of: 1EZJ_A
+Loading pssm of: 1F00_A
+Loading pssm of: 1F0K_A
+Loading pssm of: 1F0L_A
+Loading pssm of: 1F0X_A
+Loading pssm of: 1F1E_A
+Loading pssm of: 1F1M_A
+Loading pssm of: 1F2L_A
+Loading pssm of: 1F2T_A
+Loading pssm of: 1F32_A
+Loading pssm of: 1F35_A
+Loading pssm of: 1F3M_A
+Loading pssm of: 1F3U_A
+Loading pssm of: 1F3V_A
+Loading pssm of: 1F45_A
+Loading pssm of: 1F46_A
+Loading pssm of: 1F59_A
+Loading pssm of: 1F5N_A
+Loading pssm of: 1F5Q_A
+Loading pssm of: 1F5V_A
+Loading pssm of: 1F60_A
+Loading pssm of: 1F86_A
+Loading pssm of: 1F8E_A
+Loading pssm of: 1F9V_A
+Loading pssm of: 1FC3_A
+Loading pssm of: 1FC6_A
+Loading pssm of: 1FCQ_A
+Loading pssm of: 1FCY_A
+Loading pssm of: 1FEP_A
+Loading pssm of: 1FEU_A
+Loading pssm of: 1FFY_A
+There was an error loading PSSM of 1FFY_A: No columns to parse from file
+REMOVING from dataset
+Loading pssm of: 1FG7_A
+Loading pssm of: 1FI8_A
+Loading pssm of: 1FIU_A
+Loading pssm of: 1FIW_A
+Loading pssm of: 1FJ2_A
+Loading pssm of: 1FJH_A
+Loading pssm of: 1FJR_A
+Loading pssm of: 1FKM_A
+Loading pssm of: 1FLO_A
+Loading pssm of: 1FLT_A
+Loading pssm of: 1FM0_A
+Loading pssm of: 1FN9_A
+Loading pssm of: 1FNN_A
+Loading pssm of: 1FO0_A
+Loading pssm of: 1FO8_A
+Loading pssm of: 1FOB_A
+Loading pssm of: 1FOE_A
+Loading pssm of: 1FP2_A
+Loading pssm of: 1FPO_A
+Loading pssm of: 1FPZ_A
+Loading pssm of: 1FQJ_A
+Loading pssm of: 1FS0_A
+Loading pssm of: 1FS7_A
+Loading pssm of: 1FSG_A
+Loading pssm of: 1FT5_A
+Loading pssm of: 1FTR_A
+Loading pssm of: 1FV1_A
+Loading pssm of: 1FVI_A
+Loading pssm of: 1FXK_A
+Loading pssm of: 1FYE_A
+Loading pssm of: 1G0Y_A
+Loading pssm of: 1G12_A
+Loading pssm of: 1G1S_A
+Loading pssm of: 1G2R_A
+Loading pssm of: 1G2Y_A
+Loading pssm of: 1G31_A
+Loading pssm of: 1G3K_A
+Loading pssm of: 1G3P_A
+Loading pssm of: 1G55_A
+Loading pssm of: 1G5A_A
+Loading pssm of: 1G5H_A
+Loading pssm of: 1G5T_A
+Loading pssm of: 1G60_A
+Loading pssm of: 1G61_A
+Loading pssm of: 1G66_A
+Loading pssm of: 1G6G_A
+Loading pssm of: 1G6H_A
+Loading pssm of: 1G6X_A
+Loading pssm of: 1G8A_A
+Loading pssm of: 1G8E_A
+Loading pssm of: 1G8K_A
+Loading pssm of: 1G8M_A
+Loading pssm of: 1G8P_A
+Loading pssm of: 1G8Q_A
+Loading pssm of: 1GA6_A
+Loading pssm of: 1GA8_A
+Loading pssm of: 1GAK_A
+Loading pssm of: 1GCI_A
+Loading pssm of: 1GHE_A
+Loading pssm of: 1GJW_A
+Loading pssm of: 1GK6_A
+Loading pssm of: 1GK9_A
+Loading pssm of: 1GKM_A
+Loading pssm of: 1GL4_A
+Loading pssm of: 1GMI_A
+Loading pssm of: 1GML_A
+Loading pssm of: 1GMU_A
+Loading pssm of: 1GMX_A
+Loading pssm of: 1GNL_A
+Loading pssm of: 1GNY_A
+Loading pssm of: 1GO3_A
+Loading pssm of: 1GO4_A
+Loading pssm of: 1GP0_A
+Loading pssm of: 1GP6_A
+Loading pssm of: 1GPJ_A
+Loading pssm of: 1GPP_A
+Loading pssm of: 1GPR_A
+Loading pssm of: 1GQE_A
+Loading pssm of: 1GQI_A
+Loading pssm of: 1GS5_A
+Loading pssm of: 1GS9_A
+Loading pssm of: 1GSA_A
+Loading pssm of: 1GSM_A
+Loading pssm of: 1GTT_A
+Loading pssm of: 1GU2_A
+Loading pssm of: 1GU3_A
+Loading pssm of: 1GU4_A
+Loading pssm of: 1GU7_A
+Loading pssm of: 1GU9_A
+Loading pssm of: 1GUI_A
+Loading pssm of: 1GUT_A
+Loading pssm of: 1GV9_A
+Loading pssm of: 1GVE_A
+Loading pssm of: 1GVF_A
+Loading pssm of: 1GVN_A
+Loading pssm of: 1GVP_A
+Loading pssm of: 1GWE_A
+Loading pssm of: 1GWM_A
+Loading pssm of: 1GXC_A
+Loading pssm of: 1GXM_A
+Loading pssm of: 1GXR_A
+Loading pssm of: 1GXU_A
+Loading pssm of: 1GXY_A
+Loading pssm of: 1GY7_A
+Loading pssm of: 1GYX_A
+Loading pssm of: 1GZS_A
+Loading pssm of: 1H0H_A
+Loading pssm of: 1H12_A
+Loading pssm of: 1H16_A
+Loading pssm of: 1H21_A
+Loading pssm of: 1H2B_A
+Loading pssm of: 1H2C_A
+Loading pssm of: 1H2K_A
+Loading pssm of: 1H2S_A
+Loading pssm of: 1H30_A
+Loading pssm of: 1H32_A
+Loading pssm of: 1H3O_A
+Loading pssm of: 1H4A_A
+Loading pssm of: 1H4X_A
+Loading pssm of: 1H5W_A
+Loading pssm of: 1H6D_A
+Loading pssm of: 1H6F_A
+Loading pssm of: 1H6G_A
+Loading pssm of: 1H6H_A
+Loading pssm of: 1H6K_A
+Loading pssm of: 1H6Y_A
+Loading pssm of: 1H72_A
+Loading pssm of: 1H80_A
+Loading pssm of: 1H8P_A
+Loading pssm of: 1H97_A
+Loading pssm of: 1H99_A
+Loading pssm of: 1HCU_A
+Loading pssm of: 1HDH_A
+Loading pssm of: 1HDO_A
+Loading pssm of: 1HE1_A
+Loading pssm of: 1HEK_A
+Loading pssm of: 1HF2_A
+Loading pssm of: 1HFE_A
+Loading pssm of: 1HH8_A
+Loading pssm of: 1HI9_A
+Loading pssm of: 1HJ6_A
+Loading pssm of: 1HK8_A
+Loading pssm of: 1HKQ_A
+Loading pssm of: 1HLB_A
+Loading pssm of: 1HLV_A
+Loading pssm of: 1HN0_A
+Loading pssm of: 1HO8_A
+Loading pssm of: 1HP1_A
+Loading pssm of: 1HQ0_A
+Loading pssm of: 1HQ1_A
+Loading pssm of: 1HQZ_A
+Loading pssm of: 1HR6_A
+Loading pssm of: 1HR8_A
+Loading pssm of: 1HRU_A
+Loading pssm of: 1HTR_A
+Loading pssm of: 1HTW_A
+Loading pssm of: 1HUL_A
+Loading pssm of: 1HUW_A
+Loading pssm of: 1HW7_A
+Loading pssm of: 1HX3_A
+Loading pssm of: 1HX6_A
+Loading pssm of: 1HX8_A
+Loading pssm of: 1HXI_A
+Loading pssm of: 1HXN_A
+Loading pssm of: 1HXR_A
+Loading pssm of: 1HYH_A
+Loading pssm of: 1HYN_A
+Loading pssm of: 1HYO_A
+Loading pssm of: 1HZ4_A
+Loading pssm of: 1HZ6_A
+Loading pssm of: 1HZT_A
+Loading pssm of: 1I07_A
+Loading pssm of: 1I0R_A
+Loading pssm of: 1I12_A
+Loading pssm of: 1I1Q_A
+Loading pssm of: 1I1R_A
+Loading pssm of: 1I1W_A
+Loading pssm of: 1I24_A
+Loading pssm of: 1I27_A
+Loading pssm of: 1I2K_A
+Loading pssm of: 1I2T_A
+Loading pssm of: 1I3J_A
+Loading pssm of: 1I4D_A
+Loading pssm of: 1I4J_A
+Loading pssm of: 1I4U_A
+Loading pssm of: 1I4W_A
+Loading pssm of: 1I58_A
+Loading pssm of: 1I5P_A
+Loading pssm of: 1I60_A
+Loading pssm of: 1I71_A
+Loading pssm of: 1I7D_A
+Loading pssm of: 1I7W_A
+Loading pssm of: 1I88_A
+Loading pssm of: 1I8A_A
+Loading pssm of: 1I8N_A
+Loading pssm of: 1I9Z_A
+Loading pssm of: 1IAP_A
+Loading pssm of: 1IAR_A
+Loading pssm of: 1ID0_A
+Loading pssm of: 1ID1_A
+Loading pssm of: 1IDP_A
+Loading pssm of: 1IFR_A
+Loading pssm of: 1IGQ_A
+Loading pssm of: 1II5_A
+Loading pssm of: 1IIB_A
+Loading pssm of: 1IJ5_A
+Loading pssm of: 1IK9_A
+Loading pssm of: 1IKT_A
+Loading pssm of: 1IM3_A
+Loading pssm of: 1IN4_A
+Loading pssm of: 1INL_A
+Loading pssm of: 1IO0_A
+Loading pssm of: 1IOM_A
+Loading pssm of: 1IQ4_A
+Loading pssm of: 1IQ5_A
+Loading pssm of: 1IQZ_A
+Loading pssm of: 1IRQ_A
+Loading pssm of: 1IRX_A
+Loading pssm of: 1IS3_A
+Loading pssm of: 1ISU_A
+Loading pssm of: 1IT2_A
+Loading pssm of: 1ITB_A
+Loading pssm of: 1ITH_A
+Loading pssm of: 1IUJ_A
+Loading pssm of: 1IUQ_A
+Loading pssm of: 1IX9_A
+Loading pssm of: 1IXH_A
+Loading pssm of: 1IXL_A
+Loading pssm of: 1IXM_A
+Loading pssm of: 1IXV_A
+Loading pssm of: 1IZC_A
+Loading pssm of: 1IZM_A
+Loading pssm of: 1J0P_A
+Loading pssm of: 1J1T_A
+Loading pssm of: 1J24_A
+Loading pssm of: 1J27_A
+Loading pssm of: 1J2J_A
+Loading pssm of: 1J34_A
+Loading pssm of: 1J3A_A
+Loading pssm of: 1J3W_A
+Loading pssm of: 1J4A_A
+Loading pssm of: 1J5U_A
+Loading pssm of: 1J5W_A
+Loading pssm of: 1J5Y_A
+Loading pssm of: 1J6R_A
+Loading pssm of: 1J77_A
+Loading pssm of: 1J7D_A
+Loading pssm of: 1J7X_A
+Loading pssm of: 1J83_A
+Loading pssm of: 1J8B_A
+Loading pssm of: 1J98_A
+Loading pssm of: 1JAD_A
+Loading pssm of: 1JAY_A
+Loading pssm of: 1JB0_A
+Loading pssm of: 1JB3_A
+Loading pssm of: 1JB7_A
+Loading pssm of: 1JBE_A
+Loading pssm of: 1JCD_A
+Loading pssm of: 1JDC_A
+Loading pssm of: 1JDH_A
+Loading pssm of: 1JDP_A
+Loading pssm of: 1JDW_A
+Loading pssm of: 1JE5_A
+Loading pssm of: 1JEK_A
+Loading pssm of: 1JET_A
+Loading pssm of: 1JEY_A
+Loading pssm of: 1JF3_A
+Loading pssm of: 1JFB_A
+Loading pssm of: 1JFI_A
+Loading pssm of: 1JFU_A
+Loading pssm of: 1JG1_A
+Loading pssm of: 1JG5_A
+Loading pssm of: 1JH6_A
+Loading pssm of: 1JHC_A
+Loading pssm of: 1JHG_A
+Loading pssm of: 1JHJ_A
+Loading pssm of: 1JHS_A
+Loading pssm of: 1JI7_A
+Loading pssm of: 1JID_A
+Loading pssm of: 1JIW_A
+Loading pssm of: 1JIX_A
+Loading pssm of: 1JKE_A
+Loading pssm of: 1JL1_A
+Loading pssm of: 1JL5_A
+Loading pssm of: 1JLY_A
+Loading pssm of: 1JM1_A
+Loading pssm of: 1JMK_A
+Loading pssm of: 1JMU_A
+Loading pssm of: 1JMV_A
+Loading pssm of: 1JNR_A
+Loading pssm of: 1JO0_A
+Loading pssm of: 1JOF_A
+Loading pssm of: 1JOG_A
+Loading pssm of: 1JOS_A
+Loading pssm of: 1JOV_A
+Loading pssm of: 1JQL_A
+Loading pssm of: 1JR2_A
+Loading pssm of: 1JR7_A
+Loading pssm of: 1JS8_A
+Loading pssm of: 1JSU_A
+Loading pssm of: 1JTV_A
+Loading pssm of: 1JU2_A
+Loading pssm of: 1JUH_A
+Loading pssm of: 1JUV_A
+Loading pssm of: 1JW9_A
+Loading pssm of: 1JX6_A
+Loading pssm of: 1JX7_A
+Loading pssm of: 1JY1_A
+Loading pssm of: 1JY2_A
+Loading pssm of: 1JYA_A
+Loading pssm of: 1JYE_A
+Loading pssm of: 1JYH_A
+Loading pssm of: 1JYK_A
+Loading pssm of: 1JYO_A
+Loading pssm of: 1JZ8_A
+Loading pssm of: 1JZT_A
+Loading pssm of: 1K0I_A
+Loading pssm of: 1K1F_A
+Loading pssm of: 1K1X_A
+Loading pssm of: 1K32_A
+Loading pssm of: 1K3I_A
+Loading pssm of: 1K3S_A
+Loading pssm of: 1K3X_A
+Loading pssm of: 1K4I_A
+Loading pssm of: 1K4N_A
+Loading pssm of: 1K4Z_A
+Loading pssm of: 1K5C_A
+Loading pssm of: 1K5N_A
+Loading pssm of: 1K6K_A
+Loading pssm of: 1K77_A
+Loading pssm of: 1K78_A
+Loading pssm of: 1K7C_A
+Loading pssm of: 1K7J_A
+Loading pssm of: 1K7W_A
+Loading pssm of: 1K8K_A
+Loading pssm of: 1K8Q_A
+Loading pssm of: 1K8R_A
+Loading pssm of: 1K8U_A
+Loading pssm of: 1K8W_A
+Loading pssm of: 1KA1_A
+Loading pssm of: 1KA8_A
+Loading pssm of: 1KA9_A
+Loading pssm of: 1KAE_A
+Loading pssm of: 1KAF_A
+Loading pssm of: 1KCF_A
+Loading pssm of: 1KCM_A
+Loading pssm of: 1KDG_A
+Loading pssm of: 1KF6_A
+Loading pssm of: 1KGD_A
+Loading pssm of: 1KHX_A
+Loading pssm of: 1KHY_A
+Loading pssm of: 1KIL_A
+Loading pssm of: 1KJN_A
+Loading pssm of: 1KJQ_A
+Loading pssm of: 1KKO_A
+Loading pssm of: 1KLX_A
+Loading pssm of: 1KMI_A
+Loading pssm of: 1KMO_A
+Loading pssm of: 1KMT_A
+Loading pssm of: 1KNG_A
+Loading pssm of: 1KNY_A
+Loading pssm of: 1KO6_A
+Loading pssm of: 1KO7_A
+Loading pssm of: 1KOE_A
+Loading pssm of: 1KOL_A
+Loading pssm of: 1KP6_A
+Loading pssm of: 1KPG_A
+Loading pssm of: 1KPT_A
+Loading pssm of: 1KQ3_A
+Loading pssm of: 1KQ6_A
+Loading pssm of: 1KQF_A
+Loading pssm of: 1KQP_A
+Loading pssm of: 1KT6_A
+Loading pssm of: 1KU3_A
+Loading pssm of: 1KVE_A
+Loading pssm of: 1KVK_A
+Loading pssm of: 1KWA_A
+Loading pssm of: 1KWF_A
+Loading pssm of: 1KXG_A
+Loading pssm of: 1KXO_A
+Loading pssm of: 1KXP_A
+Loading pssm of: 1KXU_A
+Loading pssm of: 1KYF_A
+Loading pssm of: 1KYQ_A
+Loading pssm of: 1KZF_A
+Loading pssm of: 1KZQ_A
+Loading pssm of: 1KZY_A
+Loading pssm of: 1L0S_A
+Loading pssm of: 1L1L_A
+Loading pssm of: 1L1O_A
+Loading pssm of: 1L2P_A
+Loading pssm of: 1L2W_A
+Loading pssm of: 1L3K_A
+Loading pssm of: 1L3L_A
+Loading pssm of: 1L3P_A
+Loading pssm of: 1L4D_A
+Loading pssm of: 1L6P_A
+Loading pssm of: 1L6R_A
+Loading pssm of: 1L7A_A
+Loading pssm of: 1L8D_A
+Loading pssm of: 1L8W_A
+Loading pssm of: 1L9L_A
+Loading pssm of: 1L9X_A
+Loading pssm of: 1LB6_A
+Loading pssm of: 1LBQ_A
+Loading pssm of: 1LBU_A
+Loading pssm of: 1LC0_A
+Loading pssm of: 1LC5_A
+Loading pssm of: 1LF6_A
+Loading pssm of: 1LF7_A
+Loading pssm of: 1LFO_A
+Loading pssm of: 1LFP_A
+Loading pssm of: 1LFW_A
+Loading pssm of: 1LJ2_A
+Loading pssm of: 1LJ8_A
+Loading pssm of: 1LKI_A
+Loading pssm of: 1LKK_A
+Loading pssm of: 1LKT_A
+Loading pssm of: 1LLF_A
+Loading pssm of: 1LM8_A
+Loading pssm of: 1LMI_A
+Loading pssm of: 1LML_A
+Loading pssm of: 1LN1_A
+Loading pssm of: 1LNI_A
+Loading pssm of: 1LNS_A
+Loading pssm of: 1LO7_A
+Loading pssm of: 1LPB_A
+Loading pssm of: 1LQ9_A
+Loading pssm of: 1LQT_A
+Loading pssm of: 1LQV_A
+Loading pssm of: 1LR0_A
+Loading pssm of: 1LR5_A
+Loading pssm of: 1LRZ_A
+Loading pssm of: 1LS1_A
+Loading pssm of: 1LSH_A
+Loading pssm of: 1LTS_A
+Loading pssm of: 1LU4_A
+Loading pssm of: 1LUA_A
+Loading pssm of: 1LUC_A
+Loading pssm of: 1LUZ_A
+Loading pssm of: 1LV7_A
+Loading pssm of: 1LW7_A
+Loading pssm of: 1LWB_A
+Loading pssm of: 1LXJ_A
+Loading pssm of: 1LY1_A
+Loading pssm of: 1LZL_A
+Loading pssm of: 1M0D_A
+Loading pssm of: 1M0K_A
+Loading pssm of: 1M0W_A
+Loading pssm of: 1M15_A
+Loading pssm of: 1M1E_A
+Loading pssm of: 1M1F_A
+Loading pssm of: 1M1Q_A
+Loading pssm of: 1M1S_A
+Loading pssm of: 1M1Z_A
+Loading pssm of: 1M22_A
+Loading pssm of: 1M2D_A
+Loading pssm of: 1M32_A
+Loading pssm of: 1M3W_A
+Loading pssm of: 1M3Y_A
+Loading pssm of: 1M45_A
+Loading pssm of: 1M46_A
+Loading pssm of: 1M4I_A
+Loading pssm of: 1M4J_A
+Loading pssm of: 1M4L_A
+Loading pssm of: 1M4U_A
+Loading pssm of: 1M55_A
+Loading pssm of: 1M56_A
+Loading pssm of: 1M5I_A
+Loading pssm of: 1M5N_A
+Loading pssm of: 1M5Q_A
+Loading pssm of: 1M6S_A
+Loading pssm of: 1M6Y_A
+Loading pssm of: 1M70_A
+Loading pssm of: 1M9Z_A
+Loading pssm of: 1MAI_A
+Loading pssm of: 1MC2_A
+Loading pssm of: 1MDA_A
+Loading pssm of: 1MGT_A
+Loading pssm of: 1MIJ_A
+Loading pssm of: 1MIW_A
+Loading pssm of: 1MIX_A
+Loading pssm of: 1MJ5_A
+Loading pssm of: 1MJN_A
+Loading pssm of: 1MK0_A
+Loading pssm of: 1MK4_A
+Loading pssm of: 1MKF_A
+Loading pssm of: 1MKK_A
+Loading pssm of: 1MN8_A
+Loading pssm of: 1MNN_A
+Loading pssm of: 1MO9_A
+Loading pssm of: 1MPG_A
+Loading pssm of: 1MQS_A
+Loading pssm of: 1MRZ_A
+Loading pssm of: 1MS9_A
+Loading pssm of: 1MSC_A
+Loading pssm of: 1MSP_A
+Loading pssm of: 1MSW_A
+Loading pssm of: 1MTP_A
+Loading pssm of: 1MTY_A
+Loading pssm of: 1MTZ_A
+Loading pssm of: 1MUJ_A
+Loading pssm of: 1MUN_A
+Loading pssm of: 1MUS_A
+Loading pssm of: 1MUW_A
+Loading pssm of: 1MVF_A
+Loading pssm of: 1MVL_A
+Loading pssm of: 1MW9_A
+Loading pssm of: 1MWQ_A
+Loading pssm of: 1MWW_A
+Loading pssm of: 1MXE_A
+Loading pssm of: 1MXR_A
+Loading pssm of: 1MY7_A
+Loading pssm of: 1MZ9_A
+Loading pssm of: 1MZW_A
+Loading pssm of: 1N08_A
+Loading pssm of: 1N0W_A
+Loading pssm of: 1N0X_A
+Loading pssm of: 1N12_A
+Loading pssm of: 1N13_A
+Loading pssm of: 1N1C_A
+Loading pssm of: 1N1F_A
+Loading pssm of: 1N2Z_A
+Loading pssm of: 1N35_A
+Loading pssm of: 1N3L_A
+Loading pssm of: 1N4K_A
+Loading pssm of: 1N57_A
+Loading pssm of: 1N5U_A
+Loading pssm of: 1N62_A
+Loading pssm of: 1N6J_A
+Loading pssm of: 1N71_A
+Loading pssm of: 1N7K_A
+Loading pssm of: 1N7S_A
+Loading pssm of: 1N7V_A
+Loading pssm of: 1N7Z_A
+Loading pssm of: 1N81_A
+Loading pssm of: 1N8V_A
+Loading pssm of: 1N93_A
+Loading pssm of: 1N9P_A
+Loading pssm of: 1NA6_A
+Loading pssm of: 1NBW_A
+Loading pssm of: 1NC7_A
+Loading pssm of: 1NE2_A
+Loading pssm of: 1NEP_A
+Loading pssm of: 1NEZ_A
+Loading pssm of: 1NFP_A
+Loading pssm of: 1NG0_A
+Loading pssm of: 1NG2_A
+Loading pssm of: 1NG6_A
+Loading pssm of: 1NGM_A
+Loading pssm of: 1NH1_A
+Loading pssm of: 1NH2_A
+Loading pssm of: 1NI5_A
+Loading pssm of: 1NIG_A
+Loading pssm of: 1NIJ_A
+Loading pssm of: 1NJH_A
+Loading pssm of: 1NJR_A
+Loading pssm of: 1NKD_A
+Loading pssm of: 1NKG_A
+Loading pssm of: 1NKI_A
+Loading pssm of: 1NKO_A
+Loading pssm of: 1NKP_A
+Loading pssm of: 1NKR_A
+Loading pssm of: 1NKZ_A
+Loading pssm of: 1NLF_A
+Loading pssm of: 1NLQ_A
+Loading pssm of: 1NLS_A
+Loading pssm of: 1NNF_A
+Loading pssm of: 1NNL_A
+Loading pssm of: 1NNW_A
+Loading pssm of: 1NNX_A
+Loading pssm of: 1NO7_A
+Loading pssm of: 1NP6_A
+Loading pssm of: 1NQK_A
+Loading pssm of: 1NQZ_A
+Loading pssm of: 1NR0_A
+Loading pssm of: 1NRJ_A
+Loading pssm of: 1NSZ_A
+Loading pssm of: 1NTH_A
+Loading pssm of: 1NTV_A
+Loading pssm of: 1NTY_A
+Loading pssm of: 1NU0_A
+Loading pssm of: 1NUI_A
+Loading pssm of: 1NUU_A
+Loading pssm of: 1NUY_A
+Loading pssm of: 1NV8_A
+Loading pssm of: 1NWZ_A
+Loading pssm of: 1NXH_A
+Loading pssm of: 1NXM_A
+Loading pssm of: 1NXU_A
+Loading pssm of: 1NYC_A
+Loading pssm of: 1NZ0_A
+Loading pssm of: 1NZJ_A
+Loading pssm of: 1NZN_A
+Loading pssm of: 1O13_A
+Loading pssm of: 1O1Y_A
+Loading pssm of: 1O22_A
+Loading pssm of: 1O4W_A
+Loading pssm of: 1O50_A
+Loading pssm of: 1O57_A
+Loading pssm of: 1O59_A
+Loading pssm of: 1O5H_A
+Loading pssm of: 1O5L_A
+Loading pssm of: 1O5U_A
+Loading pssm of: 1O65_A
+Loading pssm of: 1O66_A
+Loading pssm of: 1O69_A
+Loading pssm of: 1O6D_A
+Loading pssm of: 1O75_A
+Loading pssm of: 1O7D_A
+Loading pssm of: 1O7F_A
+Loading pssm of: 1O7I_A
+Loading pssm of: 1O7J_A
+Loading pssm of: 1O7Z_A
+Loading pssm of: 1O88_A
+Loading pssm of: 1O8X_A
+Loading pssm of: 1O94_A
+Loading pssm of: 1O98_A
+Loading pssm of: 1O9G_A
+Loading pssm of: 1O9Y_A
+Loading pssm of: 1OA8_A
+Loading pssm of: 1OAI_A
+Loading pssm of: 1OAO_A
+Loading pssm of: 1OBB_A
+Loading pssm of: 1OBO_A
+Loading pssm of: 1OC0_A
+Loading pssm of: 1OCY_A
+Loading pssm of: 1OD3_A
+Loading pssm of: 1ODF_A
+Loading pssm of: 1ODH_A
+Loading pssm of: 1ODM_A
+Loading pssm of: 1OEY_A
+Loading pssm of: 1OF8_A
+Loading pssm of: 1OFL_A
+Loading pssm of: 1OFU_A
+Loading pssm of: 1OGD_A
+Loading pssm of: 1OGO_A
+Loading pssm of: 1OGQ_A
+Loading pssm of: 1OH0_A
+Loading pssm of: 1OH2_A
+Loading pssm of: 1OH4_A
+Loading pssm of: 1OHU_A
+Loading pssm of: 1OI0_A
+Loading pssm of: 1OI2_A
+Loading pssm of: 1OI7_A
+Loading pssm of: 1OIS_A
+Loading pssm of: 1OJ5_A
+Loading pssm of: 1OJH_A
+Loading pssm of: 1OK0_A
+Loading pssm of: 1OK3_A
+Loading pssm of: 1OKC_A
+Loading pssm of: 1OKG_A
+Loading pssm of: 1OKS_A
+Loading pssm of: 1OLT_A
+Loading pssm of: 1OLZ_A
+Loading pssm of: 1OMZ_A
+Loading pssm of: 1ON0_A
+Loading pssm of: 1ON2_A
+Loading pssm of: 1ONW_A
+Loading pssm of: 1OO0_A
+Loading pssm of: 1OOE_A
+Loading pssm of: 1OQ1_A
+Loading pssm of: 1OQJ_A
+Loading pssm of: 1OR4_A
+Loading pssm of: 1ORN_A
+Loading pssm of: 1ORS_A
+Loading pssm of: 1ORU_A
+Loading pssm of: 1OSY_A
+Loading pssm of: 1OTK_A
+Loading pssm of: 1OU8_A
+Loading pssm of: 1OUW_A
+Loading pssm of: 1OV9_A
+Loading pssm of: 1OW1_A
+Loading pssm of: 1OW4_A
+Loading pssm of: 1OYG_A
+Loading pssm of: 1OZ2_A
+Loading pssm of: 1OZ9_A
+Loading pssm of: 1OZJ_A
+Loading pssm of: 1P1J_A
+Loading pssm of: 1P1M_A
+Loading pssm of: 1P1X_A
+Loading pssm of: 1P2X_A
+Loading pssm of: 1P32_A
+Loading pssm of: 1P35_A
+Loading pssm of: 1P3C_A
+Loading pssm of: 1P3H_A
+Loading pssm of: 1P3Q_A
+Loading pssm of: 1P3Y_A
+Loading pssm of: 1P4T_A
+Loading pssm of: 1P4X_A
+Loading pssm of: 1P57_A
+Loading pssm of: 1P5V_A
+Loading pssm of: 1P5Z_A
+Loading pssm of: 1P65_A
+Loading pssm of: 1P6O_A
+Loading pssm of: 1P90_A
+Loading pssm of: 1P91_A
+Loading pssm of: 1P9G_A
+Loading pssm of: 1P9H_A
+Loading pssm of: 1P9Y_A
+Loading pssm of: 1PAQ_A
+Loading pssm of: 1PBJ_A
+Loading pssm of: 1PBW_A
+Loading pssm of: 1PBY_A
+Loading pssm of: 1PC6_A
+Loading pssm of: 1PCF_A
+Loading pssm of: 1PDO_A
+Loading pssm of: 1PEA_A
+Loading pssm of: 1PF5_A
+Loading pssm of: 1PG4_A
+Loading pssm of: 1PG6_A
+Loading pssm of: 1PIX_A
+Loading pssm of: 1PKH_A
+Loading pssm of: 1PKO_A
+Loading pssm of: 1PL5_A
+Loading pssm of: 1PM4_A
+Loading pssm of: 1PMH_A
+Loading pssm of: 1PN0_A
+Loading pssm of: 1PO5_A
+Loading pssm of: 1POC_A
+Loading pssm of: 1POI_A
+Loading pssm of: 1PP0_A
+Loading pssm of: 1PP7_A
+Loading pssm of: 1PPJ_A
+Loading pssm of: 1PQH_A
+Loading pssm of: 1PSR_A
+Loading pssm of: 1PSW_A
+Loading pssm of: 1PT6_A
+Loading pssm of: 1PU6_A
+Loading pssm of: 1PUC_A
+Loading pssm of: 1PV5_A
+Loading pssm of: 1PVM_A
+Loading pssm of: 1PWW_A
+Loading pssm of: 1PXZ_A
+Loading pssm of: 1PYA_A
+Loading pssm of: 1PYO_A
+Loading pssm of: 1PYT_A
+Loading pssm of: 1PZ4_A
+Loading pssm of: 1PZW_A
+Loading pssm of: 1Q08_A
+Loading pssm of: 1Q0P_A
+Loading pssm of: 1Q0R_A
+Loading pssm of: 1Q15_A
+Loading pssm of: 1Q1F_A
+Loading pssm of: 1Q1H_A
+Loading pssm of: 1Q2H_A
+Loading pssm of: 1Q33_A
+Loading pssm of: 1Q35_A
+Loading pssm of: 1Q3I_A
+Loading pssm of: 1Q40_A
+Loading pssm of: 1Q42_A
+Loading pssm of: 1Q5Y_A
+Loading pssm of: 1Q5Z_A
+Loading pssm of: 1Q67_A
+Loading pssm of: 1Q6O_A
+Loading pssm of: 1Q6Z_A
+Loading pssm of: 1Q74_A
+Loading pssm of: 1Q77_A
+Loading pssm of: 1Q7E_A
+Loading pssm of: 1Q7F_A
+Loading pssm of: 1Q7L_A
+Loading pssm of: 1Q87_A
+Loading pssm of: 1Q8B_A
+Loading pssm of: 1Q8C_A
+Loading pssm of: 1Q8D_A
+Loading pssm of: 1Q9J_A
+Loading pssm of: 1Q9U_A
+Loading pssm of: 1QAM_A
+Loading pssm of: 1QAZ_A
+Loading pssm of: 1QCS_A
+Loading pssm of: 1QCX_A
+Loading pssm of: 1QD1_A
+Loading pssm of: 1QEX_A
+Loading pssm of: 1QF8_A
+Loading pssm of: 1QFH_A
+Loading pssm of: 1QFJ_A
+Loading pssm of: 1QFT_A
+Loading pssm of: 1QG8_A
+Loading pssm of: 1QGR_A
+Loading pssm of: 1QHD_A
+Loading pssm of: 1QHL_A
+Loading pssm of: 1QHX_A
+Loading pssm of: 1QI9_A
+Loading pssm of: 1QJP_A
+Loading pssm of: 1QKR_A
+Loading pssm of: 1QKS_A
+Loading pssm of: 1QLW_A
+Loading pssm of: 1QNA_A
+Loading pssm of: 1QNR_A
+Loading pssm of: 1QO0_A
+Loading pssm of: 1QQ5_A
+Loading pssm of: 1QQE_A
+Loading pssm of: 1QQF_A
+Loading pssm of: 1QQP_A
+Loading pssm of: 1QQR_A
+Loading pssm of: 1QR0_A
+Loading pssm of: 1QSA_A
+Loading pssm of: 1QSM_A
+Loading pssm of: 1QST_A
+Loading pssm of: 1QUU_A
+Loading pssm of: 1QV1_A
+Loading pssm of: 1QV9_A
+Loading pssm of: 1QW2_A
+Loading pssm of: 1QW9_A
+Loading pssm of: 1QWD_A
+Loading pssm of: 1QWG_A
+Loading pssm of: 1QWO_A
+Loading pssm of: 1QWR_A
+Loading pssm of: 1QYI_A
+Loading pssm of: 1QYN_A
+Loading pssm of: 1QYS_A
+Loading pssm of: 1QZ7_A
+Loading pssm of: 1QZG_A
+Loading pssm of: 1QZM_A
+Loading pssm of: 1QZZ_A
+Loading pssm of: 1R0D_A
+Loading pssm of: 1R0M_A
+Loading pssm of: 1R0U_A
+Loading pssm of: 1R1H_A
+Loading pssm of: 1R29_A
+Loading pssm of: 1R2J_A
+Loading pssm of: 1R44_A
+Loading pssm of: 1R45_A
+Loading pssm of: 1R4V_A
+Loading pssm of: 1R4X_A
+Loading pssm of: 1R5M_A
+Loading pssm of: 1R6D_A
+Loading pssm of: 1R6J_A
+Loading pssm of: 1R6W_A
+Loading pssm of: 1R6X_A
+Loading pssm of: 1R71_A
+Loading pssm of: 1R75_A
+Loading pssm of: 1R77_A
+Loading pssm of: 1R7A_A
+Loading pssm of: 1R7J_A
+Loading pssm of: 1R89_A
+Loading pssm of: 1R8E_A
+Loading pssm of: 1R8G_A
+Loading pssm of: 1R8I_A
+Loading pssm of: 1R9L_A
+Loading pssm of: 1R9W_A
+Loading pssm of: 1RA0_A
+Loading pssm of: 1RCQ_A
+Loading pssm of: 1RCW_A
+Loading pssm of: 1RDQ_A
+Loading pssm of: 1RDT_A
+Loading pssm of: 1REG_A
+Loading pssm of: 1REP_A
+Loading pssm of: 1REQ_A
+Loading pssm of: 1RF6_A
+Loading pssm of: 1RFE_A
+Loading pssm of: 1RFY_A
+Loading pssm of: 1RG8_A
+Loading pssm of: 1RGX_A
+Loading pssm of: 1RH6_A
+Loading pssm of: 1RHS_A
+Loading pssm of: 1RI5_A
+Loading pssm of: 1RI6_A
+Loading pssm of: 1RIF_A
+Loading pssm of: 1RJ7_A
+Loading pssm of: 1RJD_A
+Loading pssm of: 1RJU_A
+Loading pssm of: 1RK6_A
+Loading pssm of: 1RK8_A
+Loading pssm of: 1RKI_A
+Loading pssm of: 1RKQ_A
+Loading pssm of: 1RKT_A
+Loading pssm of: 1RKU_A
+Loading pssm of: 1RL0_A
+Loading pssm of: 1RL6_A
+Loading pssm of: 1RLI_A
+Loading pssm of: 1RLZ_A
+Loading pssm of: 1RMG_A
+Loading pssm of: 1RO2_A
+Loading pssm of: 1RO7_A
+Loading pssm of: 1ROC_A
+Loading pssm of: 1RP0_A
+Loading pssm of: 1RP3_A
+Loading pssm of: 1RPQ_A
+Loading pssm of: 1RR7_A
+Loading pssm of: 1RSG_A
+Loading pssm of: 1RSS_A
+Loading pssm of: 1RT8_A
+Loading pssm of: 1RTQ_A
+Loading pssm of: 1RTT_A
+Loading pssm of: 1RTW_A
+Loading pssm of: 1RU4_A
+Loading pssm of: 1RUT_A
+Loading pssm of: 1RV9_A
+Loading pssm of: 1RWH_A
+Loading pssm of: 1RWZ_A
+Loading pssm of: 1RXD_A
+Loading pssm of: 1RXQ_A
+Loading pssm of: 1RY9_A
+Loading pssm of: 1RYI_A
+Loading pssm of: 1RYL_A
+Loading pssm of: 1RYO_A
+Loading pssm of: 1RYQ_A
+Loading pssm of: 1RZ3_A
+Loading pssm of: 1RZ4_A
+Loading pssm of: 1RZH_A
+Loading pssm of: 1S0P_A
+Loading pssm of: 1S12_A
+Loading pssm of: 1S1D_A
+Loading pssm of: 1S21_A
+Loading pssm of: 1S28_A
+Loading pssm of: 1S29_A
+Loading pssm of: 1S2O_A
+Loading pssm of: 1S2W_A
+Loading pssm of: 1S2X_A
+Loading pssm of: 1S3C_A
+Loading pssm of: 1S3L_A
+Loading pssm of: 1S3S_A
+Loading pssm of: 1S48_A
+Loading pssm of: 1S4C_A
+Loading pssm of: 1S4K_A
+Loading pssm of: 1S5J_A
+Loading pssm of: 1S5U_A
+Loading pssm of: 1S6C_A
+Loading pssm of: 1S7I_A
+Loading pssm of: 1S7Z_A
+Loading pssm of: 1S98_A
+Loading pssm of: 1S99_A
+Loading pssm of: 1S9R_A
+Loading pssm of: 1S9U_A
+Loading pssm of: 1SA3_A
+Loading pssm of: 1SAU_A
+Loading pssm of: 1SAZ_A
+Loading pssm of: 1SBP_A
+Loading pssm of: 1SBX_A
+Loading pssm of: 1SBY_A
+Loading pssm of: 1SCF_A
+Loading pssm of: 1SD4_A
+Loading pssm of: 1SDD_A
+Loading pssm of: 1SDI_A
+Loading pssm of: 1SE8_A
+Loading pssm of: 1SED_A
+Loading pssm of: 1SEF_A
+Loading pssm of: 1SEI_A
+Loading pssm of: 1SEN_A
+Loading pssm of: 1SEZ_A
+Loading pssm of: 1SF8_A
+Loading pssm of: 1SFP_A
+Loading pssm of: 1SFS_A
+Loading pssm of: 1SFU_A
+Loading pssm of: 1SG4_A
+Loading pssm of: 1SG6_A
+Loading pssm of: 1SGM_A
+Loading pssm of: 1SGW_A
+Loading pssm of: 1SH8_A
+Loading pssm of: 1SHU_A
+Loading pssm of: 1SJ1_A
+Loading pssm of: 1SJW_A
+Loading pssm of: 1SKN_A
+Loading pssm of: 1SKV_A
+Loading pssm of: 1SMV_A
+Loading pssm of: 1SMX_A
+Loading pssm of: 1SO7_A
+Loading pssm of: 1SP3_A
+Loading pssm of: 1SQ9_A
+Loading pssm of: 1SQH_A
+Loading pssm of: 1SQS_A
+Loading pssm of: 1SQW_A
+Loading pssm of: 1SR4_A
+Loading pssm of: 1SR8_A
+Loading pssm of: 1SRA_A
+Loading pssm of: 1SRQ_A
+Loading pssm of: 1SS4_A
+Loading pssm of: 1STM_A
+Loading pssm of: 1STZ_A
+Loading pssm of: 1SU1_A
+Loading pssm of: 1SUM_A
+Loading pssm of: 1SVF_A
+Loading pssm of: 1SVI_A
+Loading pssm of: 1SVM_A
+Loading pssm of: 1SVS_A
+Loading pssm of: 1SW6_A
+Loading pssm of: 1SX5_A
+Loading pssm of: 1SYX_A
+Loading pssm of: 1SZ7_A
+Loading pssm of: 1SZH_A
+Loading pssm of: 1SZI_A
+Loading pssm of: 1SZQ_A
+Loading pssm of: 1SZW_A
+Loading pssm of: 1T01_A
+Loading pssm of: 1T07_A
+Loading pssm of: 1T08_A
+Loading pssm of: 1T0B_A
+Loading pssm of: 1T0F_A
+Loading pssm of: 1T0I_A
+Loading pssm of: 1T0P_A
+Loading pssm of: 1T1J_A
+Loading pssm of: 1T1U_A
+Loading pssm of: 1T33_A
+Loading pssm of: 1T3G_A
+Loading pssm of: 1T3Y_A
+Loading pssm of: 1T4A_A
+Loading pssm of: 1T4W_A
+Loading pssm of: 1T61_A
+Loading pssm of: 1T6A_A
+Loading pssm of: 1T6C_A
+Loading pssm of: 1T6F_A
+Loading pssm of: 1T6L_A
+Loading pssm of: 1T6O_A
+Loading pssm of: 1T6S_A
+Loading pssm of: 1T6T_A
+Loading pssm of: 1T6U_A
+Loading pssm of: 1T71_A
+Loading pssm of: 1T73_A
+Loading pssm of: 1T77_A
+Loading pssm of: 1T7F_A
+Loading pssm of: 1T82_A
+Loading pssm of: 1T8K_A
+Loading pssm of: 1T8S_A
+Loading pssm of: 1T92_A
+Loading pssm of: 1T9I_A
+Loading pssm of: 1TAF_A
+Loading pssm of: 1TBF_A
+Loading pssm of: 1TBX_A
+Loading pssm of: 1TC3_A
+Loading pssm of: 1TC5_A
+Loading pssm of: 1TE5_A
+Loading pssm of: 1TEX_A
+Loading pssm of: 1TFE_A
+Loading pssm of: 1TFZ_A
+Loading pssm of: 1TG0_A
+Loading pssm of: 1TH7_A
+Loading pssm of: 1THT_A
+Loading pssm of: 1TIF_A
+Loading pssm of: 1TIG_A
+Loading pssm of: 1TII_A
+Loading pssm of: 1TIQ_A
+Loading pssm of: 1TJL_A
+Loading pssm of: 1TKE_A
+Loading pssm of: 1TKJ_A
+Loading pssm of: 1TO3_A
+Loading pssm of: 1TP6_A
+Loading pssm of: 1TQ5_A
+Loading pssm of: 1TQE_A
+Loading pssm of: 1TQG_A
+Loading pssm of: 1TQJ_A
+Loading pssm of: 1TQY_A
+Loading pssm of: 1TS9_A
+Loading pssm of: 1TT5_A
+Loading pssm of: 1TT8_A
+Loading pssm of: 1TU1_A
+Loading pssm of: 1TU3_A
+Loading pssm of: 1TU5_A
+Loading pssm of: 1TU9_A
+Loading pssm of: 1TUA_A
+Loading pssm of: 1TUE_A
+Loading pssm of: 1TUH_A
+Loading pssm of: 1TUL_A
+Loading pssm of: 1TUV_A
+Loading pssm of: 1TUW_A
+Loading pssm of: 1TV4_A
+Loading pssm of: 1TV8_A
+Loading pssm of: 1TVF_A
+Loading pssm of: 1TVG_A
+Loading pssm of: 1TWD_A
+Loading pssm of: 1TWF_A
+Loading pssm of: 1TWU_A
+Loading pssm of: 1TXG_A
+Loading pssm of: 1TXK_A
+Loading pssm of: 1TXL_A
+Loading pssm of: 1TY4_A
+Loading pssm of: 1TZF_A
+Loading pssm of: 1TZP_A
+Loading pssm of: 1U02_A
+Loading pssm of: 1U07_A
+Loading pssm of: 1U0M_A
+Loading pssm of: 1U0S_A
+Loading pssm of: 1U14_A
+Loading pssm of: 1U19_A
+Loading pssm of: 1U2H_A
+Loading pssm of: 1U2K_A
+Loading pssm of: 1U2M_A
+Loading pssm of: 1U2W_A
+Loading pssm of: 1U2Z_A
+Loading pssm of: 1U3E_A
+Loading pssm of: 1U5F_A
+Loading pssm of: 1U5K_A
+Loading pssm of: 1U5P_A
+Loading pssm of: 1U5U_A
+Loading pssm of: 1U60_A
+Loading pssm of: 1U6T_A
+Loading pssm of: 1U7B_A
+Loading pssm of: 1U7G_A
+Loading pssm of: 1U7I_A
+Loading pssm of: 1U7K_A
+Loading pssm of: 1U7L_A
+Loading pssm of: 1U7P_A
+Loading pssm of: 1U7Z_A
+Loading pssm of: 1U84_A
+Loading pssm of: 1U8S_A
+Loading pssm of: 1U8V_A
+Loading pssm of: 1U8X_A
+Loading pssm of: 1U9K_A
+Loading pssm of: 1U9L_A
+Loading pssm of: 1U9P_A
+Loading pssm of: 1UA4_A
+Loading pssm of: 1UA7_A
+Loading pssm of: 1UAD_A
+Loading pssm of: 1UB9_A
+Loading pssm of: 1UCD_A
+Loading pssm of: 1UCR_A
+Loading pssm of: 1UCS_A
+Loading pssm of: 1UD9_A
+Loading pssm of: 1UEB_A
+Loading pssm of: 1UEK_A
+Loading pssm of: 1UF5_A
+Loading pssm of: 1UFI_A
+Loading pssm of: 1UFO_A
+Loading pssm of: 1UFY_A
+Loading pssm of: 1UGI_A
+Loading pssm of: 1UGX_A
+Loading pssm of: 1UH4_A
+Loading pssm of: 1UHV_A
+Loading pssm of: 1UI0_A
+Loading pssm of: 1UI5_A
+Loading pssm of: 1UIX_A
+Loading pssm of: 1UJ2_A
+Loading pssm of: 1UJ8_A
+Loading pssm of: 1UJC_A
+Loading pssm of: 1UJW_A
+Loading pssm of: 1UKF_A
+Loading pssm of: 1UKK_A
+Loading pssm of: 1UNN_A
+Loading pssm of: 1UNQ_A
+Loading pssm of: 1UOY_A
+Loading pssm of: 1UPK_A
+Loading pssm of: 1UPQ_A
+Loading pssm of: 1UPS_A
+Loading pssm of: 1UPT_A
+Loading pssm of: 1UQW_A
+Loading pssm of: 1URJ_A
+Loading pssm of: 1URQ_A
+Loading pssm of: 1US0_A
+Loading pssm of: 1US5_A
+Loading pssm of: 1USC_A
+Loading pssm of: 1USG_A
+Loading pssm of: 1USM_A
+Loading pssm of: 1USU_A
+Loading pssm of: 1USY_A
+Loading pssm of: 1UT7_A
+Loading pssm of: 1UTE_A
+Loading pssm of: 1UTG_A
+Loading pssm of: 1UTY_A
+Loading pssm of: 1UUJ_A
+Loading pssm of: 1UUN_A
+Loading pssm of: 1UUR_A
+Loading pssm of: 1UUY_A
+Loading pssm of: 1UV7_A
+Loading pssm of: 1UVJ_A
+Loading pssm of: 1UVQ_A
+Loading pssm of: 1UW4_A
+Loading pssm of: 1UWC_A
+Loading pssm of: 1UWK_A
+Loading pssm of: 1UX5_A
+Loading pssm of: 1UX6_A
+Loading pssm of: 1UXO_A
+Loading pssm of: 1UYN_A
+Loading pssm of: 1UZ3_A
+Loading pssm of: 1V05_A
+Loading pssm of: 1V0A_A
+Loading pssm of: 1V0W_A
+Loading pssm of: 1V18_A
+Loading pssm of: 1V2X_A
+Loading pssm of: 1V2Z_A
+Loading pssm of: 1V33_A
+Loading pssm of: 1V4A_A
+Loading pssm of: 1V4E_A
+Loading pssm of: 1V4P_A
+Loading pssm of: 1V5I_A
+Loading pssm of: 1V5V_A
+Loading pssm of: 1V6P_A
+Loading pssm of: 1V6T_A
+Loading pssm of: 1V70_A
+Loading pssm of: 1V72_A
+Loading pssm of: 1V74_A
+Loading pssm of: 1V77_A
+Loading pssm of: 1V7M_A
+Loading pssm of: 1V7W_A
+Loading pssm of: 1V7Z_A
+Loading pssm of: 1V84_A
+Loading pssm of: 1V8D_A
+Loading pssm of: 1V8H_A
+Loading pssm of: 1V96_A
+Loading pssm of: 1V9D_A
+Loading pssm of: 1V9F_A
+Loading pssm of: 1V9M_A
+Loading pssm of: 1V9Y_A
+Loading pssm of: 1VAJ_A
+Loading pssm of: 1VBK_A
+Loading pssm of: 1VBV_A
+Loading pssm of: 1VBW_A
+Loading pssm of: 1VCA_A
+Loading pssm of: 1VCC_A
+Loading pssm of: 1VCH_A
+Loading pssm of: 1VCT_A
+Loading pssm of: 1VD6_A
+Loading pssm of: 1VDW_A
+Loading pssm of: 1VE2_A
+Loading pssm of: 1VE4_A
+Loading pssm of: 1VF7_A
+Loading pssm of: 1VG0_A
+Loading pssm of: 1VGJ_A
+Loading pssm of: 1VGW_A
+Loading pssm of: 1VH4_A
+Loading pssm of: 1VH5_A
+Loading pssm of: 1VH6_A
+Loading pssm of: 1VHN_A
+Loading pssm of: 1VHQ_A
+Loading pssm of: 1VHT_A
+Loading pssm of: 1VHZ_A
+Loading pssm of: 1VI0_A
+Loading pssm of: 1VI1_A
+Loading pssm of: 1VI4_A
+Loading pssm of: 1VI6_A
+Loading pssm of: 1VIM_A
+Loading pssm of: 1VJG_A
+Loading pssm of: 1VJL_A
+Loading pssm of: 1VJQ_A
+Loading pssm of: 1VJU_A
+Loading pssm of: 1VJV_A
+Loading pssm of: 1VJX_A
+Loading pssm of: 1VK1_A
+Loading pssm of: 1VK3_A
+Loading pssm of: 1VK4_A
+Loading pssm of: 1VK6_A
+Loading pssm of: 1VK9_A
+Loading pssm of: 1VKE_A
+Loading pssm of: 1VKF_A
+Loading pssm of: 1VKH_A
+Loading pssm of: 1VKI_A
+Loading pssm of: 1VKK_A
+Loading pssm of: 1VKW_A
+Loading pssm of: 1VKY_A
+Loading pssm of: 1VL1_A
+Loading pssm of: 1VL4_A
+Loading pssm of: 1VL5_A
+Loading pssm of: 1VL7_A
+Loading pssm of: 1VLM_A
+Loading pssm of: 1VLY_A
+Loading pssm of: 1VMB_A
+Loading pssm of: 1VMG_A
+Loading pssm of: 1VMH_A
+Loading pssm of: 1VMO_A
+Loading pssm of: 1VP7_A
+Loading pssm of: 1VP8_A
+Loading pssm of: 1VPB_A
+Loading pssm of: 1VPM_A
+Loading pssm of: 1VPP_A
+Loading pssm of: 1VPQ_A
+Loading pssm of: 1VPR_A
+Loading pssm of: 1VPT_A
+Loading pssm of: 1VQQ_A
+Loading pssm of: 1VQR_A
+Loading pssm of: 1VQS_A
+Loading pssm of: 1VR3_A
+Loading pssm of: 1VR4_A
+Loading pssm of: 1VR7_A
+Loading pssm of: 1VR8_A
+Loading pssm of: 1VRA_A
+Loading pssm of: 1VRB_A
+Loading pssm of: 1VSG_A
+Loading pssm of: 1VSR_A
+Loading pssm of: 1VYB_A
+Loading pssm of: 1VYI_A
+Loading pssm of: 1VYK_A
+Loading pssm of: 1VYR_A
+Loading pssm of: 1VZ0_A
+Loading pssm of: 1VZM_A
+Loading pssm of: 1VZY_A
+Loading pssm of: 1W07_A
+Loading pssm of: 1W0H_A
+Loading pssm of: 1W0N_A
+Loading pssm of: 1W0P_A
+Loading pssm of: 1W1H_A
+Loading pssm of: 1W1W_A
+Loading pssm of: 1W23_A
+Loading pssm of: 1W2F_A
+Loading pssm of: 1W2W_A
+Loading pssm of: 1W33_A
+Loading pssm of: 1W4S_A
+Loading pssm of: 1W53_A
+Loading pssm of: 1W5Q_A
+Loading pssm of: 1W5R_A
+Loading pssm of: 1W66_A
+Loading pssm of: 1W6K_A
+Loading pssm of: 1W6S_A
+Loading pssm of: 1W7C_A
+Loading pssm of: 1W8I_A
+Loading pssm of: 1W8S_A
+Loading pssm of: 1W97_A
+Loading pssm of: 1W98_A
+Loading pssm of: 1W99_A
+Loading pssm of: 1W9Z_A
+Loading pssm of: 1WA5_A
+Loading pssm of: 1WAK_A
+Loading pssm of: 1WB4_A
+Loading pssm of: 1WB9_A
+Loading pssm of: 1WBA_A
+Loading pssm of: 1WC2_A
+Loading pssm of: 1WCV_A
+Loading pssm of: 1WCW_A
+Loading pssm of: 1WD3_A
+Loading pssm of: 1WD5_A
+Loading pssm of: 1WDC_A
+Loading pssm of: 1WDD_A
+Loading pssm of: 1WDJ_A
+Loading pssm of: 1WEH_A
+Loading pssm of: 1WER_A
+Loading pssm of: 1WFB_A
+Loading pssm of: 1WFX_A
+Loading pssm of: 1WHI_A
+Loading pssm of: 1WHZ_A
+Loading pssm of: 1WIW_A
+Loading pssm of: 1WJX_A
+Loading pssm of: 1WKC_A
+Loading pssm of: 1WKQ_A
+Loading pssm of: 1WKR_A
+Loading pssm of: 1WLE_A
+Loading pssm of: 1WLF_A
+Loading pssm of: 1WLG_A
+Loading pssm of: 1WLJ_A
+Loading pssm of: 1WLU_A
+Loading pssm of: 1WLZ_A
+Loading pssm of: 1WM1_A
+Loading pssm of: 1WMH_A
+Loading pssm of: 1WMI_A
+Loading pssm of: 1WMX_A
+Loading pssm of: 1WN2_A
+Loading pssm of: 1WNA_A
+Loading pssm of: 1WOC_A
+Loading pssm of: 1WOL_A
+Loading pssm of: 1WOU_A
+Loading pssm of: 1WPB_A
+Loading pssm of: 1WPN_A
+Loading pssm of: 1WPU_A
+Loading pssm of: 1WQ6_A
+Loading pssm of: 1WQL_A
+Loading pssm of: 1WRD_A
+Loading pssm of: 1WS8_A
+Loading pssm of: 1WT6_A
+Loading pssm of: 1WTE_A
+Loading pssm of: 1WTH_A
+Loading pssm of: 1WTJ_A
+Loading pssm of: 1WUB_A
+Loading pssm of: 1WUR_A
+Loading pssm of: 1WV3_A
+Loading pssm of: 1WV9_A
+Loading pssm of: 1WVF_A
+Loading pssm of: 1WVG_A
+Loading pssm of: 1WVH_A
+Loading pssm of: 1WVQ_A
+Loading pssm of: 1WWC_A
+Loading pssm of: 1WWI_A
+Loading pssm of: 1WWJ_A
+Loading pssm of: 1WWM_A
+Loading pssm of: 1WWP_A
+Loading pssm of: 1WWZ_A
+Loading pssm of: 1WY3_A
+Loading pssm of: 1WY5_A
+Loading pssm of: 1WY6_A
+Loading pssm of: 1WYZ_A
+Loading pssm of: 1WZ3_A
+Loading pssm of: 1WZD_A
+Loading pssm of: 1WZN_A
+Loading pssm of: 1X0T_A
+Loading pssm of: 1X2I_A
+Loading pssm of: 1X3K_A
+Loading pssm of: 1X3L_A
+Loading pssm of: 1X54_A
+Loading pssm of: 1X6I_A
+Loading pssm of: 1X6M_A
+Loading pssm of: 1X6O_A
+Loading pssm of: 1X6Z_A
+Loading pssm of: 1X79_A
+Loading pssm of: 1X7D_A
+Loading pssm of: 1X8D_A
+Loading pssm of: 1X8Q_A
+Loading pssm of: 1X91_A
+Loading pssm of: 1X9I_A
+Loading pssm of: 1X9M_A
+Loading pssm of: 1X9Z_A
+Loading pssm of: 1XAK_A
+Loading pssm of: 1XAU_A
+Loading pssm of: 1XAW_A
+Loading pssm of: 1XBI_A
+Loading pssm of: 1XCR_A
+Loading pssm of: 1XD3_A
+Loading pssm of: 1XDI_A
+Loading pssm of: 1XDN_A
+Loading pssm of: 1XDP_A
+Loading pssm of: 1XDY_A
+Loading pssm of: 1XE1_A
+Loading pssm of: 1XE7_A
+Loading pssm of: 1XEC_A
+Loading pssm of: 1XFF_A
+Loading pssm of: 1XFK_A
+Loading pssm of: 1XFS_A
+Loading pssm of: 1XG0_A
+Loading pssm of: 1XG5_A
+Loading pssm of: 1XG8_A
+Loading pssm of: 1XGK_A
+Loading pssm of: 1XHD_A
+Loading pssm of: 1XHN_A
+Loading pssm of: 1XIP_A
+Loading pssm of: 1XIW_A
+Loading pssm of: 1XJU_A
+Loading pssm of: 1XJV_A
+Loading pssm of: 1XK5_A
+Loading pssm of: 1XK7_A
+Loading pssm of: 1XKI_A
+Loading pssm of: 1XKP_A
+Loading pssm of: 1XKR_A
+Loading pssm of: 1XKS_A
+Loading pssm of: 1XKW_A
+Loading pssm of: 1XL3_A
+Loading pssm of: 1XLQ_A
+Loading pssm of: 1XM3_A
+Loading pssm of: 1XM7_A
+Loading pssm of: 1XMK_A
+Loading pssm of: 1XMT_A
+Loading pssm of: 1XMX_A
+Loading pssm of: 1XNF_A
+Loading pssm of: 1XO0_A
+Loading pssm of: 1XO5_A
+Loading pssm of: 1XOD_A
+Loading pssm of: 1XOU_A
+Loading pssm of: 1XOV_A
+Loading pssm of: 1XPJ_A
+Loading pssm of: 1XPK_A
+Loading pssm of: 1XPP_A
+Loading pssm of: 1XQB_A
+Loading pssm of: 1XQO_A
+Loading pssm of: 1XQR_A
+Loading pssm of: 1XR4_A
+Loading pssm of: 1XRK_A
+Loading pssm of: 1XRS_A
+Loading pssm of: 1XRU_A
+Loading pssm of: 1XRX_A
+Loading pssm of: 1XS0_A
+Loading pssm of: 1XSV_A
+Loading pssm of: 1XSZ_A
+Loading pssm of: 1XTE_A
+Loading pssm of: 1XTT_A
+Loading pssm of: 1XU9_A
+Loading pssm of: 1XUB_A
+Loading pssm of: 1XV5_A
+Loading pssm of: 1XW3_A
+Loading pssm of: 1XWJ_A
+Loading pssm of: 1XWV_A
+Loading pssm of: 1XZP_A
+Loading pssm of: 1XZZ_A
+Loading pssm of: 1Y02_A
+Loading pssm of: 1Y08_A
+Loading pssm of: 1Y0H_A
+Loading pssm of: 1Y0K_A
+Loading pssm of: 1Y0N_A
+Loading pssm of: 1Y0U_A
+Loading pssm of: 1Y14_A
+Loading pssm of: 1Y1P_A
+Loading pssm of: 1Y1X_A
+Loading pssm of: 1Y3T_A
+Loading pssm of: 1Y43_A
+Loading pssm of: 1Y4M_A
+Loading pssm of: 1Y5H_A
+Loading pssm of: 1Y60_A
+Loading pssm of: 1Y63_A
+Loading pssm of: 1Y66_A
+Loading pssm of: 1Y6K_A
+Loading pssm of: 1Y6X_A
+Loading pssm of: 1Y6Z_A
+Loading pssm of: 1Y71_A
+Loading pssm of: 1Y7P_A
+Loading pssm of: 1Y7R_A
+Loading pssm of: 1Y88_A
+Loading pssm of: 1Y8A_A
+Loading pssm of: 1Y8X_A
+Loading pssm of: 1Y93_A
+Loading pssm of: 1Y96_A
+Loading pssm of: 1Y9I_A
+Loading pssm of: 1Y9K_A
+Loading pssm of: 1Y9L_A
+Loading pssm of: 1Y9W_A
+Loading pssm of: 1YA0_A
+Loading pssm of: 1YA5_A
+Loading pssm of: 1YAC_A
+Loading pssm of: 1YAD_A
+Loading pssm of: 1YAR_A
+Loading pssm of: 1YB2_A
+Loading pssm of: 1YBK_A
+Loading pssm of: 1YC9_A
+Loading pssm of: 1YCD_A
+Loading pssm of: 1YD0_A
+Loading pssm of: 1YD7_A
+Loading pssm of: 1YD9_A
+Loading pssm of: 1YDI_A
+Loading pssm of: 1YDX_A
+Loading pssm of: 1YDY_A
+Loading pssm of: 1YE8_A
+Loading pssm of: 1YF2_A
+Loading pssm of: 1YF3_A
+Loading pssm of: 1YFN_A
+Loading pssm of: 1YFQ_A
+Loading pssm of: 1YG9_A
+Loading pssm of: 1YGT_A
+Loading pssm of: 1YHN_A
+Loading pssm of: 1YHT_A
+Loading pssm of: 1YI9_A
+Loading pssm of: 1YIX_A
+Loading pssm of: 1YJ7_A
+Loading pssm of: 1YK3_A
+Loading pssm of: 1YKH_A
+Loading pssm of: 1YKI_A
+Loading pssm of: 1YLE_A
+Loading pssm of: 1YLL_A
+Loading pssm of: 1YLM_A
+Loading pssm of: 1YLO_A
+Loading pssm of: 1YLQ_A
+Loading pssm of: 1YLX_A
+Loading pssm of: 1YM0_A
+Loading pssm of: 1YMT_A
+Loading pssm of: 1YN3_A
+Loading pssm of: 1YNB_A
+Loading pssm of: 1YNF_A
+Loading pssm of: 1YNP_A
+Loading pssm of: 1YOC_A
+Loading pssm of: 1YOD_A
+Loading pssm of: 1YOV_A
+Loading pssm of: 1YOZ_A
+Loading pssm of: 1YPX_A
+Loading pssm of: 1YPY_A
+Loading pssm of: 1YQ5_A
+Loading pssm of: 1YQH_A
+Loading pssm of: 1YQS_A
+Loading pssm of: 1YQT_A
+Loading pssm of: 1YRB_A
+Loading pssm of: 1YRE_A
+Loading pssm of: 1YRG_A
+Loading pssm of: 1YRK_A
+Loading pssm of: 1YRR_A
+Loading pssm of: 1YRT_A
+Loading pssm of: 1YS1_A
+Loading pssm of: 1YT3_A
+Loading pssm of: 1YT5_A
+Loading pssm of: 1YTL_A
+Loading pssm of: 1YTV_A
+Loading pssm of: 1YU0_A
+Loading pssm of: 1YUD_A
+Loading pssm of: 1YUE_A
+Loading pssm of: 1YVU_A
+Loading pssm of: 1YVW_A
+Loading pssm of: 1YW4_A
+Loading pssm of: 1YWF_A
+Loading pssm of: 1YWM_A
+Loading pssm of: 1YX1_A
+Loading pssm of: 1YYM_A
+Loading pssm of: 1YYP_A
+Loading pssm of: 1YZ1_A
+Loading pssm of: 1YZV_A
+Loading pssm of: 1YZY_A
+Loading pssm of: 1Z0N_A
+Loading pssm of: 1Z0P_A
+Loading pssm of: 1Z0S_A
+Loading pssm of: 1Z0W_A
+Loading pssm of: 1Z0X_A
+Loading pssm of: 1Z1S_A
+Loading pssm of: 1Z21_A
+Loading pssm of: 1Z2N_A
+Loading pssm of: 1Z2U_A
+Loading pssm of: 1Z3E_A
+Loading pssm of: 1Z3X_A
+Loading pssm of: 1Z45_A
+Loading pssm of: 1Z54_A
+Loading pssm of: 1Z5H_A
+Loading pssm of: 1Z5Z_A
+Loading pssm of: 1Z67_A
+Loading pssm of: 1Z69_A
+Loading pssm of: 1Z6M_A
+Loading pssm of: 1Z6N_A
+Loading pssm of: 1Z6O_A
+Loading pssm of: 1Z6R_A
+Loading pssm of: 1Z70_A
+Loading pssm of: 1Z72_A
+Loading pssm of: 1Z7M_A
+Loading pssm of: 1Z84_A
+Loading pssm of: 1Z85_A
+Loading pssm of: 1Z8U_A
+Loading pssm of: 1Z94_A
+Loading pssm of: 1Z9L_A
+Loading pssm of: 1ZA0_A
+Loading pssm of: 1ZA7_A
+Loading pssm of: 1ZAR_A
+Loading pssm of: 1ZAT_A
+Loading pssm of: 1ZAV_A
+Loading pssm of: 1ZB1_A
+Loading pssm of: 1ZBD_A
+Loading pssm of: 1ZBO_A
+Loading pssm of: 1ZBS_A
+Loading pssm of: 1ZBX_A
+Loading pssm of: 1ZC3_A
+Loading pssm of: 1ZCC_A
+Loading pssm of: 1ZCE_A
+Loading pssm of: 1ZD0_A
+Loading pssm of: 1ZE3_A
+Loading pssm of: 1ZEE_A
+Loading pssm of: 1ZEL_A
+Loading pssm of: 1ZGH_A
+Loading pssm of: 1ZGK_A
+Loading pssm of: 1ZH8_A
+Loading pssm of: 1ZHS_A
+Loading pssm of: 1ZHV_A
+Loading pssm of: 1ZHX_A
+Loading pssm of: 1ZI8_A
+Loading pssm of: 1ZJC_A
+Loading pssm of: 1ZK4_A
+Loading pssm of: 1ZK5_A
+Loading pssm of: 1ZK8_A
+Loading pssm of: 1ZKE_A
+Loading pssm of: 1ZKP_A
+Loading pssm of: 1ZL0_A
+Loading pssm of: 1ZLA_A
+Loading pssm of: 1ZLD_A
+Loading pssm of: 1ZMA_A
+Loading pssm of: 1ZMT_A
+Loading pssm of: 1ZN6_A
+Loading pssm of: 1ZOQ_A
+Loading pssm of: 1ZP2_A
+Loading pssm of: 1ZPS_A
+Loading pssm of: 1ZPV_A
+Loading pssm of: 1ZR6_A
+Loading pssm of: 1ZS3_A
+Loading pssm of: 1ZS9_A
+Loading pssm of: 1ZSO_A
+Loading pssm of: 1ZSQ_A
+Loading pssm of: 1ZT3_A
+Loading pssm of: 1ZTC_A
+Loading pssm of: 1ZTD_A
+Loading pssm of: 1ZUN_A
+Loading pssm of: 1ZUO_A
+Loading pssm of: 1ZUP_A
+Loading pssm of: 1ZUU_A
+Loading pssm of: 1ZV1_A
+Loading pssm of: 1ZVA_A
+Loading pssm of: 1ZVP_A
+Loading pssm of: 1ZVT_A
+Loading pssm of: 1ZVZ_A
+Loading pssm of: 1ZWW_A
+Loading pssm of: 1ZX3_A
+Loading pssm of: 1ZX8_A
+Loading pssm of: 1ZXJ_A
+Loading pssm of: 1ZXM_A
+Loading pssm of: 1ZXX_A
+Loading pssm of: 1ZY7_A
+Loading pssm of: 1ZYB_A
+Loading pssm of: 1ZYL_A
+Loading pssm of: 1ZYM_A
+Loading pssm of: 1ZYN_A
+Loading pssm of: 1ZYO_A
+Loading pssm of: 1ZZK_A
+Loading pssm of: 2A06_A
+Loading pssm of: 2A0B_A
+Loading pssm of: 2A14_A
+Loading pssm of: 2A15_A
+Loading pssm of: 2A19_A
+Loading pssm of: 2A1I_A
+Loading pssm of: 2A1J_A
+Loading pssm of: 2A1K_A
+Loading pssm of: 2A1R_A
+Loading pssm of: 2A1V_A
+Loading pssm of: 2A1X_A
+Loading pssm of: 2A26_A
+Loading pssm of: 2A2F_A
+Loading pssm of: 2A2M_A
+Loading pssm of: 2A35_A
+Loading pssm of: 2A3N_A
+Loading pssm of: 2A40_A
+Loading pssm of: 2A4X_A
+Loading pssm of: 2A5D_A
+Loading pssm of: 2A5H_A
+Loading pssm of: 2A5Y_A
+Loading pssm of: 2A5Z_A
+Loading pssm of: 2A65_A
+Loading pssm of: 2A67_A
+Loading pssm of: 2A6A_A
+Loading pssm of: 2A6H_A
+Loading pssm of: 2A6Q_A
+Loading pssm of: 2A6S_A
+Loading pssm of: 2A6Z_A
+Loading pssm of: 2A7K_A
+Loading pssm of: 2A8Y_A
+Loading pssm of: 2A90_A
+Loading pssm of: 2A9I_A
+Loading pssm of: 2A9U_A
+Loading pssm of: 2AAL_A
+Loading pssm of: 2AAM_A
+Loading pssm of: 2AB5_A
+Loading pssm of: 2ABS_A
+Loading pssm of: 2ABW_A
+Loading pssm of: 2ACF_A
+Loading pssm of: 2ADV_A
+Loading pssm of: 2AEF_A
+Loading pssm of: 2AEG_A
+Loading pssm of: 2AEU_A
+Loading pssm of: 2AG4_A
+Loading pssm of: 2AGK_A
+Loading pssm of: 2AHM_A
+Loading pssm of: 2AHU_A
+Loading pssm of: 2AIB_A
+Loading pssm of: 2AJ6_A
+Loading pssm of: 2AJA_A
+Loading pssm of: 2AJR_A
+Loading pssm of: 2AKF_A
+Loading pssm of: 2AKZ_A
+Loading pssm of: 2AL6_A
+Loading pssm of: 2AMH_A
+Loading pssm of: 2AML_A
+Loading pssm of: 2AN6_A
+Loading pssm of: 2ANE_A
+Loading pssm of: 2ANR_A
+Loading pssm of: 2ANU_A
+Loading pssm of: 2ANX_A
+Loading pssm of: 2AO6_A
+Loading pssm of: 2AO9_A
+Loading pssm of: 2AOT_A
+Loading pssm of: 2AP3_A
+Loading pssm of: 2APJ_A
+Loading pssm of: 2APL_A
+Loading pssm of: 2AQ4_A
+Loading pssm of: 2AQ6_A
+Loading pssm of: 2ARC_A
+Loading pssm of: 2ASB_A
+Loading pssm of: 2ASF_A
+Loading pssm of: 2ASK_A
+Loading pssm of: 2AST_A
+Loading pssm of: 2ATP_A
+Loading pssm of: 2ATZ_A
+Loading pssm of: 2AU5_A
+Loading pssm of: 2AUA_A
+Loading pssm of: 2AVU_A
+Loading pssm of: 2AWI_A
+Loading pssm of: 2AXC_A
+Loading pssm of: 2AXO_A
+Loading pssm of: 2AXQ_A
+Loading pssm of: 2AXW_A
+Loading pssm of: 2AYD_A
+Loading pssm of: 2AZ0_A
+Loading pssm of: 2AZ4_A
+Loading pssm of: 2AZE_A
+Loading pssm of: 2AZJ_A
+Loading pssm of: 2AZW_A
+Loading pssm of: 2B06_A
+Loading pssm of: 2B0A_A
+Loading pssm of: 2B0C_A
+Loading pssm of: 2B0T_A
+Loading pssm of: 2B1E_A
+Loading pssm of: 2B1Y_A
+Loading pssm of: 2B2A_A
+Loading pssm of: 2B3G_A
+Loading pssm of: 2B3Y_A
+Loading pssm of: 2B4A_A
+Loading pssm of: 2B4H_A
+Loading pssm of: 2B4J_A
+Loading pssm of: 2B4W_A
+Loading pssm of: 2B5G_A
+Loading pssm of: 2B5I_A
+Loading pssm of: 2B61_A
+Loading pssm of: 2B69_A
+Loading pssm of: 2B78_A
+Loading pssm of: 2B81_A
+Loading pssm of: 2B82_A
+Loading pssm of: 2B8I_A
+Loading pssm of: 2B8M_A
+Loading pssm of: 2B97_A
+Loading pssm of: 2B99_A
+Loading pssm of: 2B9C_A
+Loading pssm of: 2B9D_A
+Loading pssm of: 2B9I_A
+Loading pssm of: 2B9S_A
+Loading pssm of: 2B9W_A
+Loading pssm of: 2BA2_A
+Loading pssm of: 2BAS_A
+Loading pssm of: 2BAY_A
+Loading pssm of: 2BB3_A
+Loading pssm of: 2BB6_A
+Loading pssm of: 2BBA_A
+Loading pssm of: 2BBD_A
+Loading pssm of: 2BBE_A
+Loading pssm of: 2BBH_A
+Loading pssm of: 2BBR_A
+Loading pssm of: 2BCM_A
+Loading pssm of: 2BCX_A
+Loading pssm of: 2BDR_A
+Loading pssm of: 2BDT_A
+Loading pssm of: 2BDV_A
+Loading pssm of: 2BEC_A
+Loading pssm of: 2BF6_A
+Loading pssm of: 2BF9_A
+Loading pssm of: 2BFD_A
+Loading pssm of: 2BFE_A
+Loading pssm of: 2BFW_A
+Loading pssm of: 2BGH_A
+Loading pssm of: 2BH1_A
+Loading pssm of: 2BHG_A
+Loading pssm of: 2BHU_A
+Loading pssm of: 2BHV_A
+Loading pssm of: 2BIB_A
+Loading pssm of: 2BII_A
+Loading pssm of: 2BJF_A
+Loading pssm of: 2BJI_A
+Loading pssm of: 2BJN_A
+Loading pssm of: 2BJQ_A
+Loading pssm of: 2BJU_A
+Loading pssm of: 2BK8_A
+Loading pssm of: 2BK9_A
+Loading pssm of: 2BKF_A
+Loading pssm of: 2BKM_A
+Loading pssm of: 2BKR_A
+Loading pssm of: 2BKW_A
+Loading pssm of: 2BKX_A
+Loading pssm of: 2BKY_A
+Loading pssm of: 2BL0_A
+Loading pssm of: 2BL2_A
+Loading pssm of: 2BL8_A
+Loading pssm of: 2BL9_A
+Loading pssm of: 2BLN_A
+Loading pssm of: 2BM5_A
+Loading pssm of: 2BM8_A
+Loading pssm of: 2BMO_A
+Loading pssm of: 2BNL_A
+Loading pssm of: 2BNM_A
+Loading pssm of: 2BO4_A
+Loading pssm of: 2BO9_A
+Loading pssm of: 2BOG_A
+Loading pssm of: 2BOL_A
+Loading pssm of: 2BON_A
+Loading pssm of: 2BOP_A
+Loading pssm of: 2BP3_A
+Loading pssm of: 2BPA_A
+Loading pssm of: 2BPS_A
+Loading pssm of: 2BPT_A
+Loading pssm of: 2BRQ_A
+Loading pssm of: 2BRY_A
+Loading pssm of: 2BS2_A
+Loading pssm of: 2BSJ_A
+Loading pssm of: 2BSQ_A
+Loading pssm of: 2BSY_A
+Loading pssm of: 2BT9_A
+Loading pssm of: 2BTI_A
+Loading pssm of: 2BTJ_A
+Loading pssm of: 2BU3_A
+Loading pssm of: 2BUE_A
+Loading pssm of: 2BVF_A
+Loading pssm of: 2BW3_A
+Loading pssm of: 2BWR_A
+Loading pssm of: 2BZ1_A
+Loading pssm of: 2BZV_A
+Loading pssm of: 2BZW_A
+Loading pssm of: 2C0A_A
+Loading pssm of: 2C0C_A
+Loading pssm of: 2C0G_A
+Loading pssm of: 2C0N_A
+Loading pssm of: 2C0Z_A
+Loading pssm of: 2C1L_A
+Loading pssm of: 2C1M_A
+Loading pssm of: 2C1V_A
+Loading pssm of: 2C1W_A
+Loading pssm of: 2C2I_A
+Loading pssm of: 2C2U_A
+Loading pssm of: 2C35_A
+Loading pssm of: 2C3N_A
+Loading pssm of: 2C3V_A
+Loading pssm of: 2C5A_A
+Loading pssm of: 2C5L_A
+Loading pssm of: 2C5U_A
+Loading pssm of: 2C60_A
+Loading pssm of: 2C61_A
+Loading pssm of: 2C6U_A
+Loading pssm of: 2C71_A
+Loading pssm of: 2C7N_A
+Loading pssm of: 2C8M_A
+Loading pssm of: 2C8S_A
+Loading pssm of: 2C92_A
+Loading pssm of: 2C9Q_A
+Loading pssm of: 2C9W_A
+Loading pssm of: 2CA5_A
+Loading pssm of: 2CAR_A
+Loading pssm of: 2CAS_A
+Loading pssm of: 2CAY_A
+Loading pssm of: 2CB2_A
+Loading pssm of: 2CB8_A
+Loading pssm of: 2CC6_A
+Loading pssm of: 2CCI_A
+Loading pssm of: 2CCM_A
+Loading pssm of: 2CCQ_A
+Loading pssm of: 2CCV_A
+Loading pssm of: 2CDC_A
+Loading pssm of: 2CDU_A
+Loading pssm of: 2CE2_A
+Loading pssm of: 2CFA_A
+Loading pssm of: 2CFM_A
+Loading pssm of: 2CFQ_A
+Loading pssm of: 2CG5_A
+Loading pssm of: 2CG7_A
+Loading pssm of: 2CH5_A
+Loading pssm of: 2CH7_A
+Loading pssm of: 2CHC_A
+Loading pssm of: 2CHG_A
+Loading pssm of: 2CHP_A
+Loading pssm of: 2CI1_A
+Loading pssm of: 2CIB_A
+Loading pssm of: 2CIO_A
+Loading pssm of: 2CIR_A
+Loading pssm of: 2CIU_A
+Loading pssm of: 2CIW_A
+Loading pssm of: 2CJ4_A
+Loading pssm of: 2CJA_A
+Loading pssm of: 2CJJ_A
+Loading pssm of: 2CJT_A
+Loading pssm of: 2CKK_A
+Loading pssm of: 2CLB_A
+Loading pssm of: 2CLY_A
+Loading pssm of: 2CME_A
+Loading pssm of: 2CMG_A
+Loading pssm of: 2CNQ_A
+Loading pssm of: 2CO3_A
+Loading pssm of: 2COV_A
+Loading pssm of: 2CPG_A
+Loading pssm of: 2CS7_A
+Loading pssm of: 2CU3_A
+Loading pssm of: 2CUL_A
+Loading pssm of: 2CVB_A
+Loading pssm of: 2CVD_A
+Loading pssm of: 2CVE_A
+Loading pssm of: 2CVI_A
+Loading pssm of: 2CW6_A
+Loading pssm of: 2CW9_A
+Loading pssm of: 2CWQ_A
+Loading pssm of: 2CWS_A
+Loading pssm of: 2CWY_A
+Loading pssm of: 2CX7_A
+Loading pssm of: 2CXA_A
+Loading pssm of: 2CXC_A
+Loading pssm of: 2CXH_A
+Loading pssm of: 2CXI_A
+Loading pssm of: 2CXK_A
+Loading pssm of: 2CXN_A
+Loading pssm of: 2CXY_A
+Loading pssm of: 2CY5_A
+Loading pssm of: 2CYE_A
+Loading pssm of: 2CZ4_A
+Loading pssm of: 2CZL_A
+Loading pssm of: 2CZS_A
+Loading pssm of: 2CZV_A
+Loading pssm of: 2D00_A
+Loading pssm of: 2D0B_A
+Loading pssm of: 2D0O_A
+Loading pssm of: 2D0S_A
+Loading pssm of: 2D10_A
+Loading pssm of: 2D1G_A
+Loading pssm of: 2D1L_A
+Loading pssm of: 2D1S_A
+Loading pssm of: 2D28_A
+Loading pssm of: 2D2S_A
+Loading pssm of: 2D3D_A
+Loading pssm of: 2D3G_A
+Loading pssm of: 2D42_A
+Loading pssm of: 2D48_A
+Loading pssm of: 2D4G_A
+Loading pssm of: 2D4P_A
+Loading pssm of: 2D59_A
+Loading pssm of: 2D5B_A
+Loading pssm of: 2D5M_A
+Loading pssm of: 2D5W_A
+Loading pssm of: 2D68_A
+Loading pssm of: 2D6Y_A
+Loading pssm of: 2D74_A
+Loading pssm of: 2D7C_A
+Loading pssm of: 2D7E_A
+Loading pssm of: 2D7J_A
+Loading pssm of: 2D7V_A
+Loading pssm of: 2D81_A
+Loading pssm of: 2D8D_A
+Loading pssm of: 2D9R_A
+Loading pssm of: 2DB0_A
+Loading pssm of: 2DB7_A
+Loading pssm of: 2DBN_A
+Loading pssm of: 2DBS_A
+Loading pssm of: 2DBY_A
+Loading pssm of: 2DC1_A
+Loading pssm of: 2DC4_A
+Loading pssm of: 2DCH_A
+Loading pssm of: 2DCL_A
+Loading pssm of: 2DDF_A
+Loading pssm of: 2DDM_A
+Loading pssm of: 2DDR_A
+Loading pssm of: 2DDU_A
+Loading pssm of: 2DDX_A
+Loading pssm of: 2DDZ_A
+Loading pssm of: 2DE3_A
+Loading pssm of: 2DE6_A
+Loading pssm of: 2DEJ_A
+Loading pssm of: 2DF7_A
+Loading pssm of: 2DG1_A
+Loading pssm of: 2DG7_A
+Loading pssm of: 2DG8_A
+Loading pssm of: 2DGD_A
+Loading pssm of: 2DGK_A
+Loading pssm of: 2DH2_A
+Loading pssm of: 2DHO_A
+Loading pssm of: 2DI4_A
+Loading pssm of: 2DJF_A
+Loading pssm of: 2DKA_A
+Loading pssm of: 2DKJ_A
+Loading pssm of: 2DKO_A
+Loading pssm of: 2DLA_A
+Loading pssm of: 2DLB_A
+Loading pssm of: 2DM9_A
+Loading pssm of: 2DOH_A
+Loading pssm of: 2DOK_A
+Loading pssm of: 2DOQ_A
+Loading pssm of: 2DP9_A
+Loading pssm of: 2DPF_A
+Loading pssm of: 2DPL_A
+Loading pssm of: 2DPM_A
+Loading pssm of: 2DPW_A
+Loading pssm of: 2DQL_A
+Loading pssm of: 2DQW_A
+Loading pssm of: 2DS5_A
+Loading pssm of: 2DSK_A
+Loading pssm of: 2DST_A
+Loading pssm of: 2DSX_A
+Loading pssm of: 2DTJ_A
+Loading pssm of: 2DU3_A
+Loading pssm of: 2DUL_A
+Loading pssm of: 2DVM_A
+Loading pssm of: 2DWK_A
+Loading pssm of: 2DWU_A
+Loading pssm of: 2DXA_A
+Loading pssm of: 2DXN_A
+Loading pssm of: 2DXQ_A
+Loading pssm of: 2DXU_A
+Loading pssm of: 2DY0_A
+Loading pssm of: 2DYI_A
+Loading pssm of: 2DYJ_A
+Loading pssm of: 2DYO_A
+Loading pssm of: 2E0N_A
+Loading pssm of: 2E11_A
+Loading pssm of: 2E12_A
+Loading pssm of: 2E1F_A
+Loading pssm of: 2E1M_A
+Loading pssm of: 2E1V_A
+Loading pssm of: 2E2A_A
+Loading pssm of: 2E2E_A
+Loading pssm of: 2E2O_A
+Loading pssm of: 2E3H_A
+Loading pssm of: 2E3N_A
+Loading pssm of: 2E4M_A
+Loading pssm of: 2E4T_A
+Loading pssm of: 2E52_A
+Loading pssm of: 2E56_A
+Loading pssm of: 2E5F_A
+Loading pssm of: 2E5Y_A
+Loading pssm of: 2E67_A
+Loading pssm of: 2E6F_A
+Loading pssm of: 2E6M_A
+Loading pssm of: 2E6X_A
+Loading pssm of: 2E7J_A
+Loading pssm of: 2E7V_A
+Loading pssm of: 2E7Z_A
+Loading pssm of: 2E85_A
+Loading pssm of: 2E8B_A
+Loading pssm of: 2E8E_A
+Loading pssm of: 2E8G_A
+Loading pssm of: 2E8V_A
+Loading pssm of: 2E9X_A
+Loading pssm of: 2EAB_A
+Loading pssm of: 2EAQ_A
+Loading pssm of: 2EBB_A
+Loading pssm of: 2EBE_A
+Loading pssm of: 2ECE_A
+Loading pssm of: 2ECU_A
+Loading pssm of: 2ED6_A
+Loading pssm of: 2EFE_A
+Loading pssm of: 2EFJ_A
+Loading pssm of: 2EFK_A
+Loading pssm of: 2EFV_A
+Loading pssm of: 2EGV_A
+Loading pssm of: 2EH3_A
+Loading pssm of: 2EHB_A
+Loading pssm of: 2EHG_A
+Loading pssm of: 2EHP_A
+Loading pssm of: 2EHW_A
+Loading pssm of: 2EHZ_A
+Loading pssm of: 2EI9_A
+Loading pssm of: 2EIY_A
+Loading pssm of: 2EJ8_A
+Loading pssm of: 2EJX_A
+Loading pssm of: 2EK0_A
+Loading pssm of: 2EK1_A
+Loading pssm of: 2EKD_A
+Loading pssm of: 2EKL_A
+Loading pssm of: 2ELC_A
+Loading pssm of: 2EMS_A
+Loading pssm of: 2END_A
+Loading pssm of: 2ENG_A
+Loading pssm of: 2EPL_A
+Loading pssm of: 2EQ5_A
+Loading pssm of: 2EQ7_A
+Loading pssm of: 2EQB_A
+Loading pssm of: 2ERF_A
+Loading pssm of: 2ERL_A
+Loading pssm of: 2ERV_A
+Loading pssm of: 2ES4_A
+Loading pssm of: 2ES9_A
+Loading pssm of: 2ESS_A
+Loading pssm of: 2ET1_A
+Loading pssm of: 2ETB_A
+Loading pssm of: 2ETD_A
+Loading pssm of: 2ETH_A
+Loading pssm of: 2ETJ_A
+Loading pssm of: 2ETS_A
+Loading pssm of: 2ETV_A
+Loading pssm of: 2EUC_A
+Loading pssm of: 2EUI_A
+Loading pssm of: 2EV1_A
+Loading pssm of: 2EVV_A
+Loading pssm of: 2EW0_A
+Loading pssm of: 2EWC_A
+Loading pssm of: 2EWF_A
+Loading pssm of: 2EX2_A
+Loading pssm of: 2EX5_A
+Loading pssm of: 2EY4_A
+Loading pssm of: 2EYU_A
+Loading pssm of: 2EZ2_A
+Loading pssm of: 2EZV_A
+Loading pssm of: 2F01_A
+Loading pssm of: 2F06_A
+Loading pssm of: 2F07_A
+Loading pssm of: 2F0C_A
+Loading pssm of: 2F1F_A
+Loading pssm of: 2F1N_A
+Loading pssm of: 2F22_A
+Loading pssm of: 2F23_A
+Loading pssm of: 2F2B_A
+Loading pssm of: 2F2C_A
+Loading pssm of: 2F2F_A
+Loading pssm of: 2F2H_A
+Loading pssm of: 2F31_A
+Loading pssm of: 2F3L_A
+Loading pssm of: 2F3Y_A
+Loading pssm of: 2F42_A
+Loading pssm of: 2F46_A
+Loading pssm of: 2F48_A
+Loading pssm of: 2F49_A
+Loading pssm of: 2F4I_A
+Loading pssm of: 2F4M_A
+Loading pssm of: 2F4N_A
+Loading pssm of: 2F4P_A
+Loading pssm of: 2F4W_A
+Loading pssm of: 2F5G_A
+Loading pssm of: 2F5J_A
+Loading pssm of: 2F5T_A
+Loading pssm of: 2F5U_A
+Loading pssm of: 2F60_A
+Loading pssm of: 2F62_A
+Loading pssm of: 2F69_A
+Loading pssm of: 2F6H_A
+Loading pssm of: 2F6K_A
+Loading pssm of: 2F6M_A
+Loading pssm of: 2F6R_A
+Loading pssm of: 2F7B_A
+Loading pssm of: 2F7V_A
+Loading pssm of: 2F8E_A
+Loading pssm of: 2F8L_A
+Loading pssm of: 2F8Y_A
+Loading pssm of: 2F9F_A
+Loading pssm of: 2F9H_A
+Loading pssm of: 2F9I_A
+Loading pssm of: 2F9Z_A
+Loading pssm of: 2FA1_A
+Loading pssm of: 2FA5_A
+Loading pssm of: 2FA8_A
+Loading pssm of: 2FAO_A
+Loading pssm of: 2FB0_A
+Loading pssm of: 2FB5_A
+Loading pssm of: 2FB6_A
+Loading pssm of: 2FBA_A
+Loading pssm of: 2FBI_A
+Loading pssm of: 2FBQ_A
+Loading pssm of: 2FCA_A
+Loading pssm of: 2FCJ_A
+Loading pssm of: 2FCK_A
+Loading pssm of: 2FCL_A
+Loading pssm of: 2FCO_A
+Loading pssm of: 2FCT_A
+Loading pssm of: 2FCW_A
+Loading pssm of: 2FD4_A
+Loading pssm of: 2FD5_A
+Loading pssm of: 2FDB_A
+Loading pssm of: 2FDO_A
+Loading pssm of: 2FDR_A
+Loading pssm of: 2FEA_A
+Loading pssm of: 2FEF_A
+Loading pssm of: 2FEL_A
+Loading pssm of: 2FEX_A
+Loading pssm of: 2FF4_A
+Loading pssm of: 2FFG_A
+Loading pssm of: 2FFM_A
+Loading pssm of: 2FFS_A
+Loading pssm of: 2FG9_A
+Loading pssm of: 2FGQ_A
+Loading pssm of: 2FGT_A
+Loading pssm of: 2FGY_A
+Loading pssm of: 2FH5_A
+Loading pssm of: 2FHP_A
+Loading pssm of: 2FHX_A
+Loading pssm of: 2FHZ_A
+Loading pssm of: 2FI0_A
+Loading pssm of: 2FI1_A
+Loading pssm of: 2FI9_A
+Loading pssm of: 2FIA_A
+Loading pssm of: 2FIP_A
+Loading pssm of: 2FIU_A
+Loading pssm of: 2FIW_A
+Loading pssm of: 2FIY_A
+Loading pssm of: 2FJ8_A
+Loading pssm of: 2FJI_A
+Loading pssm of: 2FJR_A
+Loading pssm of: 2FKC_A
+Loading pssm of: 2FKK_A
+Loading pssm of: 2FL4_A
+Loading pssm of: 2FM9_A
+Loading pssm of: 2FMA_A
+Loading pssm of: 2FMY_A
+Loading pssm of: 2FNA_A
+Loading pssm of: 2FNJ_A
+Loading pssm of: 2FNO_A
+Loading pssm of: 2FNU_A
+Loading pssm of: 2FOT_A
+Loading pssm of: 2FOZ_A
+Loading pssm of: 2FP1_A
+Loading pssm of: 2FP4_A
+Loading pssm of: 2FPH_A
+Loading pssm of: 2FPN_A
+Loading pssm of: 2FQ3_A
+Loading pssm of: 2FQ4_A
+Loading pssm of: 2FQM_A
+Loading pssm of: 2FQX_A
+Loading pssm of: 2FR5_A
+Loading pssm of: 2FRE_A
+Loading pssm of: 2FRG_A
+Loading pssm of: 2FSD_A
+Loading pssm of: 2FSJ_A
+Loading pssm of: 2FSQ_A
+Loading pssm of: 2FSR_A
+Loading pssm of: 2FT0_A
+Loading pssm of: 2FTR_A
+Loading pssm of: 2FU2_A
+Loading pssm of: 2FUE_A
+Loading pssm of: 2FUL_A
+Loading pssm of: 2FUP_A
+Loading pssm of: 2FUR_A
+Loading pssm of: 2FVV_A
+Loading pssm of: 2FVY_A
+Loading pssm of: 2FWH_A
+Loading pssm of: 2FX5_A
+Loading pssm of: 2FXA_A
+Loading pssm of: 2FY7_A
+Loading pssm of: 2FYF_A
+Loading pssm of: 2FYG_A
+Loading pssm of: 2FYU_A
+Loading pssm of: 2FZF_A
+Loading pssm of: 2FZP_A
+Loading pssm of: 2FZT_A
+Loading pssm of: 2FZV_A
+Loading pssm of: 2G0B_A
+Loading pssm of: 2G0C_A
+Loading pssm of: 2G0D_A
+Loading pssm of: 2G0W_A
+Loading pssm of: 2G1U_A
+Loading pssm of: 2G2C_A
+Loading pssm of: 2G2Q_A
+Loading pssm of: 2G30_A
+Loading pssm of: 2G3A_A
+Loading pssm of: 2G3R_A
+Loading pssm of: 2G3V_A
+Loading pssm of: 2G3W_A
+Loading pssm of: 2G40_A
+Loading pssm of: 2G45_A
+Loading pssm of: 2G5G_A
+Loading pssm of: 2G6T_A
+Loading pssm of: 2G7G_A
+Loading pssm of: 2G7L_A
+Loading pssm of: 2G7O_A
+Loading pssm of: 2G7S_A
+Loading pssm of: 2G8L_A
+Loading pssm of: 2G8S_A
+Loading pssm of: 2G9W_A
+Loading pssm of: 2GA1_A
+Loading pssm of: 2GA8_A
+Loading pssm of: 2GAG_A
+Loading pssm of: 2GAK_A
+Loading pssm of: 2GAN_A
+Loading pssm of: 2GAU_A
+Loading pssm of: 2GAX_A
+Loading pssm of: 2GB3_A
+Loading pssm of: 2GB4_A
+Loading pssm of: 2GB7_A
+Loading pssm of: 2GBB_A
+Loading pssm of: 2GBO_A
+Loading pssm of: 2GD5_A
+Loading pssm of: 2GD9_A
+Loading pssm of: 2GDM_A
+Loading pssm of: 2GDQ_A
+Loading pssm of: 2GEF_A
+Loading pssm of: 2GEN_A
+Loading pssm of: 2GEY_A
+Loading pssm of: 2GF3_A
+Loading pssm of: 2GF4_A
+Loading pssm of: 2GF6_A
+Loading pssm of: 2GFF_A
+Loading pssm of: 2GFH_A
+Loading pssm of: 2GFQ_A
+Loading pssm of: 2GGC_A
+Loading pssm of: 2GGO_A
+Loading pssm of: 2GHS_A
+Loading pssm of: 2GHT_A
+Loading pssm of: 2GHV_A
+Loading pssm of: 2GIA_A
+Loading pssm of: 2GIB_A
+Loading pssm of: 2GIY_A
+Loading pssm of: 2GJ2_A
+Loading pssm of: 2GJ3_A
+Loading pssm of: 2GJ4_A
+Loading pssm of: 2GK4_A
+Loading pssm of: 2GKE_A
+Loading pssm of: 2GKG_A
+Loading pssm of: 2GKP_A
+Loading pssm of: 2GKW_A
+Loading pssm of: 2GLF_A
+Loading pssm of: 2GLZ_A
+Loading pssm of: 2GM3_A
+Loading pssm of: 2GMH_A
+Loading pssm of: 2GMQ_A
+Loading pssm of: 2GMY_A
+Loading pssm of: 2GNO_A
+Loading pssm of: 2GNP_A
+Loading pssm of: 2GNX_A
+Loading pssm of: 2GO8_A
+Loading pssm of: 2GOM_A
+Loading pssm of: 2GP4_A
+Loading pssm of: 2GPE_A
+Loading pssm of: 2GPI_A
+Loading pssm of: 2GPO_A
+Loading pssm of: 2GQT_A
+Loading pssm of: 2GQW_A
+Loading pssm of: 2GRE_A
+Loading pssm of: 2GRR_A
+Loading pssm of: 2GRV_A
+Loading pssm of: 2GS5_A
+Loading pssm of: 2GSC_A
+Loading pssm of: 2GSO_A
+Loading pssm of: 2GSV_A
+Loading pssm of: 2GT1_A
+Loading pssm of: 2GTI_A
+Loading pssm of: 2GU3_A
+Loading pssm of: 2GU9_A
+Loading pssm of: 2GUD_A
+Loading pssm of: 2GUF_A
+Loading pssm of: 2GUH_A
+Loading pssm of: 2GUI_A
+Loading pssm of: 2GUJ_A
+Loading pssm of: 2GUK_A
+Loading pssm of: 2GUM_A
+Loading pssm of: 2GUP_A
+Loading pssm of: 2GUZ_A
+Loading pssm of: 2GV5_A
+Loading pssm of: 2GVI_A
+Loading pssm of: 2GWD_A
+Loading pssm of: 2GWF_A
+Loading pssm of: 2GWG_A
+Loading pssm of: 2GWM_A
+Loading pssm of: 2GWW_A
+Loading pssm of: 2GX5_A
+Loading pssm of: 2GXG_A
+Loading pssm of: 2GXQ_A
+Loading pssm of: 2GYQ_A
+Loading pssm of: 2GYS_A
+Loading pssm of: 2GZ4_A
+Loading pssm of: 2GZ6_A
+Loading pssm of: 2GZA_A
+Loading pssm of: 2GZQ_A
+Loading pssm of: 2GZS_A
+Loading pssm of: 2GZV_A
+Loading pssm of: 2H00_A
+Loading pssm of: 2H0A_A
+Loading pssm of: 2H1T_A
+Loading pssm of: 2H1V_A
+Loading pssm of: 2H30_A
+Loading pssm of: 2H4O_A
+Loading pssm of: 2H5C_A
+Loading pssm of: 2H5N_A
+Loading pssm of: 2H62_A
+Loading pssm of: 2H6L_A
+Loading pssm of: 2H7O_A
+Loading pssm of: 2H88_A
+Loading pssm of: 2H8E_A
+Loading pssm of: 2H8G_A
+Loading pssm of: 2H8N_A
+Loading pssm of: 2H9A_A
+Loading pssm of: 2H9E_A
+Loading pssm of: 2HA8_A
+Loading pssm of: 2HA9_A
+Loading pssm of: 2HAL_A
+Loading pssm of: 2HB0_A
+Loading pssm of: 2HBA_A
+Loading pssm of: 2HBO_A
+Loading pssm of: 2HBV_A
+There was an error loading PSSM of 2HBV_A: No columns to parse from file
+REMOVING from dataset
+Loading pssm of: 2HBW_A
+Loading pssm of: 2HC8_A
+Loading pssm of: 2HCF_A
+Loading pssm of: 2HD0_A
+Loading pssm of: 2HD9_A
+Loading pssm of: 2HDI_A
+Loading pssm of: 2HDO_A
+Loading pssm of: 2HDW_A
+Loading pssm of: 2HEU_A
+Loading pssm of: 2HEW_A
+Loading pssm of: 2HF1_A
+Loading pssm of: 2HF2_A
+Loading pssm of: 2HF9_A
+Loading pssm of: 2HFG_A
+Loading pssm of: 2HFN_A
+Loading pssm of: 2HFS_A
+Loading pssm of: 2HHC_A
+Loading pssm of: 2HHZ_A
+Loading pssm of: 2HI0_A
+Loading pssm of: 2HIM_A
+Loading pssm of: 2HIN_A
+Loading pssm of: 2HIQ_A
+Loading pssm of: 2HIY_A
+Loading pssm of: 2HJ1_A
+Loading pssm of: 2HJE_A
+Loading pssm of: 2HJM_A
+Loading pssm of: 2HKJ_A
+Loading pssm of: 2HKU_A
+Loading pssm of: 2HKV_A
+Loading pssm of: 2HL7_A
+Loading pssm of: 2HLJ_A
+Loading pssm of: 2HLY_A
+Loading pssm of: 2HLZ_A
+Loading pssm of: 2HMA_A
+Loading pssm of: 2HMV_A
+Loading pssm of: 2HNF_A
+Loading pssm of: 2HNG_A
+Loading pssm of: 2HNU_A
+Loading pssm of: 2HOX_A
+Loading pssm of: 2HP0_A
+Loading pssm of: 2HPS_A
+Loading pssm of: 2HQ4_A
+Loading pssm of: 2HQ7_A
+Loading pssm of: 2HQ9_A
+Loading pssm of: 2HQB_A
+Loading pssm of: 2HQH_A
+Loading pssm of: 2HQL_A
+Loading pssm of: 2HQS_A
+Loading pssm of: 2HQT_A
+Loading pssm of: 2HQX_A
+Loading pssm of: 2HQY_A
+Loading pssm of: 2HR2_A
+Loading pssm of: 2HRA_A
+Loading pssm of: 2HS1_A
+Loading pssm of: 2HSB_A
+Loading pssm of: 2HTD_A
+Loading pssm of: 2HTH_A
+Loading pssm of: 2HTI_A
+Loading pssm of: 2HU9_A
+Loading pssm of: 2HUE_A
+Loading pssm of: 2HUH_A
+Loading pssm of: 2HUJ_A
+Loading pssm of: 2HW2_A
+Loading pssm of: 2HW4_A
+Loading pssm of: 2HWJ_A
+Loading pssm of: 2HWK_A
+Loading pssm of: 2HWN_A
+Loading pssm of: 2HX0_A
+Loading pssm of: 2HX1_A
+Loading pssm of: 2HX5_A
+Loading pssm of: 2HXI_A
+Loading pssm of: 2HXO_A
+Loading pssm of: 2HXR_A
+Loading pssm of: 2HXT_A
+Loading pssm of: 2HY5_A
+Loading pssm of: 2HY7_A
+Loading pssm of: 2HYJ_A
+Loading pssm of: 2HYT_A
+Loading pssm of: 2HZF_A
+Loading pssm of: 2HZM_A
+Loading pssm of: 2HZS_A
+Loading pssm of: 2I00_A
+Loading pssm of: 2I02_A
+Loading pssm of: 2I06_A
+Loading pssm of: 2I0Z_A
+Loading pssm of: 2I10_A
+Loading pssm of: 2I15_A
+Loading pssm of: 2I1S_A
+Loading pssm of: 2I2C_A
+Loading pssm of: 2I2L_A
+Loading pssm of: 2I2O_A
+Loading pssm of: 2I2X_A
+Loading pssm of: 2I39_A
+Loading pssm of: 2I3D_A
+Loading pssm of: 2I3O_A
+Loading pssm of: 2I3S_A
+Loading pssm of: 2I44_A
+Loading pssm of: 2I46_A
+Loading pssm of: 2I49_A
+Loading pssm of: 2I4L_A
+Loading pssm of: 2I4R_A
+Loading pssm of: 2I51_A
+Loading pssm of: 2I53_A
+Loading pssm of: 2I5E_A
+Loading pssm of: 2I5H_A
+Loading pssm of: 2I5I_A
+Loading pssm of: 2I5U_A
+Loading pssm of: 2I5V_A
+Loading pssm of: 2I6H_A
+Loading pssm of: 2I6T_A
+Loading pssm of: 2I6V_A
+Loading pssm of: 2I71_A
+Loading pssm of: 2I74_A
+Loading pssm of: 2I76_A
+Loading pssm of: 2I79_A
+Loading pssm of: 2I7G_A
+Loading pssm of: 2I7H_A
+Loading pssm of: 2I7R_A
+Loading pssm of: 2I7X_A
+Loading pssm of: 2I8D_A
+Loading pssm of: 2I8T_A
+Loading pssm of: 2I9C_A
+Loading pssm of: 2I9D_A
+Loading pssm of: 2I9F_A
+Loading pssm of: 2I9I_A
+Loading pssm of: 2I9W_A
+Loading pssm of: 2I9X_A
+Loading pssm of: 2IA1_A
+Loading pssm of: 2IA2_A
+Loading pssm of: 2IA7_A
+Loading pssm of: 2IAB_A
+Loading pssm of: 2IAF_A
+Loading pssm of: 2IAY_A
+Loading pssm of: 2IAZ_A
+Loading pssm of: 2IB0_A
+Loading pssm of: 2IBD_A
+Loading pssm of: 2IBN_A
+Loading pssm of: 2IC2_A
+Loading pssm of: 2IC6_A
+Loading pssm of: 2ICH_A
+Loading pssm of: 2ICS_A
+Loading pssm of: 2ICW_A
+Loading pssm of: 2ICY_A
+Loading pssm of: 2ID0_A
+Loading pssm of: 2ID4_A
+Loading pssm of: 2ID6_A
+Loading pssm of: 2IDL_A
+Loading pssm of: 2IDO_A
+Loading pssm of: 2IEL_A
+Loading pssm of: 2IFU_A
+Loading pssm of: 2IG6_A
+Loading pssm of: 2IG8_A
+Loading pssm of: 2IGI_A
+Loading pssm of: 2IGP_A
+Loading pssm of: 2IGS_A
+Loading pssm of: 2IGT_A
+Loading pssm of: 2IH2_A
+Loading pssm of: 2IHT_A
+Loading pssm of: 2II0_A
+Loading pssm of: 2II2_A
+Loading pssm of: 2IID_A
+Loading pssm of: 2IIH_A
+Loading pssm of: 2IJ2_A
+Loading pssm of: 2IJL_A
+Loading pssm of: 2IJQ_A
+Loading pssm of: 2IJR_A
+Loading pssm of: 2IKK_A
+Loading pssm of: 2IKS_A
+Loading pssm of: 2IL5_A
+Loading pssm of: 2ILK_A
+Loading pssm of: 2ILR_A
+Loading pssm of: 2IMF_A
+Loading pssm of: 2IMH_A
+Loading pssm of: 2IMJ_A
+Loading pssm of: 2IMQ_A
+Loading pssm of: 2IMR_A
+Loading pssm of: 2IMS_A
+Loading pssm of: 2IN3_A
+Loading pssm of: 2IN5_A
+Loading pssm of: 2INU_A
+Loading pssm of: 2INW_A
+Loading pssm of: 2IOJ_A
+Loading pssm of: 2IP1_A
+Loading pssm of: 2IP2_A
+Loading pssm of: 2IP6_A
+Loading pssm of: 2IPQ_A
+Loading pssm of: 2IQC_A
+Loading pssm of: 2IQI_A
+Loading pssm of: 2IQT_A
+Loading pssm of: 2IQY_A
+Loading pssm of: 2IRP_A
+Loading pssm of: 2ISB_A
+Loading pssm of: 2ISK_A
+Loading pssm of: 2IT2_A
+Loading pssm of: 2IT9_A
+Loading pssm of: 2ITB_A
+Loading pssm of: 2IU5_A
+Loading pssm of: 2IUM_A
+Loading pssm of: 2IUU_A
+Loading pssm of: 2IUW_A
+Loading pssm of: 2IUY_A
+Loading pssm of: 2IV8_A
+Loading pssm of: 2IVF_A
+Loading pssm of: 2IVN_A
+Loading pssm of: 2IVY_A
+Loading pssm of: 2IW1_A
+Loading pssm of: 2IWR_A
+Loading pssm of: 2IX7_A
+Loading pssm of: 2IXA_A
+Loading pssm of: 2IXM_A
+Loading pssm of: 2IXS_A
+Loading pssm of: 2IYB_A
+Loading pssm of: 2IYF_A
+Loading pssm of: 2IYK_A
+Loading pssm of: 2IYV_A
+Loading pssm of: 2IZ6_A
+Loading pssm of: 2IZR_A
+Loading pssm of: 2IZX_A
+Loading pssm of: 2J0A_A
+Loading pssm of: 2J0S_A
+Loading pssm of: 2J16_A
+Loading pssm of: 2J1V_A
+Loading pssm of: 2J2J_A
+Loading pssm of: 2J3T_A
+Loading pssm of: 2J3W_A
+Loading pssm of: 2J43_A
+Loading pssm of: 2J58_A
+Loading pssm of: 2J59_A
+Loading pssm of: 2J5B_A
+Loading pssm of: 2J5G_A
+Loading pssm of: 2J5Y_A
+Loading pssm of: 2J66_A
+Loading pssm of: 2J69_A
+Loading pssm of: 2J6A_A
+Loading pssm of: 2J6B_A
+Loading pssm of: 2J6L_A
+Loading pssm of: 2J6P_A
+Loading pssm of: 2J73_A
+Loading pssm of: 2J7A_A
+Loading pssm of: 2J7N_A
+Loading pssm of: 2J7Q_A
+Loading pssm of: 2J85_A
+Loading pssm of: 2J8A_A
+Loading pssm of: 2J8G_A
+Loading pssm of: 2J8K_A
+Loading pssm of: 2J91_A
+Loading pssm of: 2J97_A
+Loading pssm of: 2J9O_A
+Loading pssm of: 2J9U_A
+Loading pssm of: 2J9W_A
+Loading pssm of: 2JA4_A
+Loading pssm of: 2JA9_A
+Loading pssm of: 2JAE_A
+Loading pssm of: 2JBW_A
+Loading pssm of: 2JBY_A
+Loading pssm of: 2JC9_A
+Loading pssm of: 2JCB_A
+Loading pssm of: 2JD3_A
+Loading pssm of: 2JDA_A
+Loading pssm of: 2JDC_A
+Loading pssm of: 2JDI_A
+Loading pssm of: 2JDJ_A
+Loading pssm of: 2JE3_A
+Loading pssm of: 2JE6_A
+Loading pssm of: 2JE8_A
+Loading pssm of: 2JEK_A
+Loading pssm of: 2JEN_A
+Loading pssm of: 2JFK_A
+Loading pssm of: 2JFR_A
+Loading pssm of: 2JG0_A
+Loading pssm of: 2JG1_A
+Loading pssm of: 2JGP_A
+Loading pssm of: 2JGS_A
+Loading pssm of: 2JH1_A
+Loading pssm of: 2JH3_A
+Loading pssm of: 2JHE_A
+Loading pssm of: 2JHF_A
+Loading pssm of: 2JHJ_A
+Loading pssm of: 2JHN_A
+Loading pssm of: 2JHP_A
+Loading pssm of: 2JII_A
+Loading pssm of: 2JIS_A
+Loading pssm of: 2JJ7_A
+Loading pssm of: 2JJQ_A
+Loading pssm of: 2JJU_A
+Loading pssm of: 2JK9_A
+Loading pssm of: 2JKH_A
+Loading pssm of: 2JKU_A
+Loading pssm of: 2JLI_A
+Loading pssm of: 2JLN_A
+Loading pssm of: 2LIS_A
+Loading pssm of: 2MCM_A
+Loading pssm of: 2MHR_A
+Loading pssm of: 2MPR_A
+Loading pssm of: 2NLR_A
+Loading pssm of: 2NLS_A
+Loading pssm of: 2NLV_A
+Loading pssm of: 2NLY_A
+Loading pssm of: 2NML_A
+Loading pssm of: 2NN4_A
+Loading pssm of: 2NN5_A
+Loading pssm of: 2NNU_A
+Loading pssm of: 2NO2_A
+Loading pssm of: 2NOG_A
+Loading pssm of: 2NOO_A
+Loading pssm of: 2NP5_A
+Loading pssm of: 2NPS_A
+Loading pssm of: 2NPT_A
+Loading pssm of: 2NQ2_A
+Loading pssm of: 2NQ3_A
+Loading pssm of: 2NQT_A
+Loading pssm of: 2NQW_A
+Loading pssm of: 2NR4_A
+Loading pssm of: 2NR5_A
+Loading pssm of: 2NR7_A
+Loading pssm of: 2NRH_A
+Loading pssm of: 2NRJ_A
+Loading pssm of: 2NRK_A
+Loading pssm of: 2NRQ_A
+Loading pssm of: 2NRR_A
+Loading pssm of: 2NS0_A
+Loading pssm of: 2NS6_A
+Loading pssm of: 2NS9_A
+Loading pssm of: 2NSA_A
+Loading pssm of: 2NSC_A
+Loading pssm of: 2NSF_A
+Loading pssm of: 2NSZ_A
+Loading pssm of: 2NT0_A
+Loading pssm of: 2NTE_A
+Loading pssm of: 2NTK_A
+Loading pssm of: 2NTP_A
+Loading pssm of: 2NTX_A
+Loading pssm of: 2NUD_A
+Loading pssm of: 2NUH_A
+Loading pssm of: 2NUJ_A
+Loading pssm of: 2NUT_A
+Loading pssm of: 2NVH_A
+Loading pssm of: 2NVO_A
+Loading pssm of: 2NVW_A
+Loading pssm of: 2NW8_A
+Loading pssm of: 2NWA_A
+Loading pssm of: 2NWF_A
+Loading pssm of: 2NWH_A
+Loading pssm of: 2NWI_A
+Loading pssm of: 2NWR_A
+Loading pssm of: 2NX2_A
+Loading pssm of: 2NX4_A
+Loading pssm of: 2NX9_A
+Loading pssm of: 2NXF_A
+Loading pssm of: 2NXO_A
+Loading pssm of: 2NXP_A
+Loading pssm of: 2NXV_A
+Loading pssm of: 2NXW_A
+Loading pssm of: 2NYI_A
+Loading pssm of: 2NYK_A
+Loading pssm of: 2NYV_A
+Loading pssm of: 2NZ7_A
+Loading pssm of: 2NZC_A
+Loading pssm of: 2NZL_A
+Loading pssm of: 2NZX_A
+Loading pssm of: 2O0A_A
+Loading pssm of: 2O0J_A
+Loading pssm of: 2O0M_A
+Loading pssm of: 2O0Q_A
+Loading pssm of: 2O0T_A
+Loading pssm of: 2O14_A
+Loading pssm of: 2O1C_A
+Loading pssm of: 2O1K_A
+Loading pssm of: 2O1Q_A
+Loading pssm of: 2O1S_A
+Loading pssm of: 2O26_A
+Loading pssm of: 2O2G_A
+Loading pssm of: 2O2K_A
+Loading pssm of: 2O30_A
+Loading pssm of: 2O34_A
+Loading pssm of: 2O38_A
+Loading pssm of: 2O3B_A
+Loading pssm of: 2O3I_A
+Loading pssm of: 2O3J_A
+Loading pssm of: 2O3O_A
+Loading pssm of: 2O4A_A
+Loading pssm of: 2O4T_A
+Loading pssm of: 2O55_A
+Loading pssm of: 2O57_A
+Loading pssm of: 2O5F_A
+Loading pssm of: 2O5G_A
+Loading pssm of: 2O5H_A
+Loading pssm of: 2O5N_A
+Loading pssm of: 2O60_A
+Loading pssm of: 2O62_A
+Loading pssm of: 2O6K_A
+Loading pssm of: 2O6L_A
+Loading pssm of: 2O6N_A
+Loading pssm of: 2O6P_A
+Loading pssm of: 2O70_A
+Loading pssm of: 2O71_A
+Loading pssm of: 2O7A_A
+Loading pssm of: 2O7G_A
+Loading pssm of: 2O7R_A
+Loading pssm of: 2O7T_A
+Loading pssm of: 2O8G_A
+Loading pssm of: 2O8L_A
+Loading pssm of: 2O8P_A
+Loading pssm of: 2O8Q_A
+Loading pssm of: 2O8S_A
+Loading pssm of: 2O90_A
+There was an error loading PSSM of 1WHZ_A at position 0: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 1: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 2: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 3: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 4: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 5: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 6: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 7: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 8: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 9: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 10: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 11: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 12: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 13: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 14: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 15: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 16: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 17: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 18: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 19: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 20: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 21: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 22: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 23: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 24: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 25: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 26: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 27: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 28: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 29: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 30: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 31: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 32: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 33: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 34: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 35: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 36: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 37: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 38: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 39: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 40: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 41: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 42: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 43: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 44: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 45: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 46: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 47: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 48: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 49: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 50: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 51: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 52: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 53: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 54: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 55: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 56: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 57: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 58: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 59: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 60: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 61: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 62: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 63: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 64: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 65: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 66: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 67: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 68: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 1WHZ_A at position 69: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 0: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 1: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 2: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 3: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 4: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 5: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 6: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 7: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 8: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 9: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 10: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 11: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 12: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 13: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 14: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 15: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 16: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 17: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 18: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 19: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 20: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 21: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 22: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 23: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 24: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 25: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 26: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 27: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 28: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 29: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 30: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 31: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 32: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 33: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 34: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 35: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 36: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 37: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 38: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 39: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 40: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 41: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 42: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 43: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 44: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 45: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 46: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 47: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 48: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 49: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 50: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 51: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 52: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 53: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 54: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 55: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 56: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 57: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 58: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 59: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 60: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 61: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 62: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 63: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 64: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 65: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 66: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 67: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 68: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 69: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 70: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 71: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 72: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 73: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 74: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 75: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 76: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 77: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 78: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 79: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 80: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 81: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 82: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 83: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 84: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 85: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 86: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 87: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 88: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 89: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 90: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 91: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 92: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 93: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 94: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 95: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 96: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 97: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 98: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 99: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 100: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 101: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 102: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 103: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 104: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 105: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 106: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 107: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 108: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 109: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 110: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 111: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 112: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 113: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 114: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 115: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 116: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 117: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 118: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 119: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 120: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 121: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 122: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 123: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 124: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 125: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 126: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 127: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 128: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 129: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 130: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 131: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 132: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 133: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 134: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 135: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 136: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 137: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 138: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 139: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 140: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 141: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 142: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 143: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 144: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 145: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 146: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 147: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 148: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 149: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 150: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 151: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 152: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 153: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 154: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 155: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 156: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 157: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 158: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 159: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 160: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 161: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 162: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 163: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 164: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 165: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 166: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 167: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 168: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 169: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 170: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 171: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 172: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 173: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 174: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 175: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 176: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 177: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 178: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 179: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 180: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 181: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 182: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 183: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 184: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 185: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 186: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 187: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 188: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 189: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 190: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 191: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 192: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 193: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 194: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 195: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 196: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 197: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 198: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 199: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 200: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 201: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 202: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 203: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 204: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 205: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 206: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 207: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 208: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 209: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 210: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 211: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 212: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 213: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 214: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 215: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 216: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 217: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 218: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 219: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 220: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 221: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 222: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 223: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 224: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 225: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 226: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 227: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 228: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 229: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 230: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 231: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 232: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 233: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 234: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 235: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 236: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 237: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 238: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 239: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 240: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 241: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 242: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 243: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 244: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 245: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 246: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 247: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 248: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 249: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 250: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 251: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 252: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 253: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 254: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 255: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 256: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 257: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 258: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 259: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 260: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 261: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 262: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 263: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 264: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 265: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 266: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 267: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 268: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 269: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 270: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 271: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 272: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 273: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 274: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 275: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 276: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 277: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 278: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 279: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 280: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 281: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 282: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 283: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 284: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 285: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 286: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 287: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 288: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 289: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 290: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 291: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 292: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 293: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 294: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 295: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 296: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 297: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 298: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 299: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 300: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 301: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 302: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 303: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 304: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 305: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 306: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 307: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 308: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 309: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 310: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 311: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 312: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 313: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 314: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 315: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 316: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 317: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 318: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 319: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 320: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 321: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 322: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 323: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 324: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 325: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 326: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 327: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 328: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 329: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 330: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 331: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 332: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 333: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 334: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 335: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 336: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 337: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 338: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 339: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 340: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 341: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 342: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 343: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 344: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 345: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 346: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 347: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 348: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 349: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 350: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 351: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 352: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 353: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 354: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 355: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 356: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 357: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 358: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 359: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 360: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 361: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 362: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 363: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 364: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 365: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 366: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 367: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 368: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 369: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 370: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 371: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 372: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 373: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 374: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 375: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 376: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 377: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 378: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 379: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 380: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 381: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 382: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 383: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 384: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 385: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 386: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 387: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 388: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 389: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 390: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 391: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 392: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 393: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 394: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 395: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 396: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 397: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 398: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 399: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 400: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 401: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 402: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 403: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 404: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 405: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 406: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 407: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 408: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 409: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 410: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 411: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 412: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 413: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 414: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 415: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 416: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 417: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 418: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 419: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 420: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 421: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 422: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 423: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 424: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 425: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 426: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 427: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 428: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 429: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 430: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 431: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 432: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 433: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 434: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 435: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 436: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 437: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 438: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 439: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 440: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 441: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 442: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 443: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 444: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 445: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 446: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 447: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 448: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 449: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 450: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 451: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 452: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 453: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 454: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 455: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 456: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 457: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 458: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 459: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 460: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 461: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 462: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 463: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 464: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 465: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 466: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 467: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 468: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 469: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 470: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 471: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 472: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 473: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 474: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 475: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 476: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 477: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 478: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 479: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 480: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 481: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 482: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 483: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 484: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 485: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 486: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 487: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 488: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 489: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 490: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 491: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 492: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 493: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 494: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 495: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 496: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 497: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 498: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 499: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 500: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 501: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 502: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 503: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 504: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 505: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 506: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 507: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 508: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 509: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 510: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 511: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 512: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 513: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 514: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 515: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 516: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 517: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 518: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 519: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 520: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 521: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 522: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 523: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 524: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 525: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 526: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 527: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 528: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 529: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 530: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 531: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 532: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 533: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 534: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 535: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 536: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 537: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 538: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 539: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 540: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 541: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 542: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 543: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 544: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 545: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 546: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 547: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 548: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 549: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 550: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 551: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 552: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 553: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 554: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 555: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 556: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 557: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 558: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 559: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 560: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 561: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 562: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 563: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 564: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 565: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 566: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 567: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 568: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 569: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 570: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 571: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 572: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 573: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 574: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 575: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 576: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 577: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 578: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 579: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 580: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 581: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 582: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 583: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 584: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 585: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 586: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 587: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 588: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 589: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 590: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 591: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 592: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 593: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 594: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 595: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 596: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 597: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 598: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 599: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 600: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 601: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 602: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 603: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 604: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 605: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 606: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 607: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 608: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 609: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 610: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 611: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 612: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 613: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 614: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 615: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 616: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 617: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 618: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 619: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 620: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 621: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 622: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 623: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 624: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 625: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 626: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 627: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 628: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 629: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 630: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 631: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 632: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 633: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 634: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 635: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 636: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 637: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 638: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 639: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 640: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 641: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 642: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 643: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 644: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 645: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 646: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 647: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 648: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 649: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 650: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 651: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 652: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 653: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 654: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 655: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 656: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 657: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 658: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 659: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 660: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 661: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 662: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 663: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 664: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 665: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 666: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 667: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 668: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 669: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 670: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 671: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 672: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 673: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 674: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 675: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 676: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 677: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 678: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 679: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 680: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 681: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 682: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 683: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 684: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 685: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 686: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 687: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 688: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 689: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 690: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 691: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 692: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 693: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 694: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 695: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 696: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 697: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 698: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 699: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 700: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 701: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 702: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 703: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 704: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 705: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 706: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 707: PSSM and sequence length mismatch
+REMOVING from dataset
+
+===== Fold 1/3 =====
+CNN(
+  (conv1): Conv2d(1, 500, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (pool): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (conv2): Conv2d(500, 100, kernel_size=(2, 2), stride=(1, 1), padding=(1, 1))
+  (fc1): Linear(in_features=5500, out_features=3, bias=True)
+)
+Epoch [1/10] of CNN training
+Epoch [2/10] of CNN training
+Epoch [3/10] of CNN training
+Epoch [4/10] of CNN training
+Epoch [5/10] of CNN training
+Epoch [6/10] of CNN training
+Epoch [7/10] of CNN training
+Epoch [8/10] of CNN training
+Epoch [9/10] of CNN training
+Epoch [10/10] of CNN training
+Epoch [1/20] of Softmax classifier training
+Epoch [2/20] of Softmax classifier training
+Epoch [3/20] of Softmax classifier training
+Epoch [4/20] of Softmax classifier training
+Epoch [5/20] of Softmax classifier training
+Epoch [6/20] of Softmax classifier training
+Epoch [7/20] of Softmax classifier training
+Epoch [8/20] of Softmax classifier training
+Epoch [9/20] of Softmax classifier training
+Epoch [10/20] of Softmax classifier training
+Epoch [11/20] of Softmax classifier training
+Epoch [12/20] of Softmax classifier training
+Epoch [13/20] of Softmax classifier training
+Epoch [14/20] of Softmax classifier training
+Epoch [15/20] of Softmax classifier training
+Epoch [16/20] of Softmax classifier training
+Epoch [17/20] of Softmax classifier training
+Epoch [18/20] of Softmax classifier training
+Epoch [19/20] of Softmax classifier training
+Epoch [20/20] of Softmax classifier training
+LSTM(
+  (lstm1): LSTM(20, 200, batch_first=True, bidirectional=True)
+  (lstm2): LSTM(400, 400, batch_first=True, bidirectional=True)
+  (classifier): Linear(in_features=800, out_features=3, bias=True)
+  (fc): Linear(in_features=3, out_features=3, bias=True)
+)
+Epoch [1/9] of LSTM training
+Epoch 1 average loss: 0.5701
+Epoch [2/9] of LSTM training
+Epoch 2 average loss: 0.5110
+Epoch [3/9] of LSTM training
+Epoch 3 average loss: 0.4712
+Epoch [4/9] of LSTM training
+Epoch 4 average loss: 0.4352
+Epoch [5/9] of LSTM training
+Epoch 5 average loss: 0.4047
+Epoch [6/9] of LSTM training
+Epoch 6 average loss: 0.3793
+Epoch [7/9] of LSTM training
+Epoch 7 average loss: 0.3646
+Epoch [8/9] of LSTM training
+Epoch 8 average loss: 0.3543
+Epoch [9/9] of LSTM training
+Epoch 9 average loss: 0.3501
+
+===== Fold 2/3 =====
+CNN(
+  (conv1): Conv2d(1, 500, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (pool): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (conv2): Conv2d(500, 100, kernel_size=(2, 2), stride=(1, 1), padding=(1, 1))
+  (fc1): Linear(in_features=5500, out_features=3, bias=True)
+)
+Epoch [1/10] of CNN training
+Epoch [2/10] of CNN training
+Epoch [3/10] of CNN training
+Epoch [4/10] of CNN training
+Epoch [5/10] of CNN training
+Epoch [6/10] of CNN training
+Epoch [7/10] of CNN training
+Epoch [8/10] of CNN training
+Epoch [9/10] of CNN training
+Epoch [10/10] of CNN training
+Epoch [1/20] of Softmax classifier training
+Epoch [2/20] of Softmax classifier training
+Epoch [3/20] of Softmax classifier training
+Epoch [4/20] of Softmax classifier training
+Epoch [5/20] of Softmax classifier training
+Epoch [6/20] of Softmax classifier training
+Epoch [7/20] of Softmax classifier training
+Epoch [8/20] of Softmax classifier training
+Epoch [9/20] of Softmax classifier training
+Epoch [10/20] of Softmax classifier training
+Epoch [11/20] of Softmax classifier training
+Epoch [12/20] of Softmax classifier training
+Epoch [13/20] of Softmax classifier training
+Epoch [14/20] of Softmax classifier training
+Epoch [15/20] of Softmax classifier training
+Epoch [16/20] of Softmax classifier training
+Epoch [17/20] of Softmax classifier training
+Epoch [18/20] of Softmax classifier training
+Epoch [19/20] of Softmax classifier training
+Epoch [20/20] of Softmax classifier training
+LSTM(
+  (lstm1): LSTM(20, 200, batch_first=True, bidirectional=True)
+  (lstm2): LSTM(400, 400, batch_first=True, bidirectional=True)
+  (classifier): Linear(in_features=800, out_features=3, bias=True)
+  (fc): Linear(in_features=3, out_features=3, bias=True)
+)
+Epoch [1/9] of LSTM training
+Epoch 1 average loss: 0.5718
+Epoch [2/9] of LSTM training
+Epoch 2 average loss: 0.5130
+Epoch [3/9] of LSTM training
+Epoch 3 average loss: 0.4743
+Epoch [4/9] of LSTM training
+Epoch 4 average loss: 0.4372
+Epoch [5/9] of LSTM training
+Epoch 5 average loss: 0.4028
+Epoch [6/9] of LSTM training
+Epoch 6 average loss: 0.3762
+Epoch [7/9] of LSTM training
+Epoch 7 average loss: 0.3556
+Epoch [8/9] of LSTM training
+Epoch 8 average loss: 0.3405
+Epoch [9/9] of LSTM training
+Epoch 9 average loss: 0.3341
+
+===== Fold 3/3 =====
+CNN(
+  (conv1): Conv2d(1, 500, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (pool): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (conv2): Conv2d(500, 100, kernel_size=(2, 2), stride=(1, 1), padding=(1, 1))
+  (fc1): Linear(in_features=5500, out_features=3, bias=True)
+)
+Epoch [1/10] of CNN training
+Epoch [2/10] of CNN training
+Epoch [3/10] of CNN training
+Epoch [4/10] of CNN training
+Epoch [5/10] of CNN training
+Epoch [6/10] of CNN training
+Epoch [7/10] of CNN training
+Epoch [8/10] of CNN training
+Epoch [9/10] of CNN training
+Epoch [10/10] of CNN training
+Epoch [1/20] of Softmax classifier training
+Epoch [2/20] of Softmax classifier training
+Epoch [3/20] of Softmax classifier training
+Epoch [4/20] of Softmax classifier training
+Epoch [5/20] of Softmax classifier training
+Epoch [6/20] of Softmax classifier training
+Epoch [7/20] of Softmax classifier training
+Epoch [8/20] of Softmax classifier training
+Epoch [9/20] of Softmax classifier training
+Epoch [10/20] of Softmax classifier training
+Epoch [11/20] of Softmax classifier training
+Epoch [12/20] of Softmax classifier training
+Epoch [13/20] of Softmax classifier training
+Epoch [14/20] of Softmax classifier training
+Epoch [15/20] of Softmax classifier training
+Epoch [16/20] of Softmax classifier training
+Epoch [17/20] of Softmax classifier training
+Epoch [18/20] of Softmax classifier training
+Epoch [19/20] of Softmax classifier training
+Epoch [20/20] of Softmax classifier training
+LSTM(
+  (lstm1): LSTM(20, 200, batch_first=True, bidirectional=True)
+  (lstm2): LSTM(400, 400, batch_first=True, bidirectional=True)
+  (classifier): Linear(in_features=800, out_features=3, bias=True)
+  (fc): Linear(in_features=3, out_features=3, bias=True)
+)
+Epoch [1/9] of LSTM training
+Epoch 1 average loss: 0.5684
+Epoch [2/9] of LSTM training
+Epoch 2 average loss: 0.5101
+Epoch [3/9] of LSTM training
+Epoch 3 average loss: 0.4724
+Epoch [4/9] of LSTM training
+Epoch 4 average loss: 0.4393
+Epoch [5/9] of LSTM training
+Epoch 5 average loss: 0.4097
+Epoch [6/9] of LSTM training
+Epoch 6 average loss: 0.3874
+Epoch [7/9] of LSTM training
+Epoch 7 average loss: 0.3727
+Epoch [8/9] of LSTM training
+Epoch 8 average loss: 0.3668
+Epoch [9/9] of LSTM training
+Epoch 9 average loss: 0.3613
+
+===== Cross-Validation Q3 Results =====
+
+Fold  1 | CNN+Softmax: 0.6736 | LSTM-RF: 0.7840 | CNN: 0.7288 | EN-CSLR: 0.7841
+Fold  2 | CNN+Softmax: 0.7016 | LSTM-RF: 0.7891 | CNN: 0.7246 | EN-CSLR: 0.7882
+Fold  3 | CNN+Softmax: 0.6881 | LSTM-RF: 0.7855 | CNN: 0.7251 | EN-CSLR: 0.7817
+
+===== Average Q3 over Folds =====
+
+Avg CNN+Softmax : 0.6878
+Avg LSTM-RF     : 0.7862
+Avg CNN         : 0.7262
+Avg EN-CSLR     : 0.7847
+
+
+===== Average per-class precision over Folds =====
+
+Q_H | CNN+Softmax: 0.8236 | LSTM-RF: 0.8463 | CNN: 0.8149 | EN-CSLR: 0.8614
+Q_E | CNN+Softmax: 0.7348 | LSTM-RF: 0.7457 | CNN: 0.6543 | EN-CSLR: 0.7857
+Q_C | CNN+Softmax: 0.6195 | LSTM-RF: 0.7505 | CNN: 0.6933 | EN-CSLR: 0.7250
+
+    Time needed for:
+
+    	3-fold crossvalidation
+
+    	10 epochs of CNN training
+
+    	9 epochs of LSTM training
+
+    	20 epochs of SoftMax training
+
+
+    	window size 9
+
+    is 8173.669491781853 seconds
+    
+
+139.11
+
+**********************************************************************************************************
+
+The SCRATCHes have been SUCCESSFULLY cleaned...

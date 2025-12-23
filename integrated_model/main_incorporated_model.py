@@ -214,7 +214,7 @@ if __name__ == "__main__":
     end_time = time.perf_counter()
 
     ############################################
-    ########### LSTM RF evaluation #############
+    ########### results printing ###############
     ############################################
 
     mean_precs_CNN = np.mean(precs_CNN, axis=0)
