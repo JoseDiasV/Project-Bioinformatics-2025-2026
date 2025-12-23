@@ -17,7 +17,7 @@ if __name__ == "__main__":
     # AMP (Automatic Mixed Precision) On/Off flag, use =torch.cuda.is_available() for both ON and 
     # automatically OFF when in use on a non-GPU-supported machine, use =False for OFF
     # drastically improves running times when used on an RTX NVIDIA GPU
-    # if used on a non-RTX NIVIDA GPU, might not improve times and in some cases even increase times, might still be
+    # if used on a non-RTX NIVIDA GPU, might not improve times and in some cases even slightly increase times, might still be
     # useful in those cases for VRAM usage reduction if needed
     use_amp = torch.cuda.is_available()
     if use_amp:
@@ -25,19 +25,19 @@ if __name__ == "__main__":
         torch.backends.cuda.matmul.allow_tf32 = True
         torch.backends.cudnn.allow_tf32 = True
 
-    window_size = 15 # (original paper had 13)
-    n_classes = 8 # should be 8 or 3 (original paper did 3)
+    window_size = 15 # can be 13, 15 or 17 (original paper had 13)
+    n_classes = 8 # should be ONLY 8 or 3 (original paper did 3)
     # higher batch sizes increase VRAM and RAM usage, but can drastically improve both 
     # running times and model conversion along epochs
-    batch_size = 128
-    n_fold_CV = 10 # should be 10 or 3 (original paper did 3)
-    n_epochs_CNN = 20 # should be 10 (original paper had 10)
+    batch_size = 128 # can be 20, 32, 64, 128 or how high you can do, higher batch sizes significantly increase memory usage, but also significantly improve running times and epoch converging times
+    n_fold_CV = 3 # should be 10 or 3 (original paper did 3)
+    n_epochs_CNN = 20 # should be 10 or 20 (original paper had 10)
     n_epochs_softmax = 10 # should be 10
-    n_epochs_lstm = 20 # should be 10 or 9 (original paper had 9)
-    rf_trees = 500 # should be 500 (original paper had 500)
+    n_epochs_lstm = 20 # should be 9, 10 or 20 (original paper had 9)
+    rf_trees = 500 # should be 500 (original paper had 500, optimal value)
     # weight_CNNs + weight_LSTM_rf = 1.0
-    weight_CNNs = 0.5 # probability weight value for CNN-S (can be either 0.5, 0.3, 0.4 or 0.7)
-    weight_LSTM_rf = 0.5 # probability weight value for LSTM-RF (can be either 0.5, 0.7, 0.6 or 0.3)
+    weight_CNNs = 0.3 # probability weight value for CNN-S (can be either 0.5, 0.3, 0.4 or 0.7)
+    weight_LSTM_rf = 0.7 # probability weight value for LSTM-RF (can be either 0.5, 0.7, 0.6 or 0.3)
     # dataset fraction taken with the bash command:
     # $ awk -v max=$(($(grep -c '^>' cullatraldata.txt)/5)) '/^>/{c++} c<=max' cullatraldata.txt > cullatraldata_one_fifth.txt
     path_db = "cullatraldata_one_fifth.txt" # one fifth of the original dataset, drastically helps with memory usage and running times
