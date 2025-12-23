@@ -25,7 +25,7 @@ if __name__ == "__main__":
         torch.backends.cuda.matmul.allow_tf32 = True
         torch.backends.cudnn.allow_tf32 = True
 
-    window_size = 13 # (original paper had 13)
+    window_size = 15 # (original paper had 13)
     n_classes = 8 # should be 8 or 3 (original paper did 3)
     # higher batch sizes increase VRAM and RAM usage, but can drastically improve both 
     # running times and model conversion along epochs
@@ -36,8 +36,8 @@ if __name__ == "__main__":
     n_epochs_lstm = 10 # should be 10 or 9 (original paper had 9)
     rf_trees = 500 # should be 500 (original paper had 500)
     # weight_CNNs + weight_LSTM_rf = 1.0
-    weight_CNNs = 0.5 # probability weight value for CNN-S (can be either 0.5, 0.3 or 0.7)
-    weight_LSTM_rf = 0.5 # probability weight value for LSTM-RF (can be either 0.5, 0.7 or 0.3)
+    weight_CNNs = 0.3 # probability weight value for CNN-S (can be either 0.5, 0.3 or 0.7)
+    weight_LSTM_rf = 0.7 # probability weight value for LSTM-RF (can be either 0.5, 0.7 or 0.3)
     # dataset fraction taken with the bash command:
     # $ awk -v max=$(($(grep -c '^>' cullatraldata.txt)/5)) '/^>/{c++} c<=max' cullatraldata.txt > cullatraldata_one_fifth.txt
     path_db = "cullatraldata_one_fifth.txt" # one fifth of the original dataset, drastically helps with memory usage and running times

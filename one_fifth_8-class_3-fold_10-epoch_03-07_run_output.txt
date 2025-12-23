@@ -1,0 +1,1012 @@
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 333: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 334: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 335: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 336: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 337: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 338: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 339: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 340: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 341: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 342: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 343: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 344: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 345: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 346: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 347: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 348: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 349: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 350: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 351: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 352: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 353: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 354: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 355: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 356: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 357: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 358: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 359: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 360: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 361: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 362: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 363: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 364: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 365: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 366: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 367: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 368: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 369: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 370: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 371: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 372: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 373: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 374: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 375: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 376: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 377: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 378: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 379: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 380: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 381: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 382: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 383: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 384: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 385: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 386: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 387: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 388: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 389: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 390: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 391: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 392: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 393: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 394: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 395: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 396: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 397: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 398: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 399: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 400: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 401: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 402: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 403: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 404: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 405: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 406: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 407: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 408: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 409: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 410: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 411: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 412: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 413: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 414: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 415: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 416: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 417: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 418: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 419: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 420: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 421: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 422: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 423: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 424: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 425: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 426: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 427: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 428: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 429: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 430: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 431: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 432: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 433: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 434: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 435: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 436: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 437: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 438: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 439: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 440: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 441: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 442: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 443: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 444: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 445: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 446: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 447: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 448: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 449: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 450: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 451: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 452: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 453: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 454: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 455: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 456: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 457: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 458: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 459: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 460: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 461: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 462: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 463: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 464: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 465: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 466: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 467: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 468: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 469: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 470: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 471: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 472: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 473: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 474: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 475: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 476: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 477: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 478: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 479: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 480: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 481: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 482: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 483: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 484: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 485: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 486: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 487: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 488: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 489: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 490: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 491: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 492: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 493: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 494: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 495: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 496: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 497: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 498: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 499: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 500: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 501: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 502: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 503: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 504: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 505: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 506: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 507: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 508: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 509: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 510: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 511: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 512: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 513: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 514: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 515: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 516: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 517: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 518: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 519: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 520: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 521: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 522: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 523: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 524: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 525: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 526: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 527: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 528: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 529: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 530: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 531: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 532: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 533: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 534: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 535: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 536: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 537: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 538: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 539: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 540: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 541: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 542: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 543: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 544: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 545: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 546: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 547: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 548: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 549: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 550: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 551: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 552: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 553: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 554: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 555: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 556: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 557: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 558: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 559: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 560: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 561: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 562: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 563: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 564: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 565: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 566: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 567: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 568: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 569: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 570: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 571: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 572: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 573: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 574: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 575: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 576: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 577: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 578: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 579: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 580: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 581: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 582: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 583: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 584: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 585: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 586: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 587: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 588: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 589: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 590: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 591: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 592: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 593: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 594: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 595: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 596: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 597: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 598: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 599: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 600: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 601: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 602: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 603: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 604: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 605: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 606: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 607: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 608: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 609: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 610: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 611: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 612: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 613: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 614: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 615: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 616: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 617: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 618: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 619: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 620: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 621: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 622: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 623: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 624: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 625: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 626: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 627: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 628: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 629: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 630: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 631: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 632: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 633: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 634: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 635: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 636: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 637: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 638: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 639: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 640: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 641: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 642: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 643: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 644: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 645: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 646: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 647: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 648: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 649: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 650: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 651: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 652: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 653: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 654: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 655: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 656: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 657: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 658: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 659: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 660: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 661: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 662: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 663: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 664: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 665: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 666: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 667: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 668: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 669: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 670: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 671: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 672: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 673: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 674: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 675: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 676: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 677: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 678: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 679: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 680: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 681: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 682: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 683: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 684: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 685: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 686: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 687: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 688: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 689: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 690: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 691: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 692: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 693: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 694: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 695: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 696: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 697: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 698: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 699: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 700: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 701: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 702: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 703: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 704: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 705: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 706: PSSM and sequence length mismatch
+REMOVING from dataset
+There was an error loading PSSM of 2NUT_A at position 707: PSSM and sequence length mismatch
+REMOVING from dataset
+
+===== Fold 1/3 =====
+CNN(
+  (conv1): Conv2d(1, 500, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (pool): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (conv2): Conv2d(500, 100, kernel_size=(2, 2), stride=(1, 1), padding=(1, 1))
+  (fc1): Linear(in_features=7700, out_features=8, bias=True)
+)
+Epoch [1/10] of CNN training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:32<00:00, 233.62it/s] 
+Epoch [2/10] of CNN training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:32<00:00, 234.75it/s] 
+Epoch [3/10] of CNN training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:32<00:00, 232.85it/s] 
+Epoch [4/10] of CNN training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:32<00:00, 231.27it/s] 
+Epoch [5/10] of CNN training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:32<00:00, 232.79it/s] 
+Epoch [6/10] of CNN training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:32<00:00, 233.77it/s] 
+Epoch [7/10] of CNN training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:32<00:00, 236.06it/s] 
+Epoch [8/10] of CNN training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:32<00:00, 234.33it/s] 
+Epoch [9/10] of CNN training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:31<00:00, 238.07it/s] 
+Epoch [10/10] of CNN training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:32<00:00, 236.50it/s] 
+Epoch [1/10] of Softmax classifier training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:18<00:00, 403.16it/s]
+Epoch [2/10] of Softmax classifier training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:16<00:00, 458.15it/s] 
+Epoch [3/10] of Softmax classifier training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:16<00:00, 457.71it/s] 
+Epoch [4/10] of Softmax classifier training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:16<00:00, 458.41it/s] 
+Epoch [5/10] of Softmax classifier training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:16<00:00, 462.78it/s] 
+Epoch [6/10] of Softmax classifier training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:16<00:00, 463.75it/s] 
+Epoch [7/10] of Softmax classifier training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:17<00:00, 441.48it/s] 
+Epoch [8/10] of Softmax classifier training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:16<00:00, 457.55it/s] 
+Epoch [9/10] of Softmax classifier training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:17<00:00, 434.19it/s] 
+Epoch [10/10] of Softmax classifier training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:16<00:00, 446.72it/s] 
+LSTM(
+  (lstm1): LSTM(20, 200, batch_first=True, bidirectional=True)
+  (lstm2): LSTM(400, 400, batch_first=True, bidirectional=True)
+  (classifier): Linear(in_features=800, out_features=8, bias=True)
+  (fc): Linear(in_features=8, out_features=8, bias=True)
+)
+Epoch [1/10] of LSTM training
+Epoch 1 average loss: 0.9486
+Epoch [2/10] of LSTM training
+Epoch 2 average loss: 0.8262
+Epoch [3/10] of LSTM training
+Epoch 3 average loss: 0.7192
+Epoch [4/10] of LSTM training
+Epoch 4 average loss: 0.5990
+Epoch [5/10] of LSTM training
+Epoch 5 average loss: 0.4858
+Epoch [6/10] of LSTM training
+Epoch 6 average loss: 0.3960
+Epoch [7/10] of LSTM training
+Epoch 7 average loss: 0.3357
+Epoch [8/10] of LSTM training
+Epoch 8 average loss: 0.2965
+Epoch [9/10] of LSTM training
+Epoch 9 average loss: 0.2742
+Epoch [10/10] of LSTM training
+Epoch 10 average loss: 0.2580
+
+===== Fold 2/3 =====
+CNN(
+  (conv1): Conv2d(1, 500, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (pool): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (conv2): Conv2d(500, 100, kernel_size=(2, 2), stride=(1, 1), padding=(1, 1))
+  (fc1): Linear(in_features=7700, out_features=8, bias=True)
+)
+Epoch [1/10] of CNN training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:31<00:00, 240.94it/s] 
+Epoch [2/10] of CNN training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:31<00:00, 238.18it/s] 
+Epoch [3/10] of CNN training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:31<00:00, 236.95it/s] 
+Epoch [4/10] of CNN training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:31<00:00, 238.85it/s] 
+Epoch [5/10] of CNN training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:31<00:00, 238.83it/s] 
+Epoch [6/10] of CNN training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:31<00:00, 240.00it/s] 
+Epoch [7/10] of CNN training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:31<00:00, 238.76it/s] 
+Epoch [8/10] of CNN training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:31<00:00, 239.98it/s] 
+Epoch [9/10] of CNN training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:31<00:00, 238.33it/s] 
+Epoch [10/10] of CNN training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:31<00:00, 239.68it/s] 
+Epoch [1/10] of Softmax classifier training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:18<00:00, 419.76it/s]
+Epoch [2/10] of Softmax classifier training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:15<00:00, 486.60it/s] 
+Epoch [3/10] of Softmax classifier training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:16<00:00, 464.58it/s] 
+Epoch [4/10] of Softmax classifier training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:16<00:00, 463.34it/s] 
+Epoch [5/10] of Softmax classifier training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:16<00:00, 463.99it/s] 
+Epoch [6/10] of Softmax classifier training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:16<00:00, 468.19it/s] 
+Epoch [7/10] of Softmax classifier training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:16<00:00, 467.23it/s] 
+Epoch [8/10] of Softmax classifier training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:16<00:00, 469.78it/s] 
+Epoch [9/10] of Softmax classifier training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:16<00:00, 466.32it/s] 
+Epoch [10/10] of Softmax classifier training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:16<00:00, 469.59it/s] 
+LSTM(
+  (lstm1): LSTM(20, 200, batch_first=True, bidirectional=True)
+  (lstm2): LSTM(400, 400, batch_first=True, bidirectional=True)
+  (classifier): Linear(in_features=800, out_features=8, bias=True)
+  (fc): Linear(in_features=8, out_features=8, bias=True)
+)
+Epoch [1/10] of LSTM training
+Epoch 1 average loss: 0.9493
+Epoch [2/10] of LSTM training
+Epoch 2 average loss: 0.8278
+Epoch [3/10] of LSTM training
+Epoch 3 average loss: 0.7202
+Epoch [4/10] of LSTM training
+Epoch 4 average loss: 0.6003
+Epoch [5/10] of LSTM training
+Epoch 5 average loss: 0.4877
+Epoch [6/10] of LSTM training
+Epoch 6 average loss: 0.3995
+Epoch [7/10] of LSTM training
+Epoch 7 average loss: 0.3384
+Epoch [8/10] of LSTM training
+Epoch 8 average loss: 0.2988
+Epoch [9/10] of LSTM training
+Epoch 9 average loss: 0.2760
+Epoch [10/10] of LSTM training
+Epoch 10 average loss: 0.2607
+
+===== Fold 3/3 =====
+CNN(
+  (conv1): Conv2d(1, 500, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (pool): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (conv2): Conv2d(500, 100, kernel_size=(2, 2), stride=(1, 1), padding=(1, 1))
+  (fc1): Linear(in_features=7700, out_features=8, bias=True)
+)
+Epoch [1/10] of CNN training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:31<00:00, 240.05it/s] 
+Epoch [2/10] of CNN training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:31<00:00, 240.79it/s] 
+Epoch [3/10] of CNN training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:31<00:00, 240.56it/s] 
+Epoch [4/10] of CNN training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:31<00:00, 241.44it/s] 
+Epoch [5/10] of CNN training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:31<00:00, 240.04it/s] 
+Epoch [6/10] of CNN training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:31<00:00, 240.01it/s] 
+Epoch [7/10] of CNN training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:31<00:00, 240.68it/s] 
+Epoch [8/10] of CNN training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:31<00:00, 238.03it/s] 
+Epoch [9/10] of CNN training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:31<00:00, 238.88it/s] 
+Epoch [10/10] of CNN training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:31<00:00, 240.22it/s] 
+Epoch [1/10] of Softmax classifier training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:18<00:00, 414.86it/s]
+Epoch [2/10] of Softmax classifier training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:16<00:00, 467.86it/s] 
+Epoch [3/10] of Softmax classifier training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:16<00:00, 465.49it/s] 
+Epoch [4/10] of Softmax classifier training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:16<00:00, 468.99it/s] 
+Epoch [5/10] of Softmax classifier training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:16<00:00, 469.46it/s] 
+Epoch [6/10] of Softmax classifier training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:16<00:00, 469.28it/s] 
+Epoch [7/10] of Softmax classifier training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:16<00:00, 467.68it/s] 
+Epoch [8/10] of Softmax classifier training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:16<00:00, 468.94it/s] 
+Epoch [9/10] of Softmax classifier training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:16<00:00, 467.95it/s] 
+Epoch [10/10] of Softmax classifier training
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7580/7580 [00:16<00:00, 470.82it/s] 
+LSTM(
+  (lstm1): LSTM(20, 200, batch_first=True, bidirectional=True)
+  (lstm2): LSTM(400, 400, batch_first=True, bidirectional=True)
+  (classifier): Linear(in_features=800, out_features=8, bias=True)
+  (fc): Linear(in_features=8, out_features=8, bias=True)
+)
+Epoch [1/10] of LSTM training
+Epoch 1 average loss: 0.9495
+Epoch [2/10] of LSTM training
+Epoch 2 average loss: 0.8260
+Epoch [3/10] of LSTM training
+Epoch 3 average loss: 0.7181
+Epoch [4/10] of LSTM training
+Epoch 4 average loss: 0.5991
+Epoch [5/10] of LSTM training
+Epoch 5 average loss: 0.4866
+Epoch [6/10] of LSTM training
+Epoch 6 average loss: 0.3987
+Epoch [7/10] of LSTM training
+Epoch 7 average loss: 0.3367
+Epoch [8/10] of LSTM training
+Epoch 8 average loss: 0.2975
+Epoch [9/10] of LSTM training
+Epoch 9 average loss: 0.2743
+Epoch [10/10] of LSTM training
+Epoch 10 average loss: 0.2605
+
+===== Cross-Validation Q8 Results =====
+
+Fold  1 | CNN+Softmax: 0.6089 | LSTM-RF: 0.7103 | CNN: 0.6181 | EN-CSLR: 0.7146
+Fold  2 | CNN+Softmax: 0.6079 | LSTM-RF: 0.7131 | CNN: 0.6148 | EN-CSLR: 0.7163
+Fold  3 | CNN+Softmax: 0.6188 | LSTM-RF: 0.7105 | CNN: 0.6160 | EN-CSLR: 0.7143
+
+===== Average Q8 over Folds =====
+
+Avg CNN+Softmax : 0.6119
+Avg LSTM-RF     : 0.7113
+Avg CNN         : 0.6163
+Avg EN-CSLR     : 0.7151
+
+
+===== Average per-class precision over Folds =====
+
+Q_H | CNN+Softmax: 0.7787 | LSTM-RF: 0.8916 | CNN: 0.7442 | EN-CSLR: 0.8882
+Q_G | CNN+Softmax: 0.3318 | LSTM-RF: 0.5695 | CNN: 0.3623 | EN-CSLR: 0.5878
+Q_I | CNN+Softmax: 0.0000 | LSTM-RF: 0.6667 | CNN: 0.0000 | EN-CSLR: 0.3333
+Q_E | CNN+Softmax: 0.6789 | LSTM-RF: 0.7934 | CNN: 0.6218 | EN-CSLR: 0.7936
+Q_B | CNN+Softmax: 0.6667 | LSTM-RF: 0.1605 | CNN: 0.3350 | EN-CSLR: 0.1760
+Q_T | CNN+Softmax: 0.4554 | LSTM-RF: 0.5422 | CNN: 0.4420 | EN-CSLR: 0.5522
+Q_S | CNN+Softmax: 0.3000 | LSTM-RF: 0.3668 | CNN: 0.3129 | EN-CSLR: 0.3755
+Q_C | CNN+Softmax: 0.4512 | LSTM-RF: 0.5644 | CNN: 0.4778 | EN-CSLR: 0.5635
+
+    Time needed for:
+
+        3-fold crossvalidation
+
+        10 epochs of CNN training
+
+        10 epochs of LSTM training
+
+        10 epochs of SoftMax training
+
+
+    is 4069.6673206999985 seconds
+
