@@ -22,9 +22,9 @@ if __name__ == "__main__":
     n_epochs_softmax = 10 # should be 10
     n_epochs_lstm = 2 # should  be 9
     rf_trees = 500
-    #path_db = 'cullatraldata_one_third.txt'
-    path_db = 'top100lines.fa'
-    #ath_db = 'test_db_modified.fa'
+
+    path_db = 'cullatraldata_one_seventh.txt'
+    #path_db = 'test_db_modified.fa'
 
     device = "cuda" if torch.cuda.is_available() else "cpu"
 
@@ -77,15 +77,15 @@ if __name__ == "__main__":
         train_dataset_CNN = TensorDataset(X_CNN_train, y_train)
         test_dataset_CNN  = TensorDataset(X_CNN_test, y_test)
 
-        train_loader_CNN = DataLoader(train_dataset_CNN, batch_size=batch_size, shuffle=True, num_workers=4, pin_memory=True, persistent_workers=True)
-        test_loader_CNN  = DataLoader(test_dataset_CNN,  batch_size=batch_size, shuffle=False, num_workers=4, pin_memory=True, persistent_workers=True)
+        train_loader_CNN = DataLoader(train_dataset_CNN, batch_size=batch_size, shuffle=True, num_workers=4, pin_memory=False, persistent_workers=False)
+        test_loader_CNN  = DataLoader(test_dataset_CNN,  batch_size=batch_size, shuffle=False, num_workers=4, pin_memory=False, persistent_workers=False)
 
         ## prepare test and train dataset and loader for LSTM ##
         train_dataset_LSTM = TensorDataset(X_LSTM_train, y_train)
         test_dataset_LSTM  = TensorDataset(X_LSTM_test, y_test)
 
-        train_loader_LSTM = DataLoader(train_dataset_LSTM, batch_size=batch_size, shuffle=True, num_workers=4, pin_memory=True, persistent_workers=True)
-        test_loader_LSTM  = DataLoader(test_dataset_LSTM,  batch_size=batch_size, shuffle=False, num_workers=4, pin_memory=True, persistent_workers=True)
+        train_loader_LSTM = DataLoader(train_dataset_LSTM, batch_size=batch_size, shuffle=True, num_workers=4, pin_memory=False, persistent_workers=False)
+        test_loader_LSTM  = DataLoader(test_dataset_LSTM,  batch_size=batch_size, shuffle=False, num_workers=4, pin_memory=False, persistent_workers=False)
 
 
         ############################################
@@ -125,11 +125,11 @@ if __name__ == "__main__":
         CNNs_prob_preds, test_accuracy_CNNs, test_precision_CNNs, test_recall_CNNs = evaluate_model(model_CNN=model, test_loader=test_loader_CNN, n_classes=n_classes, softmax=model_softmax)
 
         ## update ##
-        accs_CNNs.append(test_accuracy_CNNs.item())
-        accs_CNN.append(test_accuracy.item())
+        accs_CNNs.append(test_accuracy_CNNs)
+        accs_CNN.append(test_accuracy)
 
-        precs_CNNs = np.vstack([precs_CNNs, np.asarray(test_precision_CNNs)])
-        precs_CNN = np.vstack([precs_CNN, np.asarray(test_precisionn)])
+        precs_CNNs = np.vstack([precs_CNNs, test_precision_CNNs])
+        precs_CNN = np.vstack([precs_CNN, test_precisionn])
 
 
         ############################################
@@ -222,7 +222,7 @@ if __name__ == "__main__":
 
     print(f"\n===== Average per-class precision over Folds =====\n")
 
-    for (label, cnn_s, cnn, lstm_rf, ens) in zip(label_levels, mean_precs_CNN,mean_precs_CNNs,mean_precs_LSTMrf, mean_precs_ens):
+    for (label, cnn_s, cnn, lstm_rf, ens) in zip(label_levels, mean_precs_CNNs, mean_precs_CNN, mean_precs_LSTMrf, mean_precs_ens):
         print(
             f"Q_{label} | "
             f"CNN+Softmax: {cnn_s:.4f} | "

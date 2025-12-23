@@ -94,9 +94,9 @@ def evaluate_model(model_CNN, test_loader, n_classes=3, softmax = None):
             rec.update(preds, labels)
 
     #Compute total test accuracy
-    test_accuracy = acc.compute()
-    test_precisionn = prec.compute()
-    test_recall = rec.compute()
+    test_accuracy = acc.compute().item()
+    test_precisionn = prec.compute().detach().cpu().numpy()
+    test_recall = rec.compute().item()
 
     # creates a matrix-like of (n_samples,n_classes)
     class_pred_probs = torch.cat(class_pred_probs, dim=0)
