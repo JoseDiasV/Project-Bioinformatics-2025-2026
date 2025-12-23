@@ -1,0 +1,192 @@
+EN-CLSR.o15220565
+
+===== Cross-Validation Q3 Results =====
+
+Fold  1 | CNN+Softmax: 0.6736 | LSTM-RF: 0.7840 | CNN: 0.7288 | EN-CSLR: 0.7841
+Fold  2 | CNN+Softmax: 0.7016 | LSTM-RF: 0.7891 | CNN: 0.7246 | EN-CSLR: 0.7882
+Fold  3 | CNN+Softmax: 0.6881 | LSTM-RF: 0.7855 | CNN: 0.7251 | EN-CSLR: 0.7817
+
+===== Average Q3 over Folds =====
+
+Avg CNN+Softmax : 0.6878
+Avg LSTM-RF     : 0.7862
+Avg CNN         : 0.7262
+Avg EN-CSLR     : 0.7847
+
+
+===== Average per-class precision over Folds =====
+
+Q_H | CNN+Softmax: 0.8236 | LSTM-RF: 0.8463 | CNN: 0.8149 | EN-CSLR: 0.8614
+Q_E | CNN+Softmax: 0.7348 | LSTM-RF: 0.7457 | CNN: 0.6543 | EN-CSLR: 0.7857
+Q_C | CNN+Softmax: 0.6195 | LSTM-RF: 0.7505 | CNN: 0.6933 | EN-CSLR: 0.7250
+
+    Time needed for:
+
+    	3-fold crossvalidation
+
+    	10 epochs of CNN training
+
+    	9 epochs of LSTM training
+
+    	20 epochs of SoftMax training
+
+
+    	window size 9
+
+    is 8173.669491781853 second
+
+    #################################################################
+
+EN-CLSR.o15214260
+
+    ===== Cross-Validation Q3 Results =====
+
+Fold  1 | CNN+Softmax: 0.7212 | LSTM-RF: 0.7978 | CNN: 0.7366 | EN-CSLR: 0.7965
+Fold  2 | CNN+Softmax: 0.7306 | LSTM-RF: 0.8007 | CNN: 0.7332 | EN-CSLR: 0.8004
+Fold  3 | CNN+Softmax: 0.7194 | LSTM-RF: 0.8030 | CNN: 0.7362 | EN-CSLR: 0.8029
+
+===== Average Q3 over Folds =====
+
+Avg CNN+Softmax : 0.7237
+Avg LSTM-RF     : 0.8005
+Avg CNN         : 0.7353
+Avg EN-CSLR     : 0.8000
+
+
+===== Average per-class precision over Folds =====
+
+Q_H | CNN+Softmax: 0.7998 | LSTM-RF: 0.8626 | CNN: 0.8167 | EN-CSLR: 0.8647
+Q_E | CNN+Softmax: 0.6783 | LSTM-RF: 0.7721 | CNN: 0.6897 | EN-CSLR: 0.7769
+Q_C | CNN+Softmax: 0.6972 | LSTM-RF: 0.7564 | CNN: 0.6943 | EN-CSLR: 0.7549
+
+    Time needed for:
+
+    	3-fold crossvalidation
+
+    	10 epochs of CNN training
+
+    	9 epochs of LSTM training
+
+    	20 epochs of SoftMax training
+	13 window size
+
+    is 7498.478771113791 seconds
+    
+
+    ##################################################################
+
+    EN-CLSR.o15214275
+
+    ===== Cross-Validation Q3 Results =====
+
+Fold  1 | CNN+Softmax: 0.7357 | LSTM-RF: 0.8051 | CNN: 0.7382 | EN-CSLR: 0.8044
+Fold  2 | CNN+Softmax: 0.6955 | LSTM-RF: 0.8021 | CNN: 0.7339 | EN-CSLR: 0.7949
+Fold  3 | CNN+Softmax: 0.7272 | LSTM-RF: 0.7986 | CNN: 0.7348 | EN-CSLR: 0.7984
+
+===== Average Q3 over Folds =====
+
+Avg CNN+Softmax : 0.7195
+Avg LSTM-RF     : 0.8019
+Avg CNN         : 0.7356
+Avg EN-CSLR     : 0.7992
+
+
+===== Average per-class precision over Folds =====
+
+Q_H | CNN+Softmax: 0.8237 | LSTM-RF: 0.8649 | CNN: 0.8158 | EN-CSLR: 0.8744
+Q_E | CNN+Softmax: 0.7347 | LSTM-RF: 0.7740 | CNN: 0.7089 | EN-CSLR: 0.8002
+Q_C | CNN+Softmax: 0.6549 | LSTM-RF: 0.7566 | CNN: 0.6824 | EN-CSLR: 0.7364
+
+    Time needed for:
+
+    	3-fold crossvalidation
+
+    	10 epochs of CNN training
+
+    	9 epochs of LSTM training
+
+    	20 epochs of SoftMax training
+	window size of 15
+
+    is 10598.244845678098 seconds
+    
+##########################################################################
+
+EN-CLSR.o15220574
+
+===== Cross-Validation Q3 Results =====
+
+Fold  1 | CNN+Softmax: 0.7246 | LSTM-RF: 0.7992 | CNN: 0.7318 | EN-CSLR: 0.7987
+Fold  2 | CNN+Softmax: 0.7325 | LSTM-RF: 0.8062 | CNN: 0.7305 | EN-CSLR: 0.8036
+Fold  3 | CNN+Softmax: 0.7013 | LSTM-RF: 0.8038 | CNN: 0.7308 | EN-CSLR: 0.7984
+
+===== Average Q3 over Folds =====
+
+Avg CNN+Softmax : 0.7195
+Avg LSTM-RF     : 0.8031
+Avg CNN         : 0.7310
+Avg EN-CSLR     : 0.8002
+
+
+===== Average per-class precision over Folds =====
+
+Q_H | CNN+Softmax: 0.8023 | LSTM-RF: 0.8661 | CNN: 0.7976 | EN-CSLR: 0.8658
+Q_E | CNN+Softmax: 0.6356 | LSTM-RF: 0.7780 | CNN: 0.6868 | EN-CSLR: 0.7622
+Q_C | CNN+Softmax: 0.7039 | LSTM-RF: 0.7560 | CNN: 0.7016 | EN-CSLR: 0.7596
+
+    Time needed for:
+
+    	3-fold crossvalidation
+
+    	10 epochs of CNN training
+
+    	9 epochs of LSTM training
+
+    	20 epochs of SoftMax training
+
+
+    	17 window size 
+
+    is 11819.116435301956 seconds
+    
+###############################################################################
+
+EN-CLSR.o15214106
+
+===== Cross-Validation Q8 Results =====
+
+Fold  1 | CNN+Softmax: 0.5970 | LSTM-RF: 0.6890 | CNN: 0.6050 | EN-CSLR: 0.6851
+Fold  2 | CNN+Softmax: 0.5887 | LSTM-RF: 0.6877 | CNN: 0.6036 | EN-CSLR: 0.6806
+Fold  3 | CNN+Softmax: 0.6005 | LSTM-RF: 0.6855 | CNN: 0.6028 | EN-CSLR: 0.6798
+
+===== Average Q8 over Folds =====
+
+Avg CNN+Softmax : 0.5954
+Avg LSTM-RF     : 0.6874
+Avg CNN         : 0.6038
+Avg EN-CSLR     : 0.6818
+
+
+===== Average per-class precision over Folds =====
+
+Q_H | CNN+Softmax: 0.7400 | LSTM-RF: 0.8473 | CNN: 0.7646 | EN-CSLR: 0.8152
+Q_G | CNN+Softmax: 0.2959 | LSTM-RF: 0.4452 | CNN: 0.3159 | EN-CSLR: 0.5444
+Q_I | CNN+Softmax: 0.0000 | LSTM-RF: 0.0000 | CNN: 0.0000 | EN-CSLR: 0.0000
+Q_E | CNN+Softmax: 0.6096 | LSTM-RF: 0.7415 | CNN: 0.6169 | EN-CSLR: 0.7053
+Q_B | CNN+Softmax: 0.4584 | LSTM-RF: 0.2971 | CNN: 0.2407 | EN-CSLR: 0.5219
+Q_T | CNN+Softmax: 0.3896 | LSTM-RF: 0.5182 | CNN: 0.4293 | EN-CSLR: 0.5049
+Q_S | CNN+Softmax: 0.2468 | LSTM-RF: 0.3898 | CNN: 0.2842 | EN-CSLR: 0.4035
+Q_C | CNN+Softmax: 0.5067 | LSTM-RF: 0.5410 | CNN: 0.4338 | EN-CSLR: 0.5628
+
+    Time needed for:
+
+    	3-fold crossvalidation
+
+    	10 epochs of CNN training
+
+    	9 epochs of LSTM training
+
+    	100 epochs of SoftMax training
+	13 window
+
+    is 24775.82012540195 seconds

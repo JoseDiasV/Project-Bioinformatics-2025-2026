@@ -23,7 +23,8 @@ if __name__ == "__main__":
     n_epochs_lstm = 2 # should  be 9
     rf_trees = 500
     #path_db = 'cullatraldata_one_third.txt'
-    path_db = 'test_db_modified.fa'
+    path_db = 'top100lines.fa'
+    #ath_db = 'test_db_modified.fa'
 
     device = "cuda" if torch.cuda.is_available() else "cpu"
 
@@ -186,7 +187,7 @@ if __name__ == "__main__":
     end_time = time.perf_counter()
 
     ############################################
-    ########### LSTM RF evaluation #############
+    ########### results printing ###############
     ############################################
 
     mean_precs_CNN = np.mean(precs_CNN, axis=0)
